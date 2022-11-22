@@ -13076,13 +13076,63 @@ div#notebook {
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-python"><pre><span></span>
+<div class=" highlight hl-python"><pre><span></span><span class="kn">from</span> <span class="nn">google.colab</span> <span class="kn">import</span> <span class="n">drive</span>
+<span class="n">drive</span><span class="o">.</span><span class="n">mount</span><span class="p">(</span><span class="s1">&#39;/content/drive&#39;</span><span class="p">)</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount(&#34;/content/drive&#34;, force_remount=True).
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="o">%</span><span class="n">cd</span> <span class="o">/</span><span class="n">content</span><span class="o">/</span><span class="n">drive</span><span class="o">/</span><span class="n">MyDrive</span><span class="o">/</span><span class="n">cmps3160</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>/content/drive/MyDrive/cmps3160
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -13185,7 +13235,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="c1">#This cell imports libraries for analysis</span>
@@ -13224,7 +13274,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="c1">#Scrape &quot;Spotify Daily Chart - Global - 2022/10/11&quot;, a list of the 200</span>
@@ -13245,13 +13295,13 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[&nbsp;]:</div>
+    <div class="prompt output_prompt">Out[17]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-a29975e2-0277-4b71-aefc-93a334fe7c15">
+  <div id="df-29d3c4af-23a3-4f40-be1a-9254cc6dc09a">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -13290,70 +13340,70 @@ div#notebook {
       <td>1</td>
       <td>=</td>
       <td>Sam Smith - Unholy</td>
-      <td>57</td>
+      <td>60</td>
       <td>1</td>
-      <td>(x34)</td>
-      <td>6232973</td>
-      <td>-5339.0</td>
-      <td>43959585</td>
-      <td>-316070</td>
-      <td>400175739</td>
+      <td>(x37)</td>
+      <td>5289380</td>
+      <td>-992309.0</td>
+      <td>42951634</td>
+      <td>-436725</td>
+      <td>418289103</td>
     </tr>
     <tr>
       <th>1</th>
       <td>2</td>
-      <td>=</td>
-      <td>Taylor Swift - Anti-Hero</td>
-      <td>28</td>
+      <td>NEW</td>
+      <td>Jung Kook - Dreamers [Music from the FIFA Worl...</td>
       <td>1</td>
-      <td>(x20)</td>
-      <td>5991020</td>
-      <td>-138498.0</td>
-      <td>43007887</td>
-      <td>-841363</td>
-      <td>234973105</td>
+      <td>2</td>
+      <td>(x1)</td>
+      <td>4887791</td>
+      <td>NaN</td>
+      <td>4887791</td>
+      <td>4887791</td>
+      <td>4887791</td>
     </tr>
     <tr>
       <th>2</th>
       <td>3</td>
-      <td>NEW</td>
-      <td>Bizarrap - Duki: Bzrp Music Sessions, Vol. 50</td>
+      <td>-1</td>
+      <td>Taylor Swift - Anti-Hero</td>
+      <td>31</td>
       <td>1</td>
-      <td>3</td>
-      <td>(x1)</td>
-      <td>5653860</td>
-      <td>NaN</td>
-      <td>5653860</td>
-      <td>5653860</td>
-      <td>5653860</td>
+      <td>(x20)</td>
+      <td>4878576</td>
+      <td>-781974.0</td>
+      <td>40955692</td>
+      <td>-669597</td>
+      <td>251573250</td>
     </tr>
     <tr>
       <th>3</th>
       <td>4</td>
       <td>-1</td>
       <td>Drake - Rich Flex</td>
-      <td>14</td>
+      <td>17</td>
       <td>1</td>
       <td>(x2)</td>
-      <td>4861255</td>
-      <td>-28436.0</td>
-      <td>35589849</td>
-      <td>-839556</td>
-      <td>83621352</td>
+      <td>3937395</td>
+      <td>-738506.0</td>
+      <td>33445989</td>
+      <td>-522997</td>
+      <td>97322120</td>
     </tr>
     <tr>
       <th>4</th>
       <td>5</td>
       <td>-1</td>
       <td>Manuel Turizo - La Bachata</td>
-      <td>139</td>
+      <td>142</td>
       <td>3</td>
       <td>(x1)</td>
-      <td>4314194</td>
-      <td>80167.0</td>
-      <td>29757806</td>
-      <td>140504</td>
-      <td>475025344</td>
+      <td>3665297</td>
+      <td>-982196.0</td>
+      <td>29567691</td>
+      <td>-194865</td>
+      <td>487906200</td>
     </tr>
     <tr>
       <th>...</th>
@@ -13370,80 +13420,80 @@ div#notebook {
       <td>...</td>
     </tr>
     <tr>
-      <th>194</th>
-      <td>196</td>
-      <td>-1</td>
-      <td>OneRepublic - Counting Stars</td>
-      <td>1318</td>
-      <td>31</td>
-      <td>NaN</td>
-      <td>986463</td>
-      <td>12609.0</td>
-      <td>4777455</td>
-      <td>16868</td>
-      <td>760130177</td>
-    </tr>
-    <tr>
       <th>195</th>
-      <td>197</td>
-      <td>-4</td>
-      <td>Måneskin - THE LONELIEST</td>
-      <td>39</td>
-      <td>43</td>
+      <td>196</td>
+      <td>RE</td>
+      <td>Burna Boy - Alone</td>
+      <td>4</td>
+      <td>164</td>
       <td>NaN</td>
-      <td>979833</td>
-      <td>1336.0</td>
-      <td>4892518</td>
-      <td>-51312</td>
-      <td>48932354</td>
+      <td>863271</td>
+      <td>NaN</td>
+      <td>3840611</td>
+      <td>863271</td>
+      <td>3840611</td>
     </tr>
     <tr>
       <th>196</th>
-      <td>198</td>
-      <td>+1</td>
-      <td>Vance Joy - Riptide</td>
-      <td>1399</td>
-      <td>16</td>
+      <td>197</td>
+      <td>-20</td>
+      <td>Eminem - Lose Yourself</td>
+      <td>1388</td>
+      <td>27</td>
       <td>NaN</td>
-      <td>970886</td>
-      <td>5510.0</td>
-      <td>4713816</td>
-      <td>970886</td>
-      <td>841096739</td>
+      <td>858808</td>
+      <td>-166210.0</td>
+      <td>7092292</td>
+      <td>-13262</td>
+      <td>664886498</td>
     </tr>
     <tr>
       <th>197</th>
-      <td>199</td>
-      <td>-7</td>
-      <td>Lewis Capaldi - Forget Me</td>
-      <td>67</td>
-      <td>46</td>
+      <td>198</td>
+      <td>-8</td>
+      <td>Armani White - BILLIE EILISH.</td>
+      <td>84</td>
+      <td>65</td>
       <td>NaN</td>
-      <td>965892</td>
-      <td>-13259.0</td>
-      <td>4923369</td>
-      <td>-52863</td>
-      <td>79742242</td>
+      <td>857738</td>
+      <td>-139254.0</td>
+      <td>1854730</td>
+      <td>-44267</td>
+      <td>100983159</td>
     </tr>
     <tr>
       <th>198</th>
+      <td>199</td>
+      <td>RE</td>
+      <td>NewJeans - Hype Boy</td>
+      <td>81</td>
+      <td>76</td>
+      <td>NaN</td>
+      <td>852664</td>
+      <td>NaN</td>
+      <td>852664</td>
+      <td>852664</td>
+      <td>84712251</td>
+    </tr>
+    <tr>
+      <th>199</th>
       <td>200</td>
-      <td>-6</td>
-      <td>Olivia Rodrigo - drivers license</td>
-      <td>668</td>
-      <td>1</td>
-      <td>(x67)</td>
-      <td>963215</td>
-      <td>-12580.0</td>
-      <td>4702820</td>
-      <td>963215</td>
-      <td>1570856345</td>
+      <td>RE</td>
+      <td>Shakin' Stevens - Merry Christmas Everyone</td>
+      <td>122</td>
+      <td>19</td>
+      <td>NaN</td>
+      <td>852458</td>
+      <td>NaN</td>
+      <td>852458</td>
+      <td>852458</td>
+      <td>149950059</td>
     </tr>
   </tbody>
 </table>
-<p>199 rows × 11 columns</p>
+<p>200 rows × 11 columns</p>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-a29975e2-0277-4b71-aefc-93a334fe7c15')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-29d3c4af-23a3-4f40-be1a-9254cc6dc09a')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -13494,12 +13544,12 @@ div#notebook {
 
       <script>
         const buttonEl =
-          document.querySelector('#df-a29975e2-0277-4b71-aefc-93a334fe7c15 button.colab-df-convert');
+          document.querySelector('#df-29d3c4af-23a3-4f40-be1a-9254cc6dc09a button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-a29975e2-0277-4b71-aefc-93a334fe7c15');
+          const element = document.querySelector('#df-29d3c4af-23a3-4f40-be1a-9254cc6dc09a');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -13537,7 +13587,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="c1">#Split the &quot;Artist and Title&quot; column into two separate columns</span>
@@ -13564,13 +13614,13 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[&nbsp;]:</div>
+    <div class="prompt output_prompt">Out[18]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-b47cb2a2-fcb3-4e70-bf4e-27e5778e57b1">
+  <div id="df-db32616e-43a0-473f-bb4f-3c0679ffcaac">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -13604,23 +13654,23 @@ div#notebook {
       <td>=</td>
       <td>Sam Smith</td>
       <td>Unholy</td>
-      <td>6232973</td>
+      <td>5289380</td>
     </tr>
     <tr>
       <th>1</th>
       <td>2</td>
-      <td>=</td>
-      <td>Taylor Swift</td>
-      <td>Anti-Hero</td>
-      <td>5991020</td>
+      <td>NEW</td>
+      <td>Jung Kook</td>
+      <td>Dreamers [Music from the FIFA World Cup Qatar ...</td>
+      <td>4887791</td>
     </tr>
     <tr>
       <th>2</th>
       <td>3</td>
-      <td>NEW</td>
-      <td>Bizarrap</td>
-      <td>Duki: Bzrp Music Sessions, Vol. 50</td>
-      <td>5653860</td>
+      <td>-1</td>
+      <td>Taylor Swift</td>
+      <td>Anti-Hero</td>
+      <td>4878576</td>
     </tr>
     <tr>
       <th>3</th>
@@ -13628,7 +13678,7 @@ div#notebook {
       <td>-1</td>
       <td>Drake</td>
       <td>Rich Flex</td>
-      <td>4861255</td>
+      <td>3937395</td>
     </tr>
     <tr>
       <th>4</th>
@@ -13636,7 +13686,7 @@ div#notebook {
       <td>-1</td>
       <td>Manuel Turizo</td>
       <td>La Bachata</td>
-      <td>4314194</td>
+      <td>3665297</td>
     </tr>
     <tr>
       <th>...</th>
@@ -13647,50 +13697,50 @@ div#notebook {
       <td>...</td>
     </tr>
     <tr>
-      <th>194</th>
-      <td>196</td>
-      <td>-1</td>
-      <td>OneRepublic</td>
-      <td>Counting Stars</td>
-      <td>986463</td>
-    </tr>
-    <tr>
       <th>195</th>
-      <td>197</td>
-      <td>-4</td>
-      <td>Måneskin</td>
-      <td>THE LONELIEST</td>
-      <td>979833</td>
+      <td>196</td>
+      <td>RE</td>
+      <td>Burna Boy</td>
+      <td>Alone</td>
+      <td>863271</td>
     </tr>
     <tr>
       <th>196</th>
-      <td>198</td>
-      <td>+1</td>
-      <td>Vance Joy</td>
-      <td>Riptide</td>
-      <td>970886</td>
+      <td>197</td>
+      <td>-20</td>
+      <td>Eminem</td>
+      <td>Lose Yourself</td>
+      <td>858808</td>
     </tr>
     <tr>
       <th>197</th>
-      <td>199</td>
-      <td>-7</td>
-      <td>Lewis Capaldi</td>
-      <td>Forget Me</td>
-      <td>965892</td>
+      <td>198</td>
+      <td>-8</td>
+      <td>Armani White</td>
+      <td>BILLIE EILISH.</td>
+      <td>857738</td>
     </tr>
     <tr>
       <th>198</th>
+      <td>199</td>
+      <td>RE</td>
+      <td>NewJeans</td>
+      <td>Hype Boy</td>
+      <td>852664</td>
+    </tr>
+    <tr>
+      <th>199</th>
       <td>200</td>
-      <td>-6</td>
-      <td>Olivia Rodrigo</td>
-      <td>drivers license</td>
-      <td>963215</td>
+      <td>RE</td>
+      <td>Shakin' Stevens</td>
+      <td>Merry Christmas Everyone</td>
+      <td>852458</td>
     </tr>
   </tbody>
 </table>
-<p>199 rows × 5 columns</p>
+<p>200 rows × 5 columns</p>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-b47cb2a2-fcb3-4e70-bf4e-27e5778e57b1')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-db32616e-43a0-473f-bb4f-3c0679ffcaac')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -13741,12 +13791,12 @@ div#notebook {
 
       <script>
         const buttonEl =
-          document.querySelector('#df-b47cb2a2-fcb3-4e70-bf4e-27e5778e57b1 button.colab-df-convert');
+          document.querySelector('#df-db32616e-43a0-473f-bb4f-3c0679ffcaac button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-b47cb2a2-fcb3-4e70-bf4e-27e5778e57b1');
+          const element = document.querySelector('#df-db32616e-43a0-473f-bb4f-3c0679ffcaac');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -13784,7 +13834,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="c1">#Create a series displaying the frequency of different artists</span>
@@ -13801,24 +13851,24 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[&nbsp;]:</div>
+    <div class="prompt output_prompt">Out[19]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>Taylor Swift      17
-Bad Bunny         11
-Drake             10
-The Weeknd         9
-Eminem             5
-                  ..
-LE SSERAFIM        1
-J Balvin           1
-Nicki Minaj        1
-Ruth B.            1
-Olivia Rodrigo     1
-Name: Artist, Length: 118, dtype: int64</pre>
+<pre>Taylor Swift       15
+Bad Bunny          10
+The Weeknd          9
+Drake               7
+Eminem              5
+                   ..
+Oliver Tree         1
+Andy Williams       1
+Nicki Minaj         1
+SZA                 1
+Shakin&#39; Stevens     1
+Name: Artist, Length: 123, dtype: int64</pre>
 </div>
 
 </div>
@@ -13837,7 +13887,7 @@ Name: Artist, Length: 118, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="n">df_Top200</span><span class="p">[</span><span class="s2">&quot;Streams&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s2">&quot;green&quot;</span><span class="p">,</span> <span class="n">legend</span><span class="o">=</span><span class="kc">True</span><span class="p">,)</span>
@@ -13853,13 +13903,13 @@ Name: Artist, Length: 118, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[&nbsp;]:</div>
+    <div class="prompt output_prompt">Out[20]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7ff99232e890&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7f54c2663690&gt;</pre>
 </div>
 
 </div>
@@ -13872,7 +13922,7 @@ Name: Artist, Length: 118, dtype: int64</pre>
 
 
 <div class="output_png output_subarea ">
-<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYUAAAEFCAYAAAAMk/uQAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAADh0RVh0U29mdHdhcmUAbWF0cGxvdGxpYiB2ZXJzaW9uMy4yLjIsIGh0dHA6Ly9tYXRwbG90bGliLm9yZy+WH4yJAAAVy0lEQVR4nO3de7AedZ3n8fcnFxOBCEgiiwQMoygil8AckBlWFmQHmNEFdnXEKRlBkTjKoi7uqrhbi1bJypSul5nylhFnwggIxhvrbUQmAmMBksSACjJQIHIgkshluChC4Lt/PJ32CIl5zuE8p3POeb+qTp3u39NP97dTqXzy+3X3r1NVSJIEMKPrAiRJWw9DQZLUMhQkSS1DQZLUMhQkSa1ZXRfwdMyfP78WLVrUdRmSNKmsWrXql1W1YFOfTepQWLRoEStXruy6DEmaVJLcvrnPHD6SJLUMBUlSy1CQJLUm9TUFSdPLY489xvDwMI888kjXpUwKc+fOZeHChcyePbvv7xgKkiaN4eFh5s2bx6JFi0jSdTlbtarinnvuYXh4mD322KPv7zl8JGnSeOSRR9hpp50MhD4kYaeddhp1r8pQkDSpGAj9G8uflaEgSWp5TUHSpJX3j2+voc7a8vtlzj77bC644AJmzpzJjBkz+MxnPsNVV13FkiVL2Gabbca1ni5M21AY779Mo9HPXzxJW5+rrrqKr3/966xevZo5c+bwy1/+kkcffZQTTjiBE088cZOh8PjjjzNz5swOqh0bh48kqU9r165l/vz5zJkzB4D58+ezfPly7rrrLo444giOOOIIALbbbjve+c53sv/++3PVVVfx+c9/noMPPpjFixfz5je/mccffxyAt7zlLQwNDfGSl7yEs846qz3OokWLOPPMM1m8eDFDQ0OsXr2ao48+muc///l8+tOfbms57LDDWLx4Mfvssw9XXnnluJyjoSBJfTrqqKO44447eOELX8hb3/pWLr/8ct72trfx3Oc+lxUrVrBixQoAHn74YV760pdy3XXXsdNOO3HRRRfx/e9/nzVr1jBz5kzOP/98oDcUtXLlSq6//nouv/xyrr/++vZYu+++O2vWrOFlL3sZJ598MsuXL+fqq69uw+OCCy7g6KOPZs2aNVx33XUsXrx4XM5x2g4fSdJobbfddqxatYorr7ySFStWcMIJJ3DOOec8ZbuZM2fyqle9CoDLLruMVatWcdBBBwHw61//muc85zkAXHzxxSxdupQNGzawdu1abrjhBvbbbz8Ajj32WAD23XdfHnroIebNm8e8efOYM2cO999/PwcddBBvfOMbeeyxxzj++OMNBUnqwsyZMzn88MM5/PDD2XfffVm2bNlTtpk7d257HaGqOOmkk/jgBz/4O9vcdtttfPjDH+baa69lxx135OSTT/6dZwo2DlHNmDGjXd64vmHDBg477DCuuOIKvvGNb3DyySdzxhln8PrXv/5pn5/DR5LUp5tuuombb765XV+zZg3Pe97zmDdvHg8++OAmv3PkkUeyfPly1q1bB8C9997L7bffzgMPPMC2227L9ttvz9133823vvWtUdVy++23s/POO3Pqqafypje9idWrV4/9xEawpyBp0proO/keeughTj/9dO6//35mzZrFC17wApYuXcqFF17IMccc015bGGnvvffmAx/4AEcddRRPPPEEs2fP5hOf+ASHHHIIBxxwAHvttRe77bYbhx566Khq+d73vseHPvQhZs+ezXbbbcd55503LueYqsl7e+TQ0FCN9SU73pIqTT433ngjL37xi7suY1LZ1J9ZklVVNbSp7R0+kiS1BhYKST6XZF2SH49o+1CSnya5PslXkuww4rMzk9yS5KYkRw+qLknS5g2yp/APwDFParsU2Keq9gP+FTgTIMnewGuBlzTf+WSSyfMIoKQJM5mHvCfaWP6sBhYKVXUFcO+T2r5TVRua1auBhc3yccAXquo3VXUbcAtw8KBqkzQ5zZ07l3vuucdg6MPG9ynMnTt3VN/r8u6jNwIXNcu70guJjYabNklqLVy4kOHhYdavX991KZPCxjevjUYnoZDkfwIbgPPH8N0lwBLoPQYuafqYPXv2qN4iptGb8LuPkpwMvBJ4Xf22D3gnsNuIzRY2bU9RVUuraqiqhhYsWDDQWiVpupnQUEhyDPAu4Niq+tWIjy4BXptkTpI9gD2BH0xkbZKkAQ4fJbkQOByYn2QYOIve3UZzgEub18RdXVV/VVU/SXIxcAO9YaXTqurxQdUmSdq0gYVCVf3FJprP/T3bnw2cPah6JElb5hPNkqSWoSBJahkKkqSWoSBJahkKkqSWoSBJahkKkqSWoSBJahkKkqSWoSBJahkKkqSWoSBJahkKkqSWoSBJ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
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYUAAAEFCAYAAAAMk/uQAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAADh0RVh0U29mdHdhcmUAbWF0cGxvdGxpYiB2ZXJzaW9uMy4yLjIsIGh0dHA6Ly9tYXRwbG90bGliLm9yZy+WH4yJAAAVc0lEQVR4nO3de5BedZ3n8feHJCZCMoJJzCJBw3ARUSQwDbLLyoDsADM6wI4XtGQkisRR18viroo7tWiVlFi6XmbXGc2oOzACgvE63maQCRetcEliQAmyUGKkIZKIMhAFIfDdP/rk2EBCno55ntOdfr+qup5zfc63T6Xy6d/vnPM7qSokSQLYpesCJEnjh6EgSWoZCpKklqEgSWoZCpKk1tSuC/h9zJkzpxYsWNB1GZI0oaxcufIXVTV3S+smdCgsWLCAFStWdF2GJE0oSdZubZ3dR5KklqEgSWr1LRSSfC7J+iQ/GrXsw0l+nOTGJF9JsvuodWcnuS3JLUlO6FddkqSt6+c1hX8A/g9wwahllwFnV9WmJB8CzgbeneQg4FXA84BnAt9NckBVPdLH+iRNMA8//DDDw8M8+OCDXZcyIcyYMYP58+czbdq0nvfpWyhU1VVJFjxu2b+Mmr0GeHkzfTLwhar6LXB7ktuAI4Dl/apP0sQzPDzMrFmzWLBgAUm6LmdcqyruuecehoeH2WeffXrer8trCq8Hvt1M7wXcMWrdcLPsCZIsTrIiyYoNGzb0uURJ48mDDz7I7NmzDYQeJGH27NljblV1EgpJ/gewCbhwrPtW1ZKqGqqqoblzt3ibraSdmIHQu+05VwN/TiHJIuClwHH1u3G77wT2HrXZ/GaZJGmABhoKSU4E3gX8cVX9ZtSqrwMXJfkoIxea9weuG2RtkiaevH/HthrqnG2/X+bcc8/loosuYsqUKeyyyy58+tOfZvny5SxevJhdd911h9bThb6FQpKLgWOAOUmGgXMYudtoOnBZ06y5pqr+qqpuSnIpsIaRbqW39PvOox39j2ksevmHJ2n8Wb58Od/4xjdYtWoV06dP5xe/+AUPPfQQp556KqeddtoWQ+GRRx5hypQpHVS7ffp2TaGqXl1Ve1bVtKqaX1Wfrar9qmrvqlrY/PzVqO3Prap9q+o5VfXtJ/tuSerCunXrmDNnDtOnTwdgzpw5LF26lLvuuotjjz2WY489FoCZM2fyzne+k0MOOYTly5fz+c9/niOOOIKFCxfyxje+kUceGfmb901vehNDQ0M873nP45xzzmmPs2DBAs4++2wWLlzI0NAQq1at4oQTTmDfffflU5/6VFvL0UcfzcKFC3n+85/P1VdfvUN+R59olqQeHX/88dxxxx0ccMABvPnNb+bKK6/kbW97G8985jNZtmwZy5YtA+DXv/41L3zhC7nhhhuYPXs2l1xyCd///vdZvXo1U6ZM4cILR+6xOffcc1mxYgU33ngjV155JTfeeGN7rGc961msXr2aF73oRSxatIilS5dyzTXXtOFx0UUXccIJJ7B69WpuuOEGFi5cuEN+xwk9IJ4kDdLMmTNZuXIlV199NcuWLePUU0/lvPPOe8J2U6ZM4WUvexkAl19+OStXruTwww8H4IEHHuAZz3gGAJdeeilLlixh06ZNrFu3jjVr1vCCF7wAgJNOOgmAgw8+mI0bNzJr1ixmzZrF9OnTuffeezn88MN5/etfz8MPP8wpp5xiKEhSF6ZMmcIxxxzDMcccw8EHH8z555//hG1mzJjRXkeoKk4//XQ++MEPPmab22+/nY985CNcf/317LHHHixatOgxzxRs7qLaZZdd2unN85s2beLoo4/mqquu4pvf/CaLFi3irLPO4rWvfe3v/fvZfSRJPbrlllu49dZb2/nVq1fz7Gc/m1mzZnH//fdvcZ/jjjuOpUuXsn79egB++ctfsnbtWu677z522203nva0p3H33Xfz7W+P7VLq2rVrmTdvHmeeeSZveMMbWLVq1fb/YqPYUpA0YQ36Tr6NGzfy1re+lXvvvZepU6ey3377sWTJEi6++GJOPPHE9trCaAcddBAf+MAHOP7443n00UeZNm0an/zkJznyyCM59NBDOfDAA9l777056qijxlTLFVdcwYc//GGmTZvGzJkzueCCC7a9Uw/yu+fHJp6hoaHa3pfseEuqNPHcfPPNPPe5z+26jAllS+csycqqGtrS9nYfSZJahoIkqWUoSJpQJnKX96Btz7kyFCRNGDNmzOCee+4xGHqw+X0KM2bMGNN+3n0kacKYP38+w8PD+C6V3mx+89pYGAqSJoxp06aN6S1iGju7jyRJLUNBktQyFCRJLUNBktQyFCRJLUNBktQyFCRJLUNBktQyFCRJLUNBktQyFCRJLUNBktQyFCRJLUNBktTqWygk+VyS9Ul+NGrZ05NcluTW5nOPZnmS/E2S25LcmOSwftUlSdq6frYU/gE48XHL3gNcXlX7A5c38wB/Cuzf/CwG/q6PdUmStqJvoVBVVwG/fNzik4Hzm+nzgVNGLb+gRlwD7J5kz37VJknaskFfU5hXVeua6Z8D85rpvYA7Rm033Cx7giSLk6xIssJX8knSjtXZheYaefP2mN++XVVLqmqoqobmzp3bh8okafIadCjcvblbqPlc3yy/E9h71Hbzm2WSpAEadCh8HTi9mT4d+Nqo5a9t7kI6Evi3Ud1MkqQBmdqvL05yMXAMMCfJMHAOcB5waZIzgLXAK5vNvwX8GXAb8Bvgdf2qS5K0dX0Lhap69VZWHbeFbQt4S79qkST1xieaJUktQ0GS1DIUJEktQ0GS1DIUJEktQ0GS1DIUJEktQ0GS1DIUJEktQ0GS1DIUJEktQ0GS1DIUJEktQ0GS1DIUJEktQ0GS1DIUJEktQ0GS1DIUJEktQ0GS1DIUJEktQ0GS1DIUJEktQ0GS1DIUJEktQ0GS1OokFJL81yQ3JflRkouTzEiyT5Jrk9yW5JIkT+miNkmazAYeCkn2At4GDFXV84EpwKuADwEfq6r9gF8BZwy6Nkma7LrqPpoKPDXJVGBXYB3wYmBps/584JSOapOkSWvgoVBVdwIfAX7GSBj8G7ASuLeqNjWbDQN7bWn/JIuTrEiyYsOGDYMoWZImjS66j/YATgb2AZ4J7Aac2Ov+VbWkqoaqamju3Ll9qlKSJqcuuo/+E3B7VW2oqoeBLwNHAbs33UkA84E7O6hNkia1LkLhZ8CRSXZNEuA4YA2wDHh5s83pwNc6qE2SJrUurilcy8gF5VXAD5salgDvBs5KchswG/jsoGuTpMlu6rY32fGq6hzgnMct/glwRAflSJIaPtEsSWoZCpKklqEgSWr1FApJDu53IZKk7vXaUvjbJNcleXOSp/W1IklSZ3oKhap6EfAaYG9gZZKLkvxJXyuTJA1cz9cUqupW4K8ZeZ7gj4G/SfLjJH/Rr+IkSYPV6zWFFyT5GHAzI6OZ/nlVPbeZ/lgf65MkDVCvD6/9b+AzwHur6oHNC6vqriR/3ZfKJEkD12sovAR4oKoeAUiyCzCjqn5TVf/Yt+okSQPV6zWF7wJPHTW/a7NMkrQT6TUUZlTVxs0zzfSu/SlJktSVXkPh10kO2zyT5I+AB55ke0nSBNTrNYV3AF9MchcQ4N8Bp/atKklSJ3oKhaq6PsmBwHOaRbc0b02TJO1ExvI+hcOBBc0+hyWhqi7oS1WSpE70FApJ/hHYF1gNPNIsLsBQkKSdSK8thSHgoKqqfhYjSepWr3cf/YiRi8uSpJ1Yry2FOcCaJNcBv928sKpO6ktVkqRO9BoK7+tnEZKk8aHXW1KvTPJsYP+q+m6SXYEp/S1NkjRovQ6dfSawFPh0s2gv4Kv9KkqS1I1eLzS/BTgKuA/aF+48o19FSZK60Wso/LaqHto8k2QqI88pSJJ2Ir2GwpVJ3gs8tXk38xeBf+pfWZKkLvQaCu8BNgA/BN4IfIuR9zVvlyS7J1navOP55iT/PsnTk1yW5Nbmc4/t/X5J0vbpKRSq6tGq+vuqekVVvbyZ/n26jz4BfKeqDgQOYeTdz+8BLq+q/YHLm3lJ0gD1OvbR7WzhGkJV/eFYD5jkacDRwKLmOx4CHkpyMnBMs9n5wBXAu8f6/ZKk7TeWsY82mwG8Anj6dh5zH0a6ov5vkkOAlcDbgXlVta7Z5ufAvO38fknSduq1++ieUT93VtXHgZds5zGnAocBf1dVhwK/5nFdRU3X1Ba7p5IsTrIiyYoNGzZsZwmSpC3ptfvosFGzuzDSchjLuxhGGwaGq+raZn4pI6Fwd5I9q2pdkj2B9VvauaqWAEsAhoaGvC1WknagXv9j/1+jpjcBPwVeuT0HrKqfJ7kjyXOq6hbgOGBN83M6cF7z+bXt+X5J0vbrdeyjY3fwcd8KXJjkKcBPgNcx0gK5NMkZwFq2M3QkSduv1+6js55sfVV9dCwHrarVPPbi9WbHjeV7JEk71ljuPjoc+Hoz/+fAdcCt/ShKktSNXkNhPnBYVd0PkOR9wDer6rR+FSZJGrxeh7mYBzw0av4hfI5AknY6vbYULgCuS/KVZv4URp46liTtRHq9++jcJN8GXtQsel1V/aB/ZUmSutBr9xHArsB9VfUJYDjJPn2qSZLUkV5fx3kOI4PTnd0smgZ8vl9FSZK60WtL4T8DJzEyThFVdRcwq19FSZK60WsoPDR6kLoku/WvJElSV3oNhUuTfBrYPcmZwHeBv+9fWZKkLmzz7qMkAS4BDgTuA54D/M+quqzPtUmSBmyboVBVleRbVXUwYBBI0k6s1+6jVUkO72slkqTO9fpE8wuB05L8lJE7kMJII+IF/SpMkjR4TxoKSZ5VVT8DThhQPZKkDm2rpfBVRkZHXZvkS1X1skEUJUnqxrauKWTU9B/2sxBJUve2FQq1lWlJ0k5oW91HhyS5j5EWw1ObafjdheY/6Gt1kqSBetJQqKopgypEktS9sQydLUnayRkKkqSWoSBJahkKkqSWoSBJahkKkqRWZ6GQZEqSHyT5RjO/T5Jrk9yW5JIkT+mqNkmarLpsKbwduHnU/IeAj1XVfsCvgDM6qUqSJrFOQiHJfOAlwGea+QAvBpY2m5wPnNJFbZI0mXXVUvg48C7g0WZ+NnBvVW1q5oeBvbooTJIms4GHQpKXAuurauV27r84yYokKzZs2LCDq5Okya2LlsJRwEnNW9y+wEi30SeA3ZNsHotpPnDnlnauqiVVNVRVQ3Pnzh1EvZI0aQw8FKrq7KqaX1ULgFcB/1pVrwGWAS9vNjsd+Nqga5OkyW48PafwbuCsJLcxco3hsx3XI0mTzrbep9BXVXUFcEUz/RPgiC7rkaTJbjy1FCRJHTMUJEktQ0GS1DIUJEktQ0GS1DIUJEktQ0GS1DIUJEktQ0GS1Or0iebJKu9PJ8etc6qT40qaOGwpSJJahoIkqWUoSJJahoIkqWUoSJJahoIkqWUoSJJahoIkqWUoSJJahoIkqWUoSJJahoIkqWUoSJJahoIkqWUoSJJahoIkqeVLdiaRrl7uA77gR5ooBt5SSLJ3kmVJ1iS5Kcnbm+VPT3JZklubzz0GXZskTXZddB9tAt5ZVQcBRwJvSXIQ8B7g8qraH7i8mZckDdDAQ6Gq1lXVqmb6fuBmYC/gZOD8ZrPzgVMGXZskTXadXmhOsgA4FLgWmFdV65pVPwfmbWWfxUlWJFmxYcOGgdQpSZNFZ6GQZCbwJeAdVXXf6HVVVcAWr0xW1ZKqGqqqoblz5w6gUkmaPDoJhSTTGAmEC6vqy83iu5Ps2azfE1jfRW2SNJl1cfdRgM8CN1fVR0et+jpwejN9OvC1QdcmSZNdF88pHAX8JfDDJKubZe8FzgMuTXIGsBZ4ZQe1SdKkNvBQqKrvAVt7iuq4QdYiSXosh7mQJLUMBUlSy1CQJLUMBUlSy1FSNRBdjdDq6KzS2NhSkCS1DAVJUstQkCS1DAVJUstQkCS1DAVJUstQkCS1DAVJUstQkCS1DAVJUstQkCS1DAVJUstQkCS1HCVVO7WuRmcFR2jVxGRLQZLUMhQkSS1DQZLUMhQkSS1DQZLU8u4jaSfj+7AHZ2e8u81QkPqky/8wpO017rqPkpyY5JYktyV5T9f1SNJkMq5CIckU4JPAnwIHAa9OclC3VUnS5DGuQgE4Aritqn5SVQ8BXwBO7rgmSZo0xts1hb2AO0bNDwMvHL1BksXA4mZ2Y5JbBlDXHOAXAzjOROH5eKJJf07yvsdcQ5n052MLdug5edz5Hqtnb23FeAuFbaqqJcCSQR4zyYqqGhrkMcczz8cTeU4ey/PxRBPlnIy37qM7gb1Hzc9vlkmSBmC8hcL1wP5J9knyFOBVwNc7rkmSJo1x1X1UVZuS/Bfgn4EpwOeq6qaOy4IBd1dNAJ6PJ/KcPJbn44kmxDlJ1eR7ClGStGXjrftIktQhQ0GS1DIUtiLJ55KsT/KjrmsZL5LsnWRZkjVJbkry9q5r6lKSGUmuS3JDcz7e33VN40WSKUl+kOQbXdcyHiT5aZIfJlmdZEXX9TwZrylsRZKjgY3ABVX1/K7rGQ+S7AnsWVWrkswCVgKnVNWajkvrRJIAu1XVxiTTgO8Bb6+qazourXNJzgKGgD+oqpd2XU/XkvwUGKqqcf9Any2Fraiqq4Bfdl3HeFJV66pqVTN9P3AzI0+hT0o1YmMzO635mfR/ZSWZD7wE+EzXtWjsDAVtlyQLgEOBa7utpFtNN8lqYD1wWVVN6vPR+DjwLuDRrgsZRwr4lyQrm6F6xi1DQWOWZCbwJeAdVXVf1/V0qaoeqaqFjDx9f0SSSd3VmOSlwPqqWtl1LePMf6yqwxgZAfotTff0uGQoaEyavvMvARdW1Ze7rme8qKp7gWXAiV3X0rGjgJOaPvQvAC9O8vluS+peVd3ZfK4HvsLIiNDjkqGgnjUXVj8L3FxVH+26nq4lmZtk92b6qcCfAD/utqpuVdXZVTW/qhYwMkzNv1bVaR2X1akkuzU3ZpBkN+B4YNze1WgobEWSi4HlwHOSDCc5o+uaxoGjgL9k5K+/1c3Pn3VdVIf2BJYluZGRcbsuqypvwdTjzQO+l+QG4Drgm1X1nY5r2ipvSZUktWwpSJJahoIkqWUoSJJahoIkqWUoSNIEMdaBOpO8ctQAlhf1tI93H0nSxDCWgTqT7A9cCry4qn6V5BnNw3NPypaCJE0QWxqoM8m+Sb7TjKt0dZIDm1VnAp+sql81+24zEMBQkKSJbgnw1qr6I+C/AX/bLD8AOCDJ95Nck6SnIVim9qlISVKfNYNT/gfgiyOj0AAwvfmcCuwPHMPIgI1XJTm4GadrqwwFSZq4dgHubUbqfbxh4Nqqehi4Pcn/YyQkrt/WF0qSJqBm6Prbk7wCRgatTHJIs/qrjLQSSDKHke6kn2zrOw0FSZogtjJQ52uAM5oB924CTm42/2fgniRrGBnW/b9X1T3bPIa3pEqSNrOlIElqGQqSpJahIElqGQqSpJahIElqGQqSpJahIElq/X/6bf9Quor2MQAAAABJRU5ErkJggg==
 "
 >
 </div>
@@ -13893,7 +13943,7 @@ Name: Artist, Length: 118, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="n">df_Top200</span><span class="p">[</span><span class="s2">&quot;Title&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
@@ -13909,24 +13959,24 @@ Name: Artist, Length: 118, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[&nbsp;]:</div>
+    <div class="prompt output_prompt">Out[21]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>Die For You           2
-Calm Down             2
-Unholy                1
-Limbo                 1
-INDUSTRY BABY         1
-                     ..
-Late Night Talking    1
-505                   1
-Dandelions            1
-Here With Me          1
-drivers license       1
-Name: Title, Length: 197, dtype: int64</pre>
+<pre>Die For You                 2
+Calm Down                   2
+About Damn Time             1
+Believer                    1
+GATÚBELA                    1
+                           ..
+Starboy                     1
+ANTIFRAGILE                 1
+Besos Moja2                 1
+Evoque Prata                1
+Merry Christmas Everyone    1
+Name: Title, Length: 198, dtype: int64</pre>
 </div>
 
 </div>
@@ -13945,7 +13995,7 @@ Name: Title, Length: 197, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="n">df_DieForYou</span> <span class="o">=</span> <span class="n">df_Top200</span><span class="p">[</span><span class="n">df_Top200</span><span class="p">[</span><span class="s2">&quot;Title&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;Die For You&quot;</span><span class="p">]</span>
@@ -13964,13 +14014,13 @@ Name: Title, Length: 197, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[&nbsp;]:</div>
+    <div class="prompt output_prompt">Out[22]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-add0e34c-3f9b-422f-93ea-1a0490fad796">
+  <div id="df-84cd05c6-d045-4e08-b202-4274a7d7f93e">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -13999,25 +14049,25 @@ Name: Title, Length: 197, dtype: int64</pre>
   </thead>
   <tbody>
     <tr>
-      <th>29</th>
-      <td>30</td>
-      <td>+3</td>
+      <th>32</th>
+      <td>33</td>
+      <td>-8</td>
       <td>Rema</td>
       <td>Calm Down</td>
-      <td>2392259</td>
+      <td>2044309</td>
     </tr>
     <tr>
-      <th>154</th>
-      <td>156</td>
-      <td>-3</td>
+      <th>171</th>
+      <td>172</td>
+      <td>-35</td>
       <td>Rema</td>
       <td>Calm Down</td>
-      <td>1084405</td>
+      <td>917929</td>
     </tr>
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-add0e34c-3f9b-422f-93ea-1a0490fad796')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-84cd05c6-d045-4e08-b202-4274a7d7f93e')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -14068,12 +14118,12 @@ Name: Title, Length: 197, dtype: int64</pre>
 
       <script>
         const buttonEl =
-          document.querySelector('#df-add0e34c-3f9b-422f-93ea-1a0490fad796 button.colab-df-convert');
+          document.querySelector('#df-84cd05c6-d045-4e08-b202-4274a7d7f93e button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-add0e34c-3f9b-422f-93ea-1a0490fad796');
+          const element = document.querySelector('#df-84cd05c6-d045-4e08-b202-4274a7d7f93e');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -14111,7 +14161,7 @@ Name: Title, Length: 197, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="n">df_DieForYou</span>
@@ -14127,13 +14177,13 @@ Name: Title, Length: 197, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[&nbsp;]:</div>
+    <div class="prompt output_prompt">Out[23]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-ff01cbcd-62a8-4a15-abc5-a0213b2abdb7">
+  <div id="df-4c8d0249-3b99-4740-b6bc-9184f5e42c76">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -14162,25 +14212,25 @@ Name: Title, Length: 197, dtype: int64</pre>
   </thead>
   <tbody>
     <tr>
-      <th>22</th>
-      <td>23</td>
-      <td>+4</td>
+      <th>27</th>
+      <td>28</td>
+      <td>+1</td>
       <td>The Weeknd</td>
       <td>Die For You</td>
-      <td>2464413</td>
+      <td>2190175</td>
     </tr>
     <tr>
-      <th>34</th>
-      <td>35</td>
-      <td>-4</td>
+      <th>46</th>
+      <td>47</td>
+      <td>+2</td>
       <td>Joji</td>
       <td>Die For You</td>
-      <td>2328398</td>
+      <td>1804862</td>
     </tr>
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-ff01cbcd-62a8-4a15-abc5-a0213b2abdb7')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-4c8d0249-3b99-4740-b6bc-9184f5e42c76')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -14231,12 +14281,12 @@ Name: Title, Length: 197, dtype: int64</pre>
 
       <script>
         const buttonEl =
-          document.querySelector('#df-ff01cbcd-62a8-4a15-abc5-a0213b2abdb7 button.colab-df-convert');
+          document.querySelector('#df-4c8d0249-3b99-4740-b6bc-9184f5e42c76 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-ff01cbcd-62a8-4a15-abc5-a0213b2abdb7');
+          const element = document.querySelector('#df-4c8d0249-3b99-4740-b6bc-9184f5e42c76');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -14275,7 +14325,7 @@ Name: Title, Length: 197, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="n">df_yougov</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="s2">&quot;yougovdata.xlsx&quot;</span><span class="p">)</span>
@@ -14292,13 +14342,13 @@ Name: Title, Length: 197, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[&nbsp;]:</div>
+    <div class="prompt output_prompt">Out[24]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-d31df50c-567a-4b71-8753-3cc411b14c9b">
+  <div id="df-ff0f30e5-c2f5-497d-aa0d-0d5ab5064319">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -14357,7 +14407,7 @@ Name: Title, Length: 197, dtype: int64</pre>
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-d31df50c-567a-4b71-8753-3cc411b14c9b')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-ff0f30e5-c2f5-497d-aa0d-0d5ab5064319')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -14408,12 +14458,12 @@ Name: Title, Length: 197, dtype: int64</pre>
 
       <script>
         const buttonEl =
-          document.querySelector('#df-d31df50c-567a-4b71-8753-3cc411b14c9b button.colab-df-convert');
+          document.querySelector('#df-ff0f30e5-c2f5-497d-aa0d-0d5ab5064319 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-d31df50c-567a-4b71-8753-3cc411b14c9b');
+          const element = document.querySelector('#df-ff0f30e5-c2f5-497d-aa0d-0d5ab5064319');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -14443,7 +14493,7 @@ Name: Title, Length: 197, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="c1"># Create dataframe of value_counts for &quot;Artist&quot; column of Billboard Top 200 data</span>
@@ -14466,13 +14516,13 @@ Name: Title, Length: 197, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[&nbsp;]:</div>
+    <div class="prompt output_prompt">Out[25]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-02e0f193-7e8d-4955-a396-085570ee9193">
+  <div id="df-5e0762a8-4de7-47f8-9ec0-e6dd94b21130">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -14500,22 +14550,22 @@ Name: Title, Length: 197, dtype: int64</pre>
     <tr>
       <th>0</th>
       <td>Taylor Swift</td>
-      <td>17</td>
+      <td>15</td>
     </tr>
     <tr>
       <th>1</th>
       <td>Bad Bunny</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Drake</td>
       <td>10</td>
     </tr>
     <tr>
-      <th>3</th>
+      <th>2</th>
       <td>The Weeknd</td>
       <td>9</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Drake</td>
+      <td>7</td>
     </tr>
     <tr>
       <th>4</th>
@@ -14525,7 +14575,7 @@ Name: Title, Length: 197, dtype: int64</pre>
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-02e0f193-7e8d-4955-a396-085570ee9193')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-5e0762a8-4de7-47f8-9ec0-e6dd94b21130')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -14576,12 +14626,12 @@ Name: Title, Length: 197, dtype: int64</pre>
 
       <script>
         const buttonEl =
-          document.querySelector('#df-02e0f193-7e8d-4955-a396-085570ee9193 button.colab-df-convert');
+          document.querySelector('#df-5e0762a8-4de7-47f8-9ec0-e6dd94b21130 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-02e0f193-7e8d-4955-a396-085570ee9193');
+          const element = document.querySelector('#df-5e0762a8-4de7-47f8-9ec0-e6dd94b21130');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -14611,7 +14661,7 @@ Name: Title, Length: 197, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="c1"># Merge Billboard Top 200 data with YouGov poll data</span>
@@ -14630,13 +14680,13 @@ Name: Title, Length: 197, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[&nbsp;]:</div>
+    <div class="prompt output_prompt">Out[26]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-88bbef6b-b625-4796-b2cc-8229247b4e25">
+  <div id="df-182a2d3d-ffc9-4fbb-a125-f547e5bf6c67">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -14675,7 +14725,7 @@ Name: Title, Length: 197, dtype: int64</pre>
       <td>Selena Gomez</td>
       <td>98.0</td>
       <td>62.0</td>
-      <td>1.0</td>
+      <td>0.0</td>
     </tr>
     <tr>
       <th>2</th>
@@ -14706,45 +14756,45 @@ Name: Title, Length: 197, dtype: int64</pre>
       <td>...</td>
     </tr>
     <tr>
-      <th>321</th>
-      <td>Dean Lewis</td>
+      <th>327</th>
+      <td>Jung Kook</td>
       <td>0.0</td>
       <td>0.0</td>
       <td>1.0</td>
     </tr>
     <tr>
-      <th>322</th>
-      <td>Wham!</td>
+      <th>328</th>
+      <td>Tom Odell</td>
       <td>0.0</td>
       <td>0.0</td>
       <td>1.0</td>
     </tr>
     <tr>
-      <th>323</th>
-      <td>LE SSERAFIM</td>
+      <th>329</th>
+      <td>Oliver Tree</td>
       <td>0.0</td>
       <td>0.0</td>
       <td>1.0</td>
     </tr>
     <tr>
-      <th>324</th>
-      <td>J Balvin</td>
+      <th>330</th>
+      <td>Andy Williams</td>
       <td>0.0</td>
       <td>0.0</td>
       <td>1.0</td>
     </tr>
     <tr>
-      <th>325</th>
-      <td>Ruth B.</td>
+      <th>331</th>
+      <td>Shakin' Stevens</td>
       <td>0.0</td>
       <td>0.0</td>
       <td>1.0</td>
     </tr>
   </tbody>
 </table>
-<p>326 rows × 4 columns</p>
+<p>332 rows × 4 columns</p>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-88bbef6b-b625-4796-b2cc-8229247b4e25')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-182a2d3d-ffc9-4fbb-a125-f547e5bf6c67')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -14795,12 +14845,12 @@ Name: Title, Length: 197, dtype: int64</pre>
 
       <script>
         const buttonEl =
-          document.querySelector('#df-88bbef6b-b625-4796-b2cc-8229247b4e25 button.colab-df-convert');
+          document.querySelector('#df-182a2d3d-ffc9-4fbb-a125-f547e5bf6c67 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-88bbef6b-b625-4796-b2cc-8229247b4e25');
+          const element = document.querySelector('#df-182a2d3d-ffc9-4fbb-a125-f547e5bf6c67');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -14830,7 +14880,7 @@ Name: Title, Length: 197, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="c1"># Find joint distribution representing relationship between an artists&#39; number </span>
@@ -14851,13 +14901,13 @@ Name: Title, Length: 197, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[&nbsp;]:</div>
+    <div class="prompt output_prompt">Out[27]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-4b05c370-b2e1-4e20-859f-f2ed4a9c4b84">
+  <div id="df-37ab75cb-9dc4-4138-9be4-4714d4b7cf8b">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -14883,10 +14933,10 @@ Name: Title, Length: 197, dtype: int64</pre>
       <th>3.0</th>
       <th>4.0</th>
       <th>5.0</th>
+      <th>7.0</th>
       <th>9.0</th>
       <th>10.0</th>
-      <th>11.0</th>
-      <th>17.0</th>
+      <th>15.0</th>
     </tr>
     <tr>
       <th>Fame</th>
@@ -14906,11 +14956,11 @@ Name: Title, Length: 197, dtype: int64</pre>
     <tr>
       <th>0.0</th>
       <td>0.000000</td>
-      <td>0.184049</td>
-      <td>0.036810</td>
-      <td>0.006135</td>
-      <td>0.003067</td>
-      <td>0.003067</td>
+      <td>0.201807</td>
+      <td>0.033133</td>
+      <td>0.006024</td>
+      <td>0.003012</td>
+      <td>0.003012</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -14918,7 +14968,7 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>59.0</th>
-      <td>0.015337</td>
+      <td>0.015060</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -14931,7 +14981,7 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>60.0</th>
-      <td>0.027607</td>
+      <td>0.027108</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -14944,7 +14994,7 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>61.0</th>
-      <td>0.036810</td>
+      <td>0.036145</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -14957,7 +15007,7 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>62.0</th>
-      <td>0.018405</td>
+      <td>0.018072</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -14970,7 +15020,7 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>63.0</th>
-      <td>0.036810</td>
+      <td>0.036145</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -14983,8 +15033,8 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>64.0</th>
-      <td>0.024540</td>
-      <td>0.003067</td>
+      <td>0.027108</td>
+      <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -14996,7 +15046,7 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>65.0</th>
-      <td>0.030675</td>
+      <td>0.030120</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15009,8 +15059,8 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>66.0</th>
-      <td>0.033742</td>
-      <td>0.003067</td>
+      <td>0.033133</td>
+      <td>0.003012</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15022,7 +15072,7 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>67.0</th>
-      <td>0.015337</td>
+      <td>0.015060</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15035,8 +15085,8 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>68.0</th>
-      <td>0.024540</td>
-      <td>0.006135</td>
+      <td>0.024096</td>
+      <td>0.006024</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15048,8 +15098,8 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>69.0</th>
-      <td>0.015337</td>
-      <td>0.003067</td>
+      <td>0.015060</td>
+      <td>0.003012</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15061,21 +15111,21 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>70.0</th>
-      <td>0.015337</td>
-      <td>0.006135</td>
+      <td>0.015060</td>
+      <td>0.006024</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
-      <td>0.003067</td>
+      <td>0.003012</td>
       <td>0.000000</td>
     </tr>
     <tr>
       <th>71.0</th>
-      <td>0.015337</td>
-      <td>0.003067</td>
+      <td>0.015060</td>
+      <td>0.003012</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15087,8 +15137,8 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>72.0</th>
-      <td>0.015337</td>
-      <td>0.006135</td>
+      <td>0.015060</td>
+      <td>0.006024</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15100,7 +15150,7 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>73.0</th>
-      <td>0.033742</td>
+      <td>0.033133</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15113,9 +15163,9 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>74.0</th>
-      <td>0.012270</td>
-      <td>0.003067</td>
+      <td>0.012048</td>
       <td>0.000000</td>
+      <td>0.003012</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15126,8 +15176,8 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>75.0</th>
-      <td>0.024540</td>
-      <td>0.003067</td>
+      <td>0.027108</td>
+      <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15139,9 +15189,9 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>76.0</th>
-      <td>0.018405</td>
+      <td>0.018072</td>
       <td>0.000000</td>
-      <td>0.003067</td>
+      <td>0.003012</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15152,9 +15202,9 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>77.0</th>
-      <td>0.012270</td>
+      <td>0.012048</td>
       <td>0.000000</td>
-      <td>0.003067</td>
+      <td>0.003012</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15165,7 +15215,7 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>78.0</th>
-      <td>0.024540</td>
+      <td>0.024096</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15178,7 +15228,7 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>79.0</th>
-      <td>0.012270</td>
+      <td>0.012048</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15191,8 +15241,8 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>80.0</th>
-      <td>0.018405</td>
-      <td>0.003067</td>
+      <td>0.018072</td>
+      <td>0.003012</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15204,10 +15254,10 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>81.0</th>
-      <td>0.024540</td>
-      <td>0.003067</td>
+      <td>0.024096</td>
+      <td>0.003012</td>
       <td>0.000000</td>
-      <td>0.003067</td>
+      <td>0.003012</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15217,7 +15267,7 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>82.0</th>
-      <td>0.009202</td>
+      <td>0.009036</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15230,9 +15280,9 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>83.0</th>
-      <td>0.003067</td>
-      <td>0.006135</td>
-      <td>0.000000</td>
+      <td>0.003012</td>
+      <td>0.003012</td>
+      <td>0.003012</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15243,22 +15293,22 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>84.0</th>
-      <td>0.012270</td>
-      <td>0.003067</td>
+      <td>0.012048</td>
+      <td>0.003012</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
-      <td>0.003067</td>
       <td>0.000000</td>
+      <td>0.003012</td>
       <td>0.000000</td>
       <td>0.000000</td>
     </tr>
     <tr>
       <th>85.0</th>
-      <td>0.012270</td>
+      <td>0.012048</td>
       <td>0.000000</td>
-      <td>0.003067</td>
+      <td>0.003012</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15269,7 +15319,7 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>86.0</th>
-      <td>0.009202</td>
+      <td>0.009036</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15282,9 +15332,9 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>87.0</th>
-      <td>0.012270</td>
-      <td>0.003067</td>
-      <td>0.006135</td>
+      <td>0.012048</td>
+      <td>0.003012</td>
+      <td>0.006024</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15295,7 +15345,7 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>88.0</th>
-      <td>0.009202</td>
+      <td>0.009036</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15308,10 +15358,10 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>89.0</th>
-      <td>0.009202</td>
-      <td>0.003067</td>
+      <td>0.009036</td>
+      <td>0.003012</td>
       <td>0.000000</td>
-      <td>0.003067</td>
+      <td>0.003012</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15321,8 +15371,8 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>90.0</th>
-      <td>0.015337</td>
-      <td>0.000000</td>
+      <td>0.012048</td>
+      <td>0.003012</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15334,10 +15384,10 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>91.0</th>
-      <td>0.012270</td>
-      <td>0.003067</td>
+      <td>0.012048</td>
+      <td>0.003012</td>
       <td>0.000000</td>
-      <td>0.003067</td>
+      <td>0.003012</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15347,8 +15397,8 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>92.0</th>
-      <td>0.003067</td>
-      <td>0.006135</td>
+      <td>0.003012</td>
+      <td>0.006024</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15360,10 +15410,10 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>93.0</th>
-      <td>0.003067</td>
-      <td>0.003067</td>
+      <td>0.003012</td>
+      <td>0.003012</td>
       <td>0.000000</td>
-      <td>0.003067</td>
+      <td>0.003012</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15373,8 +15423,8 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>94.0</th>
-      <td>0.006135</td>
-      <td>0.003067</td>
+      <td>0.003012</td>
+      <td>0.006024</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15382,27 +15432,27 @@ Name: Title, Length: 197, dtype: int64</pre>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
-      <td>0.003067</td>
+      <td>0.003012</td>
     </tr>
     <tr>
       <th>95.0</th>
-      <td>0.006135</td>
-      <td>0.003067</td>
+      <td>0.006024</td>
+      <td>0.000000</td>
+      <td>0.003012</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
+      <td>0.003012</td>
       <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.003067</td>
       <td>0.000000</td>
       <td>0.000000</td>
     </tr>
     <tr>
       <th>96.0</th>
-      <td>0.006135</td>
-      <td>0.003067</td>
+      <td>0.006024</td>
+      <td>0.003012</td>
       <td>0.000000</td>
-      <td>0.003067</td>
+      <td>0.003012</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15412,7 +15462,7 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>97.0</th>
-      <td>0.003067</td>
+      <td>0.003012</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15425,8 +15475,8 @@ Name: Title, Length: 197, dtype: int64</pre>
     </tr>
     <tr>
       <th>98.0</th>
-      <td>0.000000</td>
-      <td>0.006135</td>
+      <td>0.003012</td>
+      <td>0.003012</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -15439,7 +15489,7 @@ Name: Title, Length: 197, dtype: int64</pre>
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-4b05c370-b2e1-4e20-859f-f2ed4a9c4b84')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-37ab75cb-9dc4-4138-9be4-4714d4b7cf8b')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -15490,12 +15540,12 @@ Name: Title, Length: 197, dtype: int64</pre>
 
       <script>
         const buttonEl =
-          document.querySelector('#df-4b05c370-b2e1-4e20-859f-f2ed4a9c4b84 button.colab-df-convert');
+          document.querySelector('#df-37ab75cb-9dc4-4138-9be4-4714d4b7cf8b button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-4b05c370-b2e1-4e20-859f-f2ed4a9c4b84');
+          const element = document.querySelector('#df-37ab75cb-9dc4-4138-9be4-4714d4b7cf8b');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -15538,41 +15588,6 @@ Name: Title, Length: 197, dtype: int64</pre>
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[&nbsp;]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7ff9922727d0&gt;</pre>
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-
-<div class="output_png output_subarea ">
-<img src="data:image/png;base64,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
-"
->
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -15585,41 +15600,6 @@ Name: Title, Length: 197, dtype: int64</pre>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[&nbsp;]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7ff9922c6d90&gt;</pre>
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-
-<div class="output_png output_subarea ">
-<img src="data:image/png;base64,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
-"
->
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -15667,184 +15647,6 @@ Name: Title, Length: 197, dtype: int64</pre>
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[&nbsp;]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-
-  <div id="df-6251d695-1ae0-4f46-a213-7b50ebac52bd">
-    <div class="colab-df-container">
-      <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Rank</th>
-      <th>Release Group</th>
-      <th>Worldwide</th>
-      <th>Domestic</th>
-      <th>%</th>
-      <th>Foreign</th>
-      <th>%.1</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>Top Gun: Maverick</td>
-      <td>$1,486,657,763</td>
-      <td>$716,657,763</td>
-      <td>48.2%</td>
-      <td>$770,000,000</td>
-      <td>51.8%</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>Jurassic World: Dominion</td>
-      <td>$1,001,136,080</td>
-      <td>$376,009,080</td>
-      <td>37.6%</td>
-      <td>$625,127,000</td>
-      <td>62.4%</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>Doctor Strange in the Multiverse of Madness</td>
-      <td>$955,775,804</td>
-      <td>$411,331,607</td>
-      <td>43%</td>
-      <td>$544,444,197</td>
-      <td>57%</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>Minions: The Rise of Gru</td>
-      <td>$937,258,645</td>
-      <td>$369,376,645</td>
-      <td>39.4%</td>
-      <td>$567,882,000</td>
-      <td>60.6%</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>The Batman</td>
-      <td>$770,836,163</td>
-      <td>$369,345,583</td>
-      <td>47.9%</td>
-      <td>$401,490,580</td>
-      <td>52.1%</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-6251d695-1ae0-4f46-a213-7b50ebac52bd')"
-              title="Convert this dataframe to an interactive table."
-              style="display:none;">
-        
-  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
-       width="24px">
-    <path d="M0 0h24v24H0V0z" fill="none"/>
-    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
-  </svg>
-      </button>
-      
-  <style>
-    .colab-df-container {
-      display:flex;
-      flex-wrap:wrap;
-      gap: 12px;
-    }
-
-    .colab-df-convert {
-      background-color: #E8F0FE;
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-      display: none;
-      fill: #1967D2;
-      height: 32px;
-      padding: 0 0 0 0;
-      width: 32px;
-    }
-
-    .colab-df-convert:hover {
-      background-color: #E2EBFA;
-      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
-      fill: #174EA6;
-    }
-
-    [theme=dark] .colab-df-convert {
-      background-color: #3B4455;
-      fill: #D2E3FC;
-    }
-
-    [theme=dark] .colab-df-convert:hover {
-      background-color: #434B5C;
-      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
-      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
-      fill: #FFFFFF;
-    }
-  </style>
-
-      <script>
-        const buttonEl =
-          document.querySelector('#df-6251d695-1ae0-4f46-a213-7b50ebac52bd button.colab-df-convert');
-        buttonEl.style.display =
-          google.colab.kernel.accessAllowed ? 'block' : 'none';
-
-        async function convertToInteractive(key) {
-          const element = document.querySelector('#df-6251d695-1ae0-4f46-a213-7b50ebac52bd');
-          const dataTable =
-            await google.colab.kernel.invokeFunction('convertToInteractive',
-                                                     [key], {});
-          if (!dataTable) return;
-
-          const docLinkHtml = 'Like what you see? Visit the ' +
-            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
-            + ' to learn more about interactive tables.';
-          element.innerHTML = '';
-          dataTable['output_type'] = 'display_data';
-          await google.colab.output.renderOutput(dataTable, element);
-          const docLink = document.createElement('div');
-          docLink.innerHTML = docLinkHtml;
-          element.appendChild(docLink);
-        }
-      </script>
-    </div>
-  </div>
-  
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -15866,33 +15668,6 @@ Name: Title, Length: 197, dtype: int64</pre>
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[&nbsp;]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>Rank              int64
-Release Group    object
-Worldwide        object
-Domestic         object
-%                object
-Foreign          object
-%.1              object
-dtype: object</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -15908,254 +15683,136 @@ dtype: object</pre>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="c1">#Replace &#39;-&#39; with &#39;0&#39; in numerical columns</span>
-<span class="n">df_boxoffice</span> <span class="o">=</span> <span class="n">df_boxoffice_2022</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">to_replace</span><span class="o">=</span><span class="s1">&#39;-&#39;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="s1">&#39;0&#39;</span><span class="p">)</span>
+<span class="n">df_boxoffice_2022</span> <span class="o">=</span> <span class="n">df_boxoffice_2022</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">to_replace</span><span class="o">=</span><span class="s1">&#39;-&#39;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="s1">&#39;0&#39;</span><span class="p">)</span>
+
+<span class="c1">#Remove &#39;$&#39; and &#39;%&#39; in columns</span>
+<span class="n">df_boxoffice_2022</span><span class="p">[</span><span class="n">df_boxoffice_2022</span><span class="o">.</span><span class="n">columns</span><span class="p">[</span><span class="mi">2</span><span class="p">:]]</span> <span class="o">=</span> <span class="n">df_boxoffice_2022</span><span class="p">[</span><span class="n">df_boxoffice_2022</span><span class="o">.</span><span class="n">columns</span><span class="p">[</span><span class="mi">2</span><span class="p">:]]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;[\$|%|&lt;,]&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">regex</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
+
+<span class="c1">#We converted them all to floats, but let&#39;s convert the dollar values to ints</span>
+<span class="n">df_boxoffice_2022</span><span class="p">[</span><span class="s2">&quot;Worldwide&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_boxoffice_2022</span><span class="p">[</span><span class="s2">&quot;Worldwide&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+<span class="n">df_boxoffice_2022</span><span class="p">[</span><span class="s2">&quot;Domestic&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_boxoffice_2022</span><span class="p">[</span><span class="s2">&quot;Domestic&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+<span class="n">df_boxoffice_2022</span><span class="p">[</span><span class="s2">&quot;Foreign&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_boxoffice_2022</span><span class="p">[</span><span class="s2">&quot;Foreign&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+
+<span class="c1">#Let&#39;s rename &#39;%&#39; and &quot;%.1&quot; and rearrange the columns</span>
+
+<span class="n">mapper</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;%&#39;</span><span class="p">:</span><span class="s1">&#39;domestic_pct&#39;</span><span class="p">,</span> <span class="s2">&quot;%.1&quot;</span><span class="p">:</span><span class="s1">&#39;foreign_pct&#39;</span><span class="p">}</span>
+<span class="n">df_boxoffice_2022</span> <span class="o">=</span> <span class="n">df_boxoffice_2022</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">mapper</span><span class="o">=</span><span class="n">mapper</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="n">df_boxoffice_2022</span> <span class="o">=</span> <span class="n">df_boxoffice_2022</span><span class="p">[[</span><span class="s1">&#39;Rank&#39;</span><span class="p">,</span> <span class="s1">&#39;Release Group&#39;</span><span class="p">,</span> <span class="s1">&#39;Worldwide&#39;</span><span class="p">,</span>
+                                       <span class="s1">&#39;Domestic&#39;</span><span class="p">,</span> <span class="s1">&#39;Foreign&#39;</span><span class="p">,</span>
+                                       <span class="s1">&#39;domestic_pct&#39;</span><span class="p">,</span><span class="s1">&#39;foreign_pct&#39;</span><span class="p">]]</span>
+
 <span class="n">df_boxoffice_2022</span>
-<span class="c1">#df_boxoffice_2022[df_boxoffice_2022.columns[2:]] = df_boxoffice_2022[df_boxoffice_2022.columns[2:]].replace(&#39;[\$,]&#39;, &#39;&#39;, regex=True).astype(float)</span>
 </pre></div>
 
     </div>
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[&nbsp;]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-
-  <div id="df-162efff7-2381-4a76-bd02-fa578c81b07a">
-    <div class="colab-df-container">
-      <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Rank</th>
-      <th>Release Group</th>
-      <th>Worldwide</th>
-      <th>Domestic</th>
-      <th>%</th>
-      <th>Foreign</th>
-      <th>%.1</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>Top Gun: Maverick</td>
-      <td>$1,486,657,763</td>
-      <td>$716,657,763</td>
-      <td>48.2%</td>
-      <td>$770,000,000</td>
-      <td>51.8%</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>Jurassic World: Dominion</td>
-      <td>$1,001,136,080</td>
-      <td>$376,009,080</td>
-      <td>37.6%</td>
-      <td>$625,127,000</td>
-      <td>62.4%</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>Doctor Strange in the Multiverse of Madness</td>
-      <td>$955,775,804</td>
-      <td>$411,331,607</td>
-      <td>43%</td>
-      <td>$544,444,197</td>
-      <td>57%</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>Minions: The Rise of Gru</td>
-      <td>$937,258,645</td>
-      <td>$369,376,645</td>
-      <td>39.4%</td>
-      <td>$567,882,000</td>
-      <td>60.6%</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>The Batman</td>
-      <td>$770,836,163</td>
-      <td>$369,345,583</td>
-      <td>47.9%</td>
-      <td>$401,490,580</td>
-      <td>52.1%</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>195</th>
-      <td>196</td>
-      <td>Soof 3</td>
-      <td>$4,930,826</td>
-      <td>-</td>
-      <td>-</td>
-      <td>$4,930,826</td>
-      <td>100%</td>
-    </tr>
-    <tr>
-      <th>196</th>
-      <td>197</td>
-      <td>Official Competition</td>
-      <td>$4,893,066</td>
-      <td>$593,790</td>
-      <td>12.1%</td>
-      <td>$4,299,276</td>
-      <td>87.9%</td>
-    </tr>
-    <tr>
-      <th>197</th>
-      <td>198</td>
-      <td>Liger</td>
-      <td>$4,879,486</td>
-      <td>-</td>
-      <td>-</td>
-      <td>$4,879,486</td>
-      <td>100%</td>
-    </tr>
-    <tr>
-      <th>198</th>
-      <td>199</td>
-      <td>Cobra</td>
-      <td>$4,867,081</td>
-      <td>-</td>
-      <td>-</td>
-      <td>$4,867,081</td>
-      <td>100%</td>
-    </tr>
-    <tr>
-      <th>199</th>
-      <td>200</td>
-      <td>Tár</td>
-      <td>$4,741,463</td>
-      <td>$4,741,463</td>
-      <td>100%</td>
-      <td>-</td>
-      <td>-</td>
-    </tr>
-  </tbody>
-</table>
-<p>200 rows × 7 columns</p>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-162efff7-2381-4a76-bd02-fa578c81b07a')"
-              title="Convert this dataframe to an interactive table."
-              style="display:none;">
-        
-  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
-       width="24px">
-    <path d="M0 0h24v24H0V0z" fill="none"/>
-    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
-  </svg>
-      </button>
-      
-  <style>
-    .colab-df-container {
-      display:flex;
-      flex-wrap:wrap;
-      gap: 12px;
-    }
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>What do we want to know from this data? First we should rearrange the data with the top 'foreign_pct' at the top to see which films are most popular outside of the US relative to the US market.</p>
 
-    .colab-df-convert {
-      background-color: #E8F0FE;
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-      display: none;
-      fill: #1967D2;
-      height: 32px;
-      padding: 0 0 0 0;
-      width: 32px;
-    }
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="c1">#Sort values in our table by foreign_pct</span>
+<span class="n">df_boxoffice_2022</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">&quot;foreign_pct&quot;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</pre></div>
 
-    .colab-df-convert:hover {
-      background-color: #E2EBFA;
-      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
-      fill: #174EA6;
-    }
-
-    [theme=dark] .colab-df-convert {
-      background-color: #3B4455;
-      fill: #D2E3FC;
-    }
-
-    [theme=dark] .colab-df-convert:hover {
-      background-color: #434B5C;
-      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
-      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
-      fill: #FFFFFF;
-    }
-  </style>
-
-      <script>
-        const buttonEl =
-          document.querySelector('#df-162efff7-2381-4a76-bd02-fa578c81b07a button.colab-df-convert');
-        buttonEl.style.display =
-          google.colab.kernel.accessAllowed ? 'block' : 'none';
-
-        async function convertToInteractive(key) {
-          const element = document.querySelector('#df-162efff7-2381-4a76-bd02-fa578c81b07a');
-          const dataTable =
-            await google.colab.kernel.invokeFunction('convertToInteractive',
-                                                     [key], {});
-          if (!dataTable) return;
-
-          const docLinkHtml = 'Like what you see? Visit the ' +
-            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
-            + ' to learn more about interactive tables.';
-          element.innerHTML = '';
-          dataTable['output_type'] = 'display_data';
-          await google.colab.output.renderOutput(dataTable, element);
-          const docLink = document.createElement('div');
-          docLink.innerHTML = docLinkHtml;
-          element.appendChild(docLink);
-        }
-      </script>
     </div>
-  </div>
-  
-</div>
-
-</div>
-
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>This is a good start, but all we've really done is revealed films that simply did not have a US release. We also want to make sure we are picking reasonably popular movies. For instance, the first film on the list <em>Goliath</em> only grossed about $5 million. Let's find the mean for total box office.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>This is a good start, but all we've really done is revealed films that simply did not have a US release. We also want to make sure we are picking reasonably popular movies. For instance, the first film on the list <em>Goliath</em> only grossed about $5 million. Let's find the mean for total box office.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="c1">#Calculate mean Worldwide box office</span>
+<span class="n">df_boxoffice_2022</span><span class="p">[</span><span class="s2">&quot;Worldwide&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The mean is about $77 million, but that is likely skewed  by smash hit films like <em>Top Gun: Maverick</em>. Below we check a histogram to confirm our suspicion.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="c1">#Plot a histogram of Worldwide box office</span>
+<span class="n">df_boxoffice_2022</span><span class="p">[</span><span class="s2">&quot;Worldwide&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="o">.</span><span class="n">hist</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>We can see that it's incredibly skewed, so we should probably consider using the median instead. We should reassess the distribution by looking at values for different quartiles. We do this below using .describe().</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="c1">#Describe the Worldwide column</span>
+<span class="n">df_boxoffice_2022</span><span class="p">[</span><span class="s2">&quot;Worldwide&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>We can see that the median is about $14 million, which still isn't very much. At least taking a wholistic approach to foreign box office. Smaller box office movies can be important though especially if they are only released in one or a few smaller countries.</p>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -16192,7 +15849,7 @@ One possible model based on our analysis so far would be a predictor of whether 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[83]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="c1">#Convert notebook to html for github site</span>
@@ -16201,224 +15858,6 @@ One possible model based on our analysis so far would be a predictor of whether 
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[NbConvertApp] WARNING | pattern &#39;/content/drive/MyDrive/cmps3160/SarahH+JTM.ipynb&#39; matched no files
-This application is used to convert notebook files (*.ipynb)
-        to various other formats.
-
-        WARNING: THE COMMANDLINE INTERFACE MAY CHANGE IN FUTURE RELEASES.
-
-Options
-=======
-The options below are convenience aliases to configurable class-options,
-as listed in the &#34;Equivalent to&#34; description-line of the aliases.
-To see all configurable class-options for some &lt;cmd&gt;, use:
-    &lt;cmd&gt; --help-all
-
---debug
-    set log level to logging.DEBUG (maximize logging output)
-    Equivalent to: [--Application.log_level=10]
---show-config
-    Show the application&#39;s configuration (human-readable format)
-    Equivalent to: [--Application.show_config=True]
---show-config-json
-    Show the application&#39;s configuration (json format)
-    Equivalent to: [--Application.show_config_json=True]
---generate-config
-    generate default config file
-    Equivalent to: [--JupyterApp.generate_config=True]
--y
-    Answer yes to any questions instead of prompting.
-    Equivalent to: [--JupyterApp.answer_yes=True]
---execute
-    Execute the notebook prior to export.
-    Equivalent to: [--ExecutePreprocessor.enabled=True]
---allow-errors
-    Continue notebook execution even if one of the cells throws an error and include the error message in the cell output (the default behaviour is to abort conversion). This flag is only relevant if &#39;--execute&#39; was specified, too.
-    Equivalent to: [--ExecutePreprocessor.allow_errors=True]
---stdin
-    read a single notebook file from stdin. Write the resulting notebook with default basename &#39;notebook.*&#39;
-    Equivalent to: [--NbConvertApp.from_stdin=True]
---stdout
-    Write notebook output to stdout instead of files.
-    Equivalent to: [--NbConvertApp.writer_class=StdoutWriter]
---inplace
-    Run nbconvert in place, overwriting the existing notebook (only 
-            relevant when converting to notebook format)
-    Equivalent to: [--NbConvertApp.use_output_suffix=False --NbConvertApp.export_format=notebook --FilesWriter.build_directory=]
---clear-output
-    Clear output of current file and save in place, 
-            overwriting the existing notebook.
-    Equivalent to: [--NbConvertApp.use_output_suffix=False --NbConvertApp.export_format=notebook --FilesWriter.build_directory= --ClearOutputPreprocessor.enabled=True]
---no-prompt
-    Exclude input and output prompts from converted document.
-    Equivalent to: [--TemplateExporter.exclude_input_prompt=True --TemplateExporter.exclude_output_prompt=True]
---no-input
-    Exclude input cells and output prompts from converted document. 
-            This mode is ideal for generating code-free reports.
-    Equivalent to: [--TemplateExporter.exclude_output_prompt=True --TemplateExporter.exclude_input=True]
---log-level=&lt;Enum&gt;
-    Set the log level by value or name.
-    Choices: any of [0, 10, 20, 30, 40, 50, &#39;DEBUG&#39;, &#39;INFO&#39;, &#39;WARN&#39;, &#39;ERROR&#39;, &#39;CRITICAL&#39;]
-    Default: 30
-    Equivalent to: [--Application.log_level]
---config=&lt;Unicode&gt;
-    Full path of a config file.
-    Default: &#39;&#39;
-    Equivalent to: [--JupyterApp.config_file]
---to=&lt;Unicode&gt;
-    The export format to be used, either one of the built-in formats
-            [&#39;asciidoc&#39;, &#39;custom&#39;, &#39;html&#39;, &#39;latex&#39;, &#39;markdown&#39;, &#39;notebook&#39;, &#39;pdf&#39;, &#39;python&#39;, &#39;rst&#39;, &#39;script&#39;, &#39;slides&#39;]
-            or a dotted object name that represents the import path for an
-            `Exporter` class
-    Default: &#39;html&#39;
-    Equivalent to: [--NbConvertApp.export_format]
---template=&lt;Unicode&gt;
-    Name of the template file to use
-    Default: &#39;&#39;
-    Equivalent to: [--TemplateExporter.template_file]
---writer=&lt;DottedObjectName&gt;
-    Writer class used to write the 
-                                        results of the conversion
-    Default: &#39;FilesWriter&#39;
-    Equivalent to: [--NbConvertApp.writer_class]
---post=&lt;DottedOrNone&gt;
-    PostProcessor class used to write the
-                                        results of the conversion
-    Default: &#39;&#39;
-    Equivalent to: [--NbConvertApp.postprocessor_class]
---output=&lt;Unicode&gt;
-    overwrite base name use for output files.
-                can only be used when converting one notebook at a time.
-    Default: &#39;&#39;
-    Equivalent to: [--NbConvertApp.output_base]
---output-dir=&lt;Unicode&gt;
-    Directory to write output(s) to. Defaults
-                                  to output to the directory of each notebook. To recover
-                                  previous default behaviour (outputting to the current 
-                                  working directory) use . as the flag value.
-    Default: &#39;&#39;
-    Equivalent to: [--FilesWriter.build_directory]
---reveal-prefix=&lt;Unicode&gt;
-    The URL prefix for reveal.js (version 3.x).
-            This defaults to the reveal CDN, but can be any url pointing to a copy 
-            of reveal.js. 
-            For speaker notes to work, this must be a relative path to a local 
-            copy of reveal.js: e.g., &#34;reveal.js&#34;.
-            If a relative path is given, it must be a subdirectory of the
-            current directory (from which the server is run).
-            See the usage documentation
-            (https://nbconvert.readthedocs.io/en/latest/usage.html#reveal-js-html-slideshow)
-            for more details.
-    Default: &#39;&#39;
-    Equivalent to: [--SlidesExporter.reveal_url_prefix]
---nbformat=&lt;Enum&gt;
-    The nbformat version to write.
-            Use this to downgrade notebooks.
-    Choices: any of [1, 2, 3, 4]
-    Default: 4
-    Equivalent to: [--NotebookExporter.nbformat_version]
-
-Examples
---------
-
-    The simplest way to use nbconvert is
-
-            &gt; jupyter nbconvert mynotebook.ipynb
-
-            which will convert mynotebook.ipynb to the default format (probably HTML).
-
-            You can specify the export format with `--to`.
-            Options include [&#39;asciidoc&#39;, &#39;custom&#39;, &#39;html&#39;, &#39;latex&#39;, &#39;markdown&#39;, &#39;notebook&#39;, &#39;pdf&#39;, &#39;python&#39;, &#39;rst&#39;, &#39;script&#39;, &#39;slides&#39;].
-
-            &gt; jupyter nbconvert --to latex mynotebook.ipynb
-
-            Both HTML and LaTeX support multiple output templates. LaTeX includes
-            &#39;base&#39;, &#39;article&#39; and &#39;report&#39;.  HTML includes &#39;basic&#39; and &#39;full&#39;. You
-            can specify the flavor of the format used.
-
-            &gt; jupyter nbconvert --to html --template basic mynotebook.ipynb
-
-            You can also pipe the output to stdout, rather than a file
-
-            &gt; jupyter nbconvert mynotebook.ipynb --stdout
-
-            PDF is generated via latex
-
-            &gt; jupyter nbconvert mynotebook.ipynb --to pdf
-
-            You can get (and serve) a Reveal.js-powered slideshow
-
-            &gt; jupyter nbconvert myslides.ipynb --to slides --post serve
-
-            Multiple notebooks can be given at the command line in a couple of 
-            different ways:
-
-            &gt; jupyter nbconvert notebook*.ipynb
-            &gt; jupyter nbconvert notebook1.ipynb notebook2.ipynb
-
-            or you can specify the notebooks list in a config file, containing::
-
-                c.NbConvertApp.notebooks = [&#34;my_notebook.ipynb&#34;]
-
-            &gt; jupyter nbconvert --config mycfg.py
-
-To see all available configurables, use `--help-all`.
-
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">CalledProcessError</span>                        Traceback (most recent call last)
-<span class="ansi-green-fg">&lt;ipython-input-83-f0c8c7bac7c1&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-fg">----&gt; 1</span><span class="ansi-red-fg"> </span>get_ipython<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">.</span>run_cell_magic<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#39;shell&#39;</span><span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">&#39;&#39;</span><span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">&#39;jupyter nbconvert --to html /content/drive/MyDrive/cmps3160/SarahH+JTM.ipynb\n&#39;</span><span class="ansi-blue-fg">)</span>
-
-<span class="ansi-green-fg">/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py</span> in <span class="ansi-cyan-fg">run_cell_magic</span><span class="ansi-blue-fg">(self, magic_name, line, cell)</span>
-<span class="ansi-green-intense-fg ansi-bold">   2357</span>             <span class="ansi-green-fg">with</span> self<span class="ansi-blue-fg">.</span>builtin_trap<span class="ansi-blue-fg">:</span>
-<span class="ansi-green-intense-fg ansi-bold">   2358</span>                 args <span class="ansi-blue-fg">=</span> <span class="ansi-blue-fg">(</span>magic_arg_s<span class="ansi-blue-fg">,</span> cell<span class="ansi-blue-fg">)</span>
-<span class="ansi-green-fg">-&gt; 2359</span><span class="ansi-red-fg">                 </span>result <span class="ansi-blue-fg">=</span> fn<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">*</span>args<span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">**</span>kwargs<span class="ansi-blue-fg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">   2360</span>             <span class="ansi-green-fg">return</span> result
-<span class="ansi-green-intense-fg ansi-bold">   2361</span> 
-
-<span class="ansi-green-fg">/usr/local/lib/python3.7/dist-packages/google/colab/_system_commands.py</span> in <span class="ansi-cyan-fg">_shell_cell_magic</span><span class="ansi-blue-fg">(args, cmd)</span>
-<span class="ansi-green-intense-fg ansi-bold">    107</span>   result <span class="ansi-blue-fg">=</span> _run_command<span class="ansi-blue-fg">(</span>cmd<span class="ansi-blue-fg">,</span> clear_streamed_output<span class="ansi-blue-fg">=</span><span class="ansi-green-fg">False</span><span class="ansi-blue-fg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">    108</span>   <span class="ansi-green-fg">if</span> <span class="ansi-green-fg">not</span> parsed_args<span class="ansi-blue-fg">.</span>ignore_errors<span class="ansi-blue-fg">:</span>
-<span class="ansi-green-fg">--&gt; 109</span><span class="ansi-red-fg">     </span>result<span class="ansi-blue-fg">.</span>check_returncode<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">    110</span>   <span class="ansi-green-fg">return</span> result
-<span class="ansi-green-intense-fg ansi-bold">    111</span> 
-
-<span class="ansi-green-fg">/usr/local/lib/python3.7/dist-packages/google/colab/_system_commands.py</span> in <span class="ansi-cyan-fg">check_returncode</span><span class="ansi-blue-fg">(self)</span>
-<span class="ansi-green-intense-fg ansi-bold">    133</span>     <span class="ansi-green-fg">if</span> self<span class="ansi-blue-fg">.</span>returncode<span class="ansi-blue-fg">:</span>
-<span class="ansi-green-intense-fg ansi-bold">    134</span>       raise subprocess.CalledProcessError(
-<span class="ansi-green-fg">--&gt; 135</span><span class="ansi-red-fg">           returncode=self.returncode, cmd=self.args, output=self.output)
-</span><span class="ansi-green-intense-fg ansi-bold">    136</span> 
-<span class="ansi-green-intense-fg ansi-bold">    137</span>   <span class="ansi-green-fg">def</span> _repr_pretty_<span class="ansi-blue-fg">(</span>self<span class="ansi-blue-fg">,</span> p<span class="ansi-blue-fg">,</span> cycle<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>  <span class="ansi-red-fg"># pylint:disable=unused-argument</span>
-
-<span class="ansi-red-fg">CalledProcessError</span>: Command &#39;jupyter nbconvert --to html /content/drive/MyDrive/cmps3160/SarahH+JTM.ipynb
-&#39; returned non-zero exit status 255.</pre>
-</div>
-</div>
-
 </div>
 </div>
 
