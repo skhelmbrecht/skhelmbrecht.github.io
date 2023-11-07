@@ -2,7 +2,7 @@
 title: Contact
 type: page
 menu: main
-weight: 70
+weight: 80
 url: /contact
 ---
 
