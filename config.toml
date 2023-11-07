@@ -2,6 +2,7 @@ baseURL = 'http://skhelmbrecht.github.io'
 languageCode = 'en-us'
 title = 'Sarah Helmbrecht'
 theme = 'ananke'
+resourceDir = "../resources"
 
 googleAnalytics = ''
 enableRobotsTXT = true
