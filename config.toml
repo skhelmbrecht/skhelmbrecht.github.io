@@ -1,0 +1,24 @@
+baseURL = 'http://skhelmbrecht.github.io'
+languageCode = 'en-us'
+title = 'Sarah Helmbrecht'
+theme = 'ananke'
+
+googleAnalytics = ''
+enableRobotsTXT = true
+disqusShortname = "skhelmbrecht-github-io"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  text_color = "black"
+  author = "Sarah Helmbrecht"
+  description = "An academic portfolio and blog."
+  background_color_class = "bg-black"
+  recent_posts_number = 3
+  read_more_copy = "Read More"
+
+  [params.meta]
+    favicon = true
