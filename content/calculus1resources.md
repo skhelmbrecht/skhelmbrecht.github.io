@@ -41,3 +41,4 @@ url: /teaching/calculus1resourcesfall2023
 #### Miscellaneous
 
 - [RateMyProfessor](https://www.ratemyprofessors.com/professor/2943309)
+- [Pictures of Raymond](https://sarahhelmbrecht.com/raymond/)

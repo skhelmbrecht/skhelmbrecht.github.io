@@ -10,4 +10,4 @@ Raymond is my 1-year-old service dog in training. He is a German Shepherd/Husky 
 
 #### Ray's Photo Gallery
 
-{{< gallery dir="/images/raymond/" />}} {{< load-photoswipe >}}
+{{< gallery dir="/images/raymond/" caption-position="center" caption-effect="fade" hover-effect="grow" />}} {{< load-photoswipe >}}
