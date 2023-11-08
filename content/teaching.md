@@ -20,3 +20,5 @@ MATH-UA 121: Calculus I - [Fall 2023](https://docs.google.com/document/u/0/d/e/2
 - Sarah happens to be one of the most caring recitation instructors out there, honestly, the best one there is. She is attentive when it comes to making sure her students understand the topics. She believes in the well-being of her students because health always comes first. She also makes herself very accessible to her students during office hours.
 
 - Sarah is the best TA I have ever had. Usually TAs are inaccessible or seem unhelpful but Sarah creates a very good environment where people can reach out to her and feel comfortable getting help.
+
+- She is an amazing TA who goes above and beyond for her students. She provides extra math resources and even creates her own outlines and notes. She makes herself very accessible through email and office hours. Even if you are not confident in math she really helps you. She connects with her students and is a really fun TA! Highly recommend her! 
