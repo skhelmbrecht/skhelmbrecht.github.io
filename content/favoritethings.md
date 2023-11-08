@@ -9,7 +9,7 @@ url: /about/favoritethings
 [Favorite Shows](#s3)  
 [Favorite Movies](#s4)  
 [Favorite Places](#s5)  
-[Favorite Memories](#s7)  
+[Favorite Memories](#s6)  
 [A Running List of Every Concert I've Been To](#s7)  
 
 <a name="s1"></a>
@@ -152,7 +152,7 @@ Skydiving with my brother Will (Austin, August 2021)
 
 ![Skydiving](/images/favoritethings/skydiving.jpg)
 
-Crawfish boils every spring (New Orleans) 
+Crawfish boils every spring (New Orleans)
 
 ![Crawfish](/images/favoritethings/crawfish.jpg)
 
