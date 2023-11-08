@@ -6,6 +6,6 @@ weight: 60
 url: /resume
 ---
 
-[Click here](/docs/currentresume.pdf) to download my resume.
+[Click here](/docs/resume/currentresume.pdf) to download my resume.
 
-![Current Resume](/images/currentresume.jpg)
+![Current Resume](/images/resume/currentresume.jpg)

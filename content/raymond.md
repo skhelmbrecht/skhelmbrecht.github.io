@@ -6,7 +6,7 @@ weight: 70
 url: /raymond
 ---
 
-Raymond is my 1-year-old service dog in training. He is a German Shepherd/Husky mix.
+Raymond is my service dog in training. He is a 1-year-old German Shepherd/Husky mix.
 
 #### Ray's Photo Gallery
 
