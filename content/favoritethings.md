@@ -74,6 +74,6 @@ Beating USC in the Cotton Bowl
 
 ![Cotton Bowl](/images/favoritethings/rollwaveroll.jpg)
 
-Graduating from Tulane
+Graduating from Tulane 
 
-![Tulane Graduation](/images/favoritethings/tulanegraduation.jpg) 
+![Tulane Graduation](/images/favoritethings/tulanegraduation.jpg)
