@@ -4,15 +4,14 @@ type: page
 url: /about/favoritethings
 ---
 
-[Favorite Artists](#s1)  
-[Favorite Books](#s2)  
-[Favorite Shows](#s3)  
-[Favorite Movies](#s4)  
-[Favorite Places](#s5)  
-[Favorite Memories](#s6)  
-[A Running List of Every Concert I've Been To](#s7)  
+[Favorite Artists](#favorite-artists)  
+[Favorite Books](#favorite-books)  
+[Favorite Shows](#favorite-shows)  
+[Favorite Movies](#favorite-movies)  
+[Favorite Places](#favorite-places)  
+[Favorite Memories](#favorite-memories)  
+[A Running List of Every Concert I've Been To](#a-running-list-of-every-concert-ive-been-to)  
 
-<a name="s1"></a>
 ## Favorite Artists
 
 ![Musical Artists](/images/favoritethings/musicalartists.jpg)
@@ -30,7 +29,6 @@ url: /about/favoritethings
 - **Pecos & The Rooftops:** Last Night's Lashes, Happy, This Damn Song, 5am, Bricks
 - **Tyler Childers:** Jersey Giant, Charleston Girl, Nose on the Grindstone, Coal, Feathered Indians
 
-<a name="s2"></a>
 ## Favorite Books
 
 - *What We Talk About When We Talk About Love* by Raymond Carver
@@ -39,7 +37,6 @@ url: /about/favoritethings
 - *The God of Small Things* by Arundhati Roy
 - *The Color Purple* by Alice Walker
 
-<a name="s3"></a>
 ## Favorite Shows
 
 ![Favorite Shows](/images/favoritethings/shows.png)
@@ -48,7 +45,6 @@ url: /about/favoritethings
 - *Rick and Morty*
 - *Shameless*
 
-<a name="s4"></a>
 ## Favorite Movies
 
 ![Favorite Movies](/images/favoritethings/movies.png)
@@ -57,7 +53,6 @@ url: /about/favoritethings
 - *Everything Everywhere All at Once*
 - *Barbie*
 
-<a name="s5"></a>
 ## Favorite Places
 
 Austin, Texas
@@ -93,7 +88,6 @@ Lake Atitlán, Guatemala
 
 ![Lake Atitlan](/images/favoritethings/lakeatitlan.jpg)
 
-<a name="s6"></a>
 ## Favorite Memories
 
 Bringing Raymond home (New York City, September 2023)
@@ -188,7 +182,6 @@ Starring as Veronica Sawyer in Heathers (Austin, May 2018)
 
 ![Heathers](/images/favoritethings/heathers.jpg)
 
-<a name="s7"></a>
 ## A Running List of Every Concert I've Been To
 
 - Adele (Frank Erwin 2017)
