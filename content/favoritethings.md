@@ -116,11 +116,7 @@ Backpacking solo through London, Paris, Paupignon, Barcelona, and Madrid (April 
 
 My cousin Katie's wedding (Atlanta, April 2023)
 
-![Katie's Wedding](/images/favoritethings/katieswedding.jpg)
-
-Formal weekend with my best friend (New Orleans, April 2023)
-
-![Tulane Formal](/images/favoritethings/formal.jpg)
+![Katie's Wedding](/images/favoritethings/katieswedding.jpg) 
 
 Beating USC in the Cotton Bowl (Dallas, January 2023)
 
