@@ -23,6 +23,8 @@ MATH-UA 121: Calculus I - [Fall 2023](https://docs.google.com/document/u/0/d/e/2
 
 - She is an amazing TA who goes above and beyond for her students. She provides extra math resources and even creates her own outlines and notes. She makes herself very accessible through email and office hours. Even if you are not confident in math she really helps you. She connects with her students and is a really fun TA! Highly recommend her!
 
-- Sarah is a great TA. Helps so much and is always doing everything she can to help students in and out of recitations. So nice and really cares. 
+- Sarah is a great TA. Helps so much and is always doing everything she can to help students in and out of recitations. So nice and really cares.
 
-- Sarah Helmbrecht has a gift for explaining and communicating calculus concepts that have made me enjoy math. She also understands all the concepts inside and out which makes asking for help very easy. I also appreciate her enthusiasm, she is the best by far. THANKYOU!!! 
+- Sarah Helmbrecht has a gift for explaining and communicating calculus concepts that have made me enjoy math. She also understands all the concepts inside and out which makes asking for help very easy. I also appreciate her enthusiasm, she is the best by far. THANKYOU!!!
+
+- Sarah is honestly one of the best TA's you could ask for. She is extremely patient and completely understands how difficult math is for some of us. She's very accommodating, especially with our quizzes, and her office hours are one of the most useful parts of the course. Definitely take her if you can! 
