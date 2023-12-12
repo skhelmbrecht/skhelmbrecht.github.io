@@ -24,7 +24,7 @@ url: /about/favoritethings
 - **The Offspring:** Self Esteem, You're Gonna Go Far Kid, Let's Hear it for Rock Bottom, The Kids Aren't Alright
 - **Nirvana:** Lithium, About a Girl, Heart-Shaped Box, Polly, Come As You Are
 - **Mac Miller:** Love Lost, The Spins, Lucky Ass Bitch, Loud, Ignorant
-- **Rainbow Kitten Surprise:** It's Called: Freefall, Devil Like Me, Cocaine Jesus, Lady Lie, Goodnight Chicago, Seven
+- **Rainbow Kitten Surprise:** It's Called: Freefall, Devil Like Me, Cocaine Jesus, Lady Lie, Goodnight Chicago, Seven, First Class
 - **Mt. Joy:** Silver Lining, Dirty Love, Bathroom Light, Astrovan, Evergreen
 - **Pecos & The Rooftops:** Last Night's Lashes, Happy, This Damn Song, 5am, Bricks
 - **Tyler Childers:** Jersey Giant, Charleston Girl, Nose on the Grindstone, Coal, Feathered Indians
