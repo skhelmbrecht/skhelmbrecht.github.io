@@ -116,7 +116,7 @@ Backpacking solo through London, Paris, Paupignon, Barcelona, and Madrid (April 
 
 My cousin Katie's wedding (Atlanta, April 2023)
 
-![Katie's Wedding](/images/favoritethings/katieswedding.jpg) 
+![Katie's Wedding](/images/favoritethings/katieswedding.jpg)
 
 Beating USC in the Cotton Bowl (Dallas, January 2023)
 
@@ -260,4 +260,5 @@ Starring as Veronica Sawyer in Heathers (Austin, May 2018)
 - YG (Circuit of the Americas 2019, Governor's Ball 2022)
 - Young the Giant (ACL 2016)
 - Zach Bryan (Railbird 2023)
+- 100 Gecs (Governor's Ball 2022)
 - 49 Winchester (Railbird 2023)
