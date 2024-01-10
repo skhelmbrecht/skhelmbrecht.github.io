@@ -8,7 +8,7 @@ url: /teaching
 
 **Current Teaching (NYU)**
 
-MATH-UA 140: Linear Algebra - [Spring 2024](https://math.nyu.edu/dynamic/courses/undergrad/math-ua-140/) (sections 12 and 13) 
+MATH-UA 140: Linear Algebra - [Spring 2024](https://math.nyu.edu/dynamic/courses/undergrad/math-ua-140/) (sections 12 and 13)
 
 **Past Teaching (NYU)**
 
