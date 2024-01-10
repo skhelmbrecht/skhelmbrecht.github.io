@@ -8,7 +8,7 @@ url: /teaching
 
 **Current Teaching (NYU)**
 
-MATH-UA 140: Linear Algebra - [Spring 2024](https://math.nyu.edu/dynamic/courses/undergrad/math-ua-140/) (sections 12 and 13) [Resource Page](https://sarahhelmbrecht.com/teaching/linearalgebraresourcesspring2024/) 
+MATH-UA 140: Linear Algebra - [Spring 2024](https://math.nyu.edu/dynamic/courses/undergrad/math-ua-140/) (sections 12 and 13) [Resource Page](https://sarahhelmbrecht.com/teaching/linearalgebraresourcesspring2024/)
 
 **Past Teaching (NYU)**
 
@@ -32,3 +32,7 @@ MATH-UA 121: Calculus I - [Fall 2023](https://docs.google.com/document/u/0/d/e/2
 - Sarah Helmbrecht has a gift for explaining and communicating calculus concepts that have made me enjoy math. She also understands all the concepts inside and out which makes asking for help very easy. I also appreciate her enthusiasm, she is the best by far. THANKYOU!!!
 
 - Sarah is honestly one of the best TA's you could ask for. She is extremely patient and completely understands how difficult math is for some of us. She's very accommodating, especially with our quizzes, and her office hours are one of the most useful parts of the course. Definitely take her if you can!
+
+- Sarah was a great TA. Having an 8 am recitation was a challenge, but Sarah made Friday mornings so much easier with her efficiency in explaining difficult calculus concepts. Weekly quizzes were a breeze after her review packets. She is easy to reach via email and is understanding of students. Raymond (her service dog) made class even better. 
+
+- I had her as a TA for Espinosa's calculus class and let's just say she made my life so much easier. She seriously cares about her students and goes out of her way to create notes and literally had a 7 hour office hour session the weekend before the final. She also gives great practice for the final!!! she has a cute dog too which is a plus
