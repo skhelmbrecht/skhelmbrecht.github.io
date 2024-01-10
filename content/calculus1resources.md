@@ -24,7 +24,7 @@ url: /teaching/calculus1resourcesfall2023
 - [Cengage Chapter 2 Notes: Derivatives](/docs/calculus1resourcesfall2023/chapter2notes.pdf)
 - [Cengage Chapter 3 Notes: Inverse Functions](/docs/calculus1resourcesfall2023/chapter3notes.pdf)
 - [Cengage Chapter 4 Notes: Applications of Differentiation](/docs/calculus1resourcesfall2023/chapter4notes.pdf)
-- [Cengage Chapter 5 Notes: Integrals](/docs/calculus1resourcesfall2023/chapter5notes.pdf) 
+- [Cengage Chapter 5 Notes: Integrals](/docs/calculus1resourcesfall2023/chapter5notes.pdf)
 
 #### Additional Math Resources
 
@@ -42,5 +42,5 @@ url: /teaching/calculus1resourcesfall2023
 
 #### Miscellaneous
 
-- [RateMyProfessor](https://www.ratemyprofessors.com/professor/2943309)
+- [RateMyProfessors](https://www.ratemyprofessors.com/professor/2943309)
 - [Pictures of Raymond](https://sarahhelmbrecht.com/raymond/)
