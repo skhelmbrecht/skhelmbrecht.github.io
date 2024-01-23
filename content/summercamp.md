@@ -3,6 +3,7 @@ title: Calculus Prep Summer Camp
 type: page
 menu: main
 weight: 50
+draft: true 
 url: /summercamp
 ---
 
