@@ -1,5 +1,5 @@
 ---
-title: Curriculum Vitae
+title: CV
 type: page
 menu: main
 weight: 60
