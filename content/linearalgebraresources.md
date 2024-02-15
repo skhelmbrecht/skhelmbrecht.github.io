@@ -10,10 +10,15 @@ url: /teaching/linearalgebraresourcesspring2024
 - Fridays, 10:30am-11:30am, Warren Weaver 228
 - Fridays, 3pm-4pm, Zoom
 
+#### Resources I've Created
+
+- [Strang Chapter 1 Notes: Vectors and Matrices](/docs/linearalgebraresourcesspring2024/chapter1notes.pdf)
+- [Strang Chapter 2 Notes: Solving Linear Equations](/docs/linearalgebraresourcesspring2024/chapter2notes.pdf) 
+
 #### Mental Health Resources
 
 - [Moses Center for Student Accessibility](https://www.nyu.edu/students/communities-and-groups/student-accessibility.html)
-- [Wellness Exchange](https://www.nyu.edu/students/health-and-wellness/wellness-exchange.html) (call for a Crisis Response Counselor)
+- [Wellness Exchange](https://www.nyu.edu/students/health-and-wellness/wellness-exchange.html)
 
 #### Miscellaneous
 
