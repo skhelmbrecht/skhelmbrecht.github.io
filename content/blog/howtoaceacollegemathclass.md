@@ -3,7 +3,7 @@ title: "How to Ace a College Math Class (From an ADHD Math Grad Student who Used
 date: 2023-11-05T01:47:46-04:00
 author: Sarah Helmbrecht
 featured_image: "images/howtoaceacollegemathclass/collegestudentsstudying.jpeg"
-url: /blog/howtoaceacollegemathclass
+url: /blog/HowtoAceaCollegeMathClass
 draft: false
 ---
 
