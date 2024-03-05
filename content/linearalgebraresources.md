@@ -15,7 +15,8 @@ url: /teaching/linearalgebraresourcesspring2024
 - [Chapter 1: Vectors and Matrices](/docs/linearalgebraresourcesspring2024/chapter1outline.pdf)
 - [Chapter 2: Solving Linear Equations](/docs/linearalgebraresourcesspring2024/chapter2outline.pdf)
 - [Chapter 3: The Four Fundamental Subspaces](/docs/linearalgebraresourcesspring2024/chapter3outline.pdf)
-These outlines are based on Dr. Ralph Chikhany's lecture slides, Strang, and *Euclidean Linear Algebra* by Connor Ahlbach.
+
+These outlines are based on Dr. Ralph Chikhany's lecture slides, Strang, and *Euclidean Linear Algebra* by Connor Ahlbach. 
 
 #### Strang Notes
 
