@@ -21,7 +21,8 @@ These outlines are based on Dr. Ralph Chikhany's lecture slides, Strang, and *Eu
 #### Recitation Solutions
 
 - [Recitation 1: Sections 1.1-1.3](/docs/linearalgebraresourcesspring2024/recitation1.pdf)
-- [Recitation 2: Sections 2.1-2.4](/docs/linearalgebraresourcesspring2024/recitation2.pdf) 
+- [Recitation 2: Sections 2.1-2.4](/docs/linearalgebraresourcesspring2024/recitation2.pdf)
+- [Recitation 3: Sections 2.5-2.7](/docs/linearalgebraresourcesspring2024/recitation3.pdf) 
 
 #### Strang Notes
 
