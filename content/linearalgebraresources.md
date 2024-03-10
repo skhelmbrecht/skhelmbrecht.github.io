@@ -22,7 +22,9 @@ These outlines are based on Dr. Ralph Chikhany's lecture slides, Strang, and *Eu
 
 - [Recitation 1: Sections 1.1-1.3](/docs/linearalgebraresourcesspring2024/recitation1.pdf)
 - [Recitation 2: Sections 2.1-2.4](/docs/linearalgebraresourcesspring2024/recitation2.pdf)
-- [Recitation 3: Sections 2.5-2.7](/docs/linearalgebraresourcesspring2024/recitation3.pdf) 
+- [Recitation 3: Sections 2.5-2.7](/docs/linearalgebraresourcesspring2024/recitation3.pdf)
+- [Recitation 4: Sections 3.1-3.2](/docs/linearalgebraresourcesspring2024/recitation4.pdf)
+- [Recitation 5: Sections 3.3-3.4](/docs/linearalgebraresourcesspring2024/recitation5.pdf) 
 
 #### Strang Notes
 
