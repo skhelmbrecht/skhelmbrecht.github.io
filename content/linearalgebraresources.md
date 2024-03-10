@@ -16,7 +16,12 @@ url: /teaching/linearalgebraresourcesspring2024
 - [Chapter 2: Solving Linear Equations](/docs/linearalgebraresourcesspring2024/chapter2outline.pdf)
 - [Chapter 3: The Four Fundamental Subspaces](/docs/linearalgebraresourcesspring2024/chapter3outline.pdf)
 
-These outlines are based on Dr. Ralph Chikhany's lecture slides, Strang, and *Euclidean Linear Algebra* by Connor Ahlbach. 
+These outlines are based on Dr. Ralph Chikhany's lecture slides, Strang, and *Euclidean Linear Algebra* by Connor Ahlbach.
+
+#### Recitation Solutions
+
+- [Recitation 1: Sections 1.1-1.3](/docs/linearalgebraresourcesspring2024/recitation1.pdf)
+- [Recitation 2: Sections 2.1-2.4](/docs/linearalgebraresourcesspring2024/recitation2.pdf) 
 
 #### Strang Notes
 
