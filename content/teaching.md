@@ -33,6 +33,8 @@ MATH-UA 121: Calculus I - [Fall 2023](https://docs.google.com/document/u/0/d/e/2
 
 - Sarah is honestly one of the best TA's you could ask for. She is extremely patient and completely understands how difficult math is for some of us. She's very accommodating, especially with our quizzes, and her office hours are one of the most useful parts of the course. Definitely take her if you can!
 
-- Sarah was a great TA. Having an 8 am recitation was a challenge, but Sarah made Friday mornings so much easier with her efficiency in explaining difficult calculus concepts. Weekly quizzes were a breeze after her review packets. She is easy to reach via email and is understanding of students. Raymond (her service dog) made class even better. 
+- Sarah was a great TA. Having an 8 am recitation was a challenge, but Sarah made Friday mornings so much easier with her efficiency in explaining difficult calculus concepts. Weekly quizzes were a breeze after her review packets. She is easy to reach via email and is understanding of students. Raymond (her service dog) made class even better.
 
 - I had her as a TA for Espinosa's calculus class and let's just say she made my life so much easier. She seriously cares about her students and goes out of her way to create notes and literally had a 7 hour office hour session the weekend before the final. She also gives great practice for the final!!! she has a cute dog too which is a plus
+
+- I love Sarah! Her office hours were so helpful and amazing. Whenever I did not understand content she always was there to explain it in a more simple way. She provides many resources that are super helpful. Definitely take her class!
