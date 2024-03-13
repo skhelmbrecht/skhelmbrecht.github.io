@@ -6,6 +6,8 @@ weight: 35
 url: /tutoring
 ---
 
+I am a graduate student at New York University's Courant Institute studying pure mathematics. I have always been passionate about education, and I aspire to become a college professor. While at NYU, I have taught both Calculus 1 and Linear Algebra to undergraduates. For testimonials, please see my [teaching page](https://sarahhelmbrecht.com/teaching/). I have been tutoring math at the undergraduate and high school levels for over 4 years. I started tutoring virtually with a tutoring agency before setting off on my own to do freelance tutoring. 
+
 # Subjects Tutored
 ### College Courses
 
@@ -29,15 +31,12 @@ url: /tutoring
 
 - SAT Math
 - ACT Math
-- SAT Subject Test in Math Levels I and II
+- SAT Subject Test in Math, Levels I and II
 - GRE Math
-- GMAT Math
 
-# Qualifications and Methodology 
+# Qualifications and Methodology
 
-I am a graduate student at New York University's Courant Institute studying pure mathematics. I have always been passionate about education, and I aspire to become a college professor. While at NYU, I have taught both Calculus 1 and Linear Algebra to undergraduates. For testimonials, please see my [teaching page](https://sarahhelmbrecht.com/teaching/). I have been tutoring math at the undergraduate and high school levels for over 4 years. I started tutoring virtually with a tutoring agency before setting off on my own to do freelance tutoring.
-
-As for my background, I graduated from Anderson High School in Austin, Texas in May 2020 with an International Baccalaureate Certificate and Distinguished Achievement. I scored a 1580 on the SAT (790 math, 790 verbal) in one try with no tutoring or prep courses. I also earned two AP Scholar Awards with Distinction and a National AP Scholar Award for my successes on 12 different AP tests, including Calculus and Statistics. Next, I attended Tulane University in New Orleans, Louisiana. I graduated in May 2023 with a Bachelor of Science in Mathematics and Computer Science and a 3.8 GPA after only three years of undergraduate study. I am now working towards my Master's in Mathematics at NYU, and I am in the process of applying to Ph.D. programs.
+I graduated from Anderson High School in Austin, Texas in May 2020 with an International Baccalaureate Certificate and Distinguished Achievement. I scored a 1580 on the SAT (790 math, 790 verbal) in one try with no tutoring or prep courses. I also earned two AP Scholar Awards with Distinction and a National AP Scholar Award for my successes on 12 different AP tests. Next, I attended Tulane University in New Orleans, Louisiana. I graduated in May 2023 with a Bachelor of Science in Mathematics and Computer Science and a 3.8 GPA after only three years of undergraduate study. I am now working towards my Master's in Mathematics at NYU, and I am in the process of applying to Ph.D. programs.
 
 During my undergraduate experience at Tulane, I took classes on trauma-informed education. This has become especially useful post-pandemic. My approach to tutoring is informed by the idea that many students lost precious years of development, in terms of math skills and beyond, during COVID lockdowns. I assess not only the areas where students need help with their current curriculum, but any prerequisite skills that are lacking so that we can reinforce their foundational knowledge. [Click here](https://sarahhelmbrecht.com/blog/COVIDandMathematicsEducation/) to read a blog post about how I have applied what I learned in one of my favorite education classes.
 
