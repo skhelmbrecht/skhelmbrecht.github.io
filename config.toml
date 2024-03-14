@@ -1,6 +1,6 @@
 baseURL = 'http://skhelmbrecht.github.io'
 languageCode = 'en-us'
-title = 'Sarah Helmbrecht'
+title = 'SARAH HELMBRECHT'
 theme = 'ananke'
 resourceDir = "../resources"
 
@@ -21,6 +21,8 @@ enableEmoji = true
   background_color_class = "bg-black"
   recent_posts_number = 3
   read_more_copy = "Read More"
+  body_classes = "bg-white"
+  post_content_classes = "bg-white"
 
   [params.meta]
     favicon = true

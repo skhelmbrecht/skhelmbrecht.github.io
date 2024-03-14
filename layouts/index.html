@@ -1,42 +1,29 @@
 {{ define "header" }}{{ partial "homepage-header.html" . }}{{ end }}
 {{ define "main" }}
 
-<section id="about" class="flex-l flex-wrap center" style="height: 55vh; overflow: hidden; padding-left: 5vw; padding-right: 5vw;">
-  <div style="display: flex; height: 100%; width: 100%;">
-    <div style="width: 70%; padding: 20px;">
-      <div class="nested-copy-line-height lh-copy f4 nested-links {{ $.Param "text_color" | default "mid-gray" }}">
-        <h2>About Me</h2>
-        <p>My name is Sarah Helmbrecht, and I was born and raised in Austin, Texas. I am in the second semester of my Master of Science in Mathematics at the New York University Courant Institute. I am applying to PhD programs and aspire to become a mathematics professor and researcher. My research interests include analysis and number theory.</p>
-        <p>I am a Recitation Leader/Teaching Assistant for two sections of Linear Algebra. In the fall of 2023, I was a TA for four sections of Calculus I, with a total of 133 students. I lead weekly recitations, hold office hours, and proctor and grade quizzes and exams. I am passionate about creating inclusive educational spaces that welcome students who lack confidence in their mathematical abilities. </p>
-      </div>
-      <div style="width: 25%;">
-        <div style="margin-top: 20px;">
-          <a href="/about" style="text-decoration: none; color: black; background-color: white; border: 2px solid black; padding: 10px 20px; display: inline-block;">Learn More</a>
-        </div>
-      </div>
-    </div>
-    <div class="nested-copy-line-height lh-copy f3 nested-links {{ $.Param "text_color" | default "mid-gray" }}" style="width: 30%; padding: 20px;">
-      <h3>Contact</h3>
-      <p>&#128231; skh8573@nyu.edu</p>
-      <p>&#128205; New York, NY</p>
-    </div>
-  </div>
-</section>
 
-<section id="tutoring" class="flex-l flex-wrap center" style="height: 55vh; overflow: hidden; padding-left: 5vw; padding-right: 5vw;">
-  <div style="display: flex; height: 100%; width: 100%;">
-    <div style="width: 100%; padding: 20px;">
-      <div class="nested-copy-line-height lh-copy f4 nested-links {{ $.Param "text_color" | default "mid-gray" }}">
-        <h2>Tutoring</h2>
-        <p>I have always been passionate about education, and I aspire to become a college professor. While at NYU, I have taught both Calculus 1 and Linear Algebra to undergraduates. I have been tutoring math at the undergraduate and high school levels for over 4 years. I started tutoring virtually with a tutoring agency before setting off on my own to do freelance tutoring. </p>
-      </div>
-      <div style="width: 25%;">
-        <div style="margin-top: 20px;">
-          <a href="/tutoring" style="text-decoration: none; color: black; background-color: white; border: 2px solid black; padding: 10px 20px; display: inline-block;">Learn More</a>
-        </div>
+  <section class="green-rectangle" style="background-color: #586D53; color: white; padding-top: 20px; position: relative; padding-left: 5vw;">
+    <div class="about-me" style="text-align: left; margin-bottom: 20px; font-family: 'brittany_signatureregular'; font-size: 35px;">
+      <h2>About Me</h2>
+    </div>
+    <div class="content" style="display: flex; text-align: right;">
+      <div class="photo" style="width: 35%; position: relative;">
+        <img src="/images/about/profilephoto.png" alt="Profile Photo" style="width: 100%; display: block; position: absolute; top: -80px; padding-left: 62vw;">
       </div>
     </div>
-  </div>
-</section>
+  </section>
+
+  <section class="about" style="position: relative; padding-left: 5vw; padding-right: 3vw;">
+    <div class="content" style="display: flex;">
+      <div class="text" style="width: 65%; font-size: 25px;">
+        <!-- Leftmost 2/3 of the width -->
+        <p>I’m Sarah, a graduate student at the New York University Courant Institute pursuing a Master of Science in pure mathematics. I am applying to Ph.D. programs and aspire to become a mathematics professor. My research interests include analysis and number theory.<br></p>
+        <p>I teach recitations for two sections of Linear Algebra at NYU. In the fall of 2023, I taught recitations for four sections of Calculus I. In addition to leading recitations, this role involves holding office hours, proctoring, and grading. I am beyond grateful to have the opportunity to share my love of math with students. I am passionate about creating inclusive educational spaces that welcome students of all backgrounds, learning styles, and levels of confidence.<br></p>
+        <p>In addition to teaching, I have been tutoring math at the undergraduate and high school levels for over four years. I started tutoring virtually through a tutoring agency before setting off on my own to do freelance tutoring. My favorite part of tutoring is helping students find the system for success that is best suited to their needs, then guiding them towards a newfound appreciation for the beauty of math.<br></p>
+        <p>I graduated from Tulane University with a Bachelor of Science in Mathematics and Computer Science in May 2023, after only three years of undergraduate study. While at Tulane, I held membership in Kappa Alpha Theta, the Tulane University Choir, and the Community Action Council of Tulane University students. I was also involved in community service as an aftercare volunteer at a local elementary school and as a contributor to a project with the Louisiana Public Health Institute concerning the improvement of sex education statewide.<br></p>
+        <p>My personal interests include cooking, baking, guitar, piano, and spending time with my service dog in training, Raymond.</p>
+      </div>
+    </div>
+  </section>
 
 {{ end }}
