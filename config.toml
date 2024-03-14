@@ -7,6 +7,7 @@ resourceDir = "../resources"
 googleAnalytics = ''
 enableRobotsTXT = true
 disqusShortname = "skhelmbrecht-github-io"
+enableEmoji = true
 
 [sitemap]
   changefreq = "monthly"

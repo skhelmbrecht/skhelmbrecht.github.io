@@ -1,0 +1,42 @@
+{{ define "header" }}{{ partial "homepage-header.html" . }}{{ end }}
+{{ define "main" }}
+
+<section id="about" class="flex-l flex-wrap center" style="height: 55vh; overflow: hidden; padding-left: 5vw; padding-right: 5vw;">
+  <div style="display: flex; height: 100%; width: 100%;">
+    <div style="width: 70%; padding: 20px;">
+      <div class="nested-copy-line-height lh-copy f4 nested-links {{ $.Param "text_color" | default "mid-gray" }}">
+        <h2>About Me</h2>
+        <p>My name is Sarah Helmbrecht, and I was born and raised in Austin, Texas. I am in the second semester of my Master of Science in Mathematics at the New York University Courant Institute. I am applying to PhD programs and aspire to become a mathematics professor and researcher. My research interests include analysis and number theory.</p>
+        <p>I am a Recitation Leader/Teaching Assistant for two sections of Linear Algebra. In the fall of 2023, I was a TA for four sections of Calculus I, with a total of 133 students. I lead weekly recitations, hold office hours, and proctor and grade quizzes and exams. I am passionate about creating inclusive educational spaces that welcome students who lack confidence in their mathematical abilities. </p>
+      </div>
+      <div style="width: 25%;">
+        <div style="margin-top: 20px;">
+          <a href="/about" style="text-decoration: none; color: black; background-color: white; border: 2px solid black; padding: 10px 20px; display: inline-block;">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="nested-copy-line-height lh-copy f3 nested-links {{ $.Param "text_color" | default "mid-gray" }}" style="width: 30%; padding: 20px;">
+      <h3>Contact</h3>
+      <p>&#128231; skh8573@nyu.edu</p>
+      <p>&#128205; New York, NY</p>
+    </div>
+  </div>
+</section>
+
+<section id="tutoring" class="flex-l flex-wrap center" style="height: 55vh; overflow: hidden; padding-left: 5vw; padding-right: 5vw;">
+  <div style="display: flex; height: 100%; width: 100%;">
+    <div style="width: 100%; padding: 20px;">
+      <div class="nested-copy-line-height lh-copy f4 nested-links {{ $.Param "text_color" | default "mid-gray" }}">
+        <h2>Tutoring</h2>
+        <p>I have always been passionate about education, and I aspire to become a college professor. While at NYU, I have taught both Calculus 1 and Linear Algebra to undergraduates. I have been tutoring math at the undergraduate and high school levels for over 4 years. I started tutoring virtually with a tutoring agency before setting off on my own to do freelance tutoring. </p>
+      </div>
+      <div style="width: 25%;">
+        <div style="margin-top: 20px;">
+          <a href="/tutoring" style="text-decoration: none; color: black; background-color: white; border: 2px solid black; padding: 10px 20px; display: inline-block;">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}
