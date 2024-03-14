@@ -9,9 +9,6 @@ math: true
 KaTeX: true
 ---
 
-# Cryptocurrency and Blockchain
-### by Sarah Helmbrecht
-
 ## Table of Contents  
 
 [Introduction](#s1)  
