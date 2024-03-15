@@ -9,6 +9,7 @@
 .green-rectangle {
   background-color: #586D53;
   color: white;
+  top: -15px;
   padding-top: 30px; /* Increase the padding to make the green rectangle taller */
   padding-bottom: 15px; /* Add padding to the bottom for symmetry */
   position: relative;
