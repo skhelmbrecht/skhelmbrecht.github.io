@@ -2,7 +2,7 @@
 title: Resume
 type: page
 menu: main
-weight: 60
+weight: 50
 url: /resume
 ---
 

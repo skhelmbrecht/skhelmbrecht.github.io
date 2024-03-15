@@ -1,7 +1,13 @@
 @font-face {
   font-family: 'BrittanySignature';
-  src: url('/font/brittanysignature/brittanysignature-webfont.woff2') format('woff2'),
-       url('/font/brittanysignature/brittanysignature-webfont.woff') format('woff');
+  src: url('/font/BrittanySignature/BrittanySignature-regular.woff2') format('woff2'),
+       url('/font/BrittanySignature/BrittanySignature-regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+@font-face {
+font-family: 'Calligrapher Regular';
+font-style: normal;
+font-weight: normal;
+src: local('/font/Calligrapher Regular'), url('Calligrapher-JRxaE.woff') format('woff');
 }

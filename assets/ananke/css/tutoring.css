@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'BrittanySignature';
+  src: url('/font/BrittanySignature/BrittanySignature-regular.woff2') format('woff2'),
+       url('/font/BrittanySignature/BrittanySignature-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.row1 {
+  display: flex;
+}
+
+.intro {
+  width: 70%; /* 2/3 of the width */
+  font-size: 25px;
+  position: relative;
+  padding-left: 5vw;
+  padding-right: 3vw;
+}
+
+.testimonials {
+  margin-top: 20px;
+  width: 30%; /* 1/3 of the width */
+  display: block;
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.subjects-tutored {
+  padding-top: 0px;
+}
+
+.subjects-tutored-heading {
+  font-family: 'BrittanySignature';
+  font-size: 30px;
+  color: #586D53;
+  padding-left: 5vw;
+  margin-bottom: -20px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 25px;
+}
+
+.box {
+  background-color: #93B88B;
+  flex: 1;
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin: 20px; /* Add margin to create space between boxes */
+}
+
+.box h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+.green-rectangle {
+  background-color: #586D53;
+  color: white;
+  padding-top: 30px; /* Increase the padding to make the green rectangle taller */
+  padding-bottom: 15px; /* Add padding to the bottom for symmetry */
+  position: relative;
+  margin-top: 15px;
+}
+
+.qualifications-and-methodology-header {
+  font-family: 'BrittanySignature';
+  font-size: 50px;
+  color: white;
+  text-align: left;
+  margin: 0; /* Remove default margin */
+  display: flex;
+  align-items: center;
+  padding-left: 5vw;
+}
+
+.qualifications-and-methodology-container {
+  display: flex;
+}
+
+.qualifications-and-methodology-text {
+  width: 100%; /* 2/3 of the width */
+  font-size: 25px;
+  position: relative;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.availability-and-scheduling-header {
+  font-family: 'BrittanySignature';
+  font-size: 50px;
+  color: white;
+  text-align: left;
+  margin: 0; /* Remove default margin */
+  display: flex;
+  align-items: center;
+  padding-left: 5vw;
+}
+
+.availability-and-scheduling-container {
+  display: flex;
+}
+
+.availability-and-scheduling-text {
+  width: 100%; /* 2/3 of the width */
+  font-size: 25px;
+  position: relative;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}

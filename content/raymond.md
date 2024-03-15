@@ -2,7 +2,7 @@
 title: Raymond
 type: page
 menu: main
-weight: 70
+weight: 60
 url: /raymond
 ---
 

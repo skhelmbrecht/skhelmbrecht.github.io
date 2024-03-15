@@ -2,7 +2,7 @@
 title: Teaching
 type: page
 menu: main
-weight: 40
+weight: 20
 url: /teaching
 ---
 
