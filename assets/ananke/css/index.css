@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'BrittanySignature';
-  src: url('/font/BrittanySignature/BrittanySignature-regular.woff2') format('woff2'),
-       url('/font/BrittanySignature/BrittanySignature-regular.woff') format('woff');
+  src: url('/font/brittany-signature/BrittanySignature-regular.woff2') format('woff2'),
+       url('/font/brittany-signature/BrittanySignature-regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
