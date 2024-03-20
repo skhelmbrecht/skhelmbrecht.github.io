@@ -1,0 +1,12 @@
+{{ define "header" }}
+   {{/* We can override any block in the baseof file be defining it in the template */}}
+  {{ partial "page-header.html" . }}
+{{ end }}
+
+{{ define "main" }}
+
+<section class="embedded-pdf">
+  <embed src="/docs/resume/currentresume.pdf" width="1300" height="1000" type="application/pdf">
+</section>
+
+{{ end }}

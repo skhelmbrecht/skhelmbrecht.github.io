@@ -1,11 +1,9 @@
 ---
 title: Resume
 type: page
+layout: resume
 menu: main
 weight: 50
 url: /resume
+custom_css: "css/resume.css"
 ---
-
-[Click here](/docs/resume/currentresume.pdf) to download my resume.
-
-![Current Resume](/images/resume/currentresume.jpg)
