@@ -97,23 +97,20 @@ and (max-device-width : 480px){
 }
 
 .mobile-display {
-  display: grid;
-  grid-template-columns: 1fr; /* Single column layout */
-  grid-template-rows: auto auto; /* Two rows, one for each section */
+  display: flex;
+  flex-direction: column;
 }
 
 .mobile-content {
-  display: grid;
-  grid-template-columns: 65% 35%; /* Two columns, 65% and 35% of the width */
-}
-
-.mobile-right-side {
-  grid-row: 1 / span 2; /* Span two rows */
+  flex-direction: column-reverse; /* Reverse the order of the flex items */
 }
 
 .mobile-text {
-  grid-column: 1; /* Place in the first column */
-  grid-row: 2; /* Place in the second row */
+  width: 100%; /* Take up full width */
+  font-size: 25px;
+  position: relative;
+  padding-left: 5vw;
+  padding-right: 0vw;
 }
 
 .mobile-contact {
@@ -124,4 +121,9 @@ and (max-device-width : 480px){
   position: relative; /* Change from absolute to relative */
   top: -95px; /* Remove the top positioning to place it below the photo */
   padding-left: 0px;
+}
+
+.contact-text {
+  font-family: 'BrittanySignature';
+  font-size: 28px;
 }
