@@ -97,25 +97,23 @@ and (max-device-width : 480px){
 }
 
 .mobile-display {
-  display: grid;
-  grid-template-columns: 1fr; /* Single column layout */
-  grid-template-rows: auto auto; /* Two rows, one for each section */
+  display: flex;
+  flex-direction: column;
 }
 
 .mobile-content {
-  display: grid;
-  grid-template-columns: 65% 35%; /* Two columns, 65% and 35% of the width */
+  display: flex;
 }
 
 .mobile-right-side {
-  grid-row: 1 / 3; /* Span two rows */
+  width: 35%; /* 1/3 of the width */
+  margin-left: auto; /* Push it to the right */
 }
 
 .mobile-text {
-  grid-column: 1;
-  grid-row: 2 / 3; /* Place in the second row */
+  width: 65%; /* 2/3 of the width */
+  padding-right: 3vw; /* Add padding to the right */
   font-size: 25px;
-  position: relative;
   padding-left: 5vw;
 }
 
