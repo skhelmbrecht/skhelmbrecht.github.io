@@ -37,6 +37,7 @@ and (max-device-width : 480px){
 
 .subjects-tutored {
   padding-top: 0px;
+  padding-bottom: 20px;
 }
 
 .subjects-tutored-heading {
