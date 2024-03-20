@@ -6,6 +6,14 @@
   font-style: normal;
 }
 
+/* Smartphone Portrait and Landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){
+.desktop-display {display:none;}
+.mobile-display {display:block;}
+}
+
 .green-rectangle {
   background-color: #586D53;
   color: white;
@@ -106,4 +114,14 @@
 .mobile-text {
   grid-column: 1; /* Place in the first column */
   grid-row: 2; /* Place in the second row */
+}
+
+.mobile-contact {
+  display: block;
+  color: black;
+  text-align: left;
+  padding: 10px;
+  position: relative; /* Change from absolute to relative */
+  top: -95px; /* Remove the top positioning to place it below the photo */
+  padding-left: 0px;
 }
