@@ -1,7 +1,9 @@
 ---
 title: Linear Algebra Resources
 type: page
+layout: resources-page
 url: /teaching/linearalgebraresourcesspring2024
+custom_css: "css/resources-page.css"
 ---
 
 #### Office Hours
@@ -25,7 +27,7 @@ These outlines are based on Dr. Ralph Chikhany's lecture slides, Strang, and *Eu
 - [Recitation 3: Sections 2.5-2.7](/docs/linearalgebraresourcesspring2024/recitation3.pdf)
 - [Recitation 4: Sections 3.1-3.2](/docs/linearalgebraresourcesspring2024/recitation4.pdf)
 - [Recitation 5: Sections 3.3-3.4](/docs/linearalgebraresourcesspring2024/recitation5.pdf)
-- [Midterm Review Session Notes](/docs/linearalgebraresourcesspring2024/midtermreviewsession.pdf) 
+- [Midterm Review Session Notes](/docs/linearalgebraresourcesspring2024/midtermreviewsession.pdf)
 
 #### Strang Notes
 

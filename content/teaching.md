@@ -1,21 +1,14 @@
 ---
 title: Teaching
 type: page
+layout: teaching
 menu: main
 weight: 20
 url: /teaching
+custom_css: "css/teaching.css"
 ---
 
-**Current Teaching (NYU)**
-
-MATH-UA 140: Linear Algebra - [Spring 2024](https://math.nyu.edu/dynamic/courses/undergrad/math-ua-140/) (sections 12 and 13) [Resource Page](https://sarahhelmbrecht.com/teaching/linearalgebraresourcesspring2024/)
-
-**Past Teaching (NYU)**
-
-MATH-UA 121: Calculus I - [Fall 2023](https://docs.google.com/document/u/0/d/e/2PACX-1vQSV0QK-TP3FCBC7KhxBo38-qvIHSKHE_HMs93wuzM2sWzmk5bKzZQ1PXAhZB-y9nCxQmkRqEVFpJh9/pub?pli=1) (sections 4, 5, 9, and 10) [Resource Page](https://sarahhelmbrecht.com/teaching/calculus1resourcesfall2023/)
-
-
-**Student Testimonials** (from [RateMyProfessors](https://www.ratemyprofessors.com/professor/2943309))
+From [RateMyProfessors](https://www.ratemyprofessors.com/professor/2943309)
 
 - Sarah Helmbrecht is a fantastic instructor and clearly cares about her students. She puts extra work into her classes so her students will not only learn but succeed. She goes over steps thoroughly to make sure you understand any math concept. She is attentive to her students and is flexible about her office hours if students need extra help.
 
@@ -38,3 +31,5 @@ MATH-UA 121: Calculus I - [Fall 2023](https://docs.google.com/document/u/0/d/e/2
 - I had her as a TA for Espinosa's calculus class and let's just say she made my life so much easier. She seriously cares about her students and goes out of her way to create notes and literally had a 7 hour office hour session the weekend before the final. She also gives great practice for the final!!! she has a cute dog too which is a plus
 
 - I love Sarah! Her office hours were so helpful and amazing. Whenever I did not understand content she always was there to explain it in a more simple way. She provides many resources that are super helpful. Definitely take her class!
+
+- She was the BEST TA ever. No TA will ever compare to how amazing she was and how much time and effort she put into recitations and office hours. She once held a 6-hour office session before the final. She is just fantastic!!! Her dog is so cute and loves to play, so make sure you show him some love! Make sure you take her recitation, it is a must!!

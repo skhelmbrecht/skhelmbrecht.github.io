@@ -1,7 +1,9 @@
 ---
 title: Calculus I Resources
 type: page
+layout: resources-page
 url: /teaching/calculus1resourcesfall2023
+custom_css: "css/resources-page.css"
 ---
 
 #### Office Hours

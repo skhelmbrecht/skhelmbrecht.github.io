@@ -23,7 +23,7 @@ enableEmoji = true
   read_more_copy = "Read More"
   body_classes = "bg-white"
   post_content_classes = "bg-white"
-  custom_css = ["index.css", "tutoring.css"]
+  custom_css = ["index.css", "tutoring.css", "teaching.css", "resources-page.css"]
 
   [params.meta]
     favicon = true

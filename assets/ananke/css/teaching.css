@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'BrittanySignature';
+  src: url('/font/brittany-signature/BrittanySignature-regular.woff2') format('woff2'),
+       url('/font/brittany-signature/BrittanySignature-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.green-rectangle {
+  background-color: #586D53;
+  color: white;
+  padding-top: 30px; /* Increase the padding to make the green rectangle taller */
+  padding-bottom: 15px; /* Add padding to the bottom for symmetry */
+  position: relative;
+  margin-top: 15px;
+}
+
+.current-teaching-header-text {
+  font-family: 'BrittanySignature';
+  font-size: 50px;
+  color: white;
+  text-align: left;
+  margin: 0; /* Remove default margin */
+  display: flex;
+  align-items: center;
+  padding-left: 5vw;
+}
+
+.current-teaching-container {
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.current-teaching-text {
+  width: 100%; /* 2/3 of the width */
+  font-size: 25px;
+  position: relative;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.past-teaching-header-text {
+  font-family: 'BrittanySignature';
+  font-size: 50px;
+  color: white;
+  text-align: left;
+  margin: 0; /* Remove default margin */
+  display: flex;
+  align-items: center;
+  padding-left: 5vw;
+}
+
+.past-teaching-container {
+  display: flex;
+  padding-bottom: 40px;
+}
+
+.past-teaching-text {
+  width: 100%; /* 2/3 of the width */
+  font-size: 25px;
+  position: relative;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.student-testimonials {
+  padding-top: 0px;
+}
+
+.student-testimonials-header {
+  font-family: 'BrittanySignature';
+  font-size: 30px;
+  color: #586D53;
+  padding-left: 5vw;
+  margin-bottom: -20px;
+}
+
+.student-testimonials-text {
+  width: 100%; /* 2/3 of the width */
+  font-size: 25px;
+  position: relative;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 10px;
+}
