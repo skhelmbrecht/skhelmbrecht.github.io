@@ -6,6 +6,14 @@
   font-style: normal;
 }
 
+/* Smartphone Portrait and Landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){
+.desktop-display {display:none;}
+.mobile-display {display:block;}
+}
+
 .row1 {
   display: flex;
 }
@@ -126,4 +134,21 @@ li {
   position: relative;
   padding-left: 5vw;
   padding-right: 5vw;
+}
+
+.mobile-intro {
+  width: 100%; /* 2/3 of the width */
+  font-size: 20px;
+  position: relative;
+  padding-left: 5vw;
+  padding-right: 3vw;
+}
+
+.mobile-testimonials {
+  margin-top: 20px;
+  width: 100%; /* 1/3 of the width */
+  display: block;
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
 }

@@ -108,7 +108,8 @@ and (max-device-width : 480px){
 }
 
 .mobile-text {
-  padding-right: 3vw; /* Add padding to the right */
+  padding-left: 5vw;
+  padding-right: 2vw; /* Add padding to the right */
   font-size: 20px;
   grid-column: 1; /* Place in the first column */
   grid-row: 1; /* Place in the first row */
