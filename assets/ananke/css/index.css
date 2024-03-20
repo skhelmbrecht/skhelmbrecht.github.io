@@ -89,15 +89,21 @@
 }
 
 .mobile-display {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr; /* Single column layout */
+  grid-template-rows: auto auto; /* Two rows, one for each section */
 }
 
 .mobile-content {
-  flex-direction: column-reverse; /* Reverse the order of the flex items */
+  display: grid;
+  grid-template-columns: 65% 35%; /* Two columns, 65% and 35% of the width */
+}
+
+.mobile-right-side {
+  grid-row: 1 / span 2; /* Span two rows */
 }
 
 .mobile-text {
-  width: 100%; /* Take up full width */
-  padding-right: 0; /* Remove right padding */
+  grid-column: 1; /* Place in the first column */
+  grid-row: 2; /* Place in the second row */
 }
