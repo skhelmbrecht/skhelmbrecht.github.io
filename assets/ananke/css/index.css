@@ -87,3 +87,17 @@
   float: left;
   padding-right: 5px;
 }
+
+.mobile-display {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-content {
+  flex-direction: column-reverse; /* Reverse the order of the flex items */
+}
+
+.mobile-text {
+  width: 100%; /* Take up full width */
+  padding-right: 0; /* Remove right padding */
+}
