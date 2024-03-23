@@ -4,7 +4,7 @@ title = 'Sarah Helmbrecht'
 theme = ['ananke', 'hugo-shortcode-gallery']
 resourceDir = "../resources"
 
-googleAnalytics = ''
+googleAnalytics = 'G-0B2EJ5TTJT'
 enableRobotsTXT = true
 disqusShortname = "skhelmbrecht-github-io"
 enableEmoji = true
