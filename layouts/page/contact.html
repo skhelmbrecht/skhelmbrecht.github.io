@@ -1,0 +1,34 @@
+{{ define "header" }}
+   {{/* We can override any block in the baseof file be defining it in the template */}}
+  {{ partial "page-header.html" . }}
+{{ end }}
+
+{{ define "main" }}
+<style media="all">
+.mobile-display{display:none}
+.desktop-display{display:block}
+@media (max-width:800px){
+.desktop-display {display:none}
+.mobile-display {display:block}
+}
+</style>
+
+<div class="desktop-display">
+  <section class="contact-heading">
+    <h2 class="contact-heading-text">Let's Chat.</h2>
+  </section>
+  <section class="contact-form">
+    {{ .Content }}
+  </section>
+</div>
+
+<div class="mobile-display">
+  <section class="contact-heading">
+    <h2 class="contact-heading-text">Let's Chat.</h2>
+  </section>
+  <section class="contact-form">
+    {{ .Content }}
+  </section>
+</div>
+
+{{ end }}
