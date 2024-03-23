@@ -19,20 +19,21 @@ and (max-device-width : 480px){
 }
 
 .intro {
-  width: 70%; /* 2/3 of the width */
+  width: 55%; /* 2/3 of the width */
   font-size: 25px;
   position: relative;
   padding-left: 5vw;
-  padding-right: 3vw;
+  padding-right: 0vw;
 }
 
 .testimonials {
-  margin-top: 20px;
-  width: 30%; /* 1/3 of the width */
+  margin-top: 30px;
+  width: 45%; /* 1/3 of the width */
+  height: auto;
   display: block;
   position: relative;
   vertical-align: top;
-  display: inline-block;
+  padding-right: 3vw;
 }
 
 .subjects-tutored {
