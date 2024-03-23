@@ -16,7 +16,6 @@ enableEmoji = true
 
 [params]
   text_color = "black"
-  author = "Sarah Helmbrecht"
   description = "An academic portfolio and blog."
   background_color_class = "custom-army-green"
   recent_posts_number = 3
