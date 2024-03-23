@@ -1,0 +1,18 @@
+<footer class="{{ .Site.Params.background_color_class | default "bg-black" }} bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+    <div class="footer-left-hand-side">
+      <a class="f4 fw4 hover-white no-underline white dib-ns pv2 ph3" href="{{ .Site.Home.Permalink }}" >
+        &copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ end }}
+      </a>
+      <p class="f4 fw4 hover-white no-underline white ph3 footer-nyc">New York, NY</p>
+    </div>
+    <div class="footer-clickable-buttons">
+      <div class="footer-button" alt="Email" style="width:100%">
+        <a href="mailto: skh8573@nyu.edu"><img src="/images/site/email_icon_inverted.png" alt= "Email"></a>
+      </div>
+      <div class="footer-button" alt="LinkedIn" style="width:100%">
+        <a href="https://www.linkedin.com/in/sarah-helmbrecht-105268168/"><img src="/images/site/linkedin_icon_inverted.png" alt = "LinkedIn"></a>
+      </div>
+    </div>
+  </div>
+</footer>

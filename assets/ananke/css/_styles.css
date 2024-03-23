@@ -22,3 +22,37 @@
 .georgia-pro-cond {
     font-family: 'Georgia Pro Cond';
 }
+
+.custom-army-green {
+  background-color: #586D53;
+}
+
+footer {
+  /* Adjust padding as needed */
+  padding-bottom: 0px;
+  /* Adjust margin as needed */
+  margin: 0;
+}
+
+.footer-left-hand-side {
+  margin-bottom: 0px; /* Adjust the margin as needed */
+}
+
+.footer-nyc {
+  margin-top: 5px; /* Adjust the margin as needed */
+}
+
+.footer-clickable-buttons {
+  width: auto;
+  position: relative;
+  display: inline-block;
+  height: auto;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.footer-button {
+  max-width: 80px;
+  float: left;
+  padding-right: 5px;
+}
