@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>How to Build a Hugo Blog on GitHub Pages | SARAH HELMBRECHT</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="I built the first version of this website several months ago using Hugo and GitHub pages. I recently started from scratch so that I could change the theme and fix some mistakes that I made the first time around. In this article, I will share what I have learned.
+There are countless different programs and websites that promise an easy, stress-free website-building experience. I can&rsquo;t say that this way is the easiest, but it allows you to build a completely free website that is much more customizable than the ready-made sites you can find through common website-building platforms.">
+    <meta name="generator" content="Hugo 0.124.1">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+    
+    
+    
+      <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+<link rel="manifest" href="/favicon/site.webmanifest">
+
+    
+
+    
+    
+    <meta property="og:title" content="How to Build a Hugo Blog on GitHub Pages" />
+<meta property="og:description" content="I built the first version of this website several months ago using Hugo and GitHub pages. I recently started from scratch so that I could change the theme and fix some mistakes that I made the first time around. In this article, I will share what I have learned.
+There are countless different programs and websites that promise an easy, stress-free website-building experience. I can&rsquo;t say that this way is the easiest, but it allows you to build a completely free website that is much more customizable than the ready-made sites you can find through common website-building platforms." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://192.168.1.4:1313/blog/websitetutorial/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2023-11-01T18:55:48-04:00" />
+<meta property="article:modified_time" content="2023-11-01T18:55:48-04:00" />
+<meta itemprop="name" content="How to Build a Hugo Blog on GitHub Pages">
+<meta itemprop="description" content="I built the first version of this website several months ago using Hugo and GitHub pages. I recently started from scratch so that I could change the theme and fix some mistakes that I made the first time around. In this article, I will share what I have learned.
+There are countless different programs and websites that promise an easy, stress-free website-building experience. I can&rsquo;t say that this way is the easiest, but it allows you to build a completely free website that is much more customizable than the ready-made sites you can find through common website-building platforms."><meta itemprop="datePublished" content="2023-11-01T18:55:48-04:00" />
+<meta itemprop="dateModified" content="2023-11-01T18:55:48-04:00" />
+<meta itemprop="wordCount" content="1617">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="How to Build a Hugo Blog on GitHub Pages"/>
+<meta name="twitter:description" content="I built the first version of this website several months ago using Hugo and GitHub pages. I recently started from scratch so that I could change the theme and fix some mistakes that I made the first time around. In this article, I will share what I have learned.
+There are countless different programs and websites that promise an easy, stress-free website-building experience. I can&rsquo;t say that this way is the easiest, but it allows you to build a completely free website that is much more customizable than the ready-made sites you can find through common website-building platforms."/>
+
+	
+
+  </head>
+
+  <body class="ma0 bg-white">
+
+    
+   
+  
+
+  
+  <style>
+     
+    .cover {
+      text-align: center;  
+    }
+    .cover .site-navigation {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;  
+    }
+    .dimming {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.6);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+  <header class="cover bg-top" style="background-image: url('http://192.168.1.4:1313/images/websitetutorial/websitebuilding.jpeg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        SARAH HELMBRECHT
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/tutoring/" title="Tutoring page">
+              Tutoring
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/teaching/" title="Teaching page">
+              Teaching
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/projects/" title="Projects page">
+              Projects
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/blog/" title="Blog page">
+              Blog
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/summercamp/" title="Calculus Prep Summer Camp page">
+              Calculus Prep Summer Camp
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/resume/" title="Resume page">
+              Resume
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/raymond/" title="Raymond page">
+              Raymond
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/contact/" title="Contact page">
+              Contact
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
+        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title" style="text-transform: uppercase;">
+          How to Build a Hugo Blog on GitHub Pages
+        </h1>
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Blog
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">How to Build a Hugo Blog on GitHub Pages</h1>
+      
+      <p class="tracked">
+        By <strong>Sarah Helmbrecht</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2023-11-01T18:55:48-04:00">November 1, 2023</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy bg-white f4 nested-links black pr4-l w-two-thirds-l"><p>I built the first version of this website several months ago using Hugo and GitHub pages. I recently started from scratch so that I could change the theme and fix some mistakes that I made the first time around. In this article, I will share what I have learned.</p>
+<p>There are countless different programs and websites that promise an easy, stress-free website-building experience. I can&rsquo;t say that this way is the easiest, but it allows you to build a completely free website that is much more customizable than the ready-made sites you can find through common website-building platforms. Most of the required coding is in Markdown, which is basic enough that I&rsquo;d assume most people could pick it up quickly.</p>
+<p>I&rsquo;ve had difficulty finding a tutorial that truly encompasses everything that is required in order to build a Hugo website hosted on GitHub pages, so I decided to make a tutorial myself. I will share all of the steps that I took in order to build the website you&rsquo;re looking at right now.</p>
+<h3 id="create-a-repository-on-github">Create a Repository on GitHub</h3>
+<p>We need to create the GitHub repository that will host our website. Go to <a href="https://github.com/">GitHub</a> and either create a free account or log into your existing account. On the left-hand sidebar of the main dashboard, click the green &lsquo;&lsquo;New&rsquo;&rsquo; button next to the words &lsquo;&lsquo;Top Repositories.&rsquo;&rsquo;</p>
+<p>You can only make one primary website associated with your GitHub account (i.e., <a href="https://skhelmbrecht.github.io">skhelmbrecht.github.io</a>). All other websites you make will branch off of that website. If you wish to have your website URL be [your_username].github.io, then name the repository exactly that. If you name your repository something else, such as &lsquo;&lsquo;blog,&rsquo;&rsquo; then the URL of your website will be [your_username].github.io/blog. You don&rsquo;t need to mess with any of the settings quite yet; just create the repository.</p>
+<h3 id="get-started-with-hugo">Get Started with Hugo</h3>
+<p>Next, we need to install Hugo. Go to the terminal on your computer. To install Hugo on Mac using Homebrew, you&rsquo;ll type in the following:</p>
+<pre><code>/bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;
+brew install hugo
+</code></pre>
+<p>For other systems, please consult <a href="https://gohugo.io/installation/">Hugo&rsquo;s installation  documentation.</a></p>
+<p>With Hugo installed, we can now create our website! Enter the following into the console to create a new site and change your current directory to the new one:</p>
+<pre><code>hugo new site [repository_name]
+cd [repository_name]
+</code></pre>
+<h3 id="create-local-git-repository">Create Local Git Repository</h3>
+<p>On the GitHub website, go to your repository&rsquo;s homepage. There should be a list of console code under the words &lsquo;&rsquo;&hellip;or create a new repository on the command line.&rsquo;&rsquo; Type this code into the terminal. It should look like this:</p>
+<pre><code>git init
+git add README.md
+git commit -m &quot;First commit&quot;
+git branch -M main
+git remote add origin https://github.com/\[your_username\]/\[repository_name\].git
+git push -u origin main
+</code></pre>
+<h3 id="add-a-hugo-theme">Add a Hugo Theme</h3>
+<p>Now for the fun part! Choose a Hugo theme from <a href="https://themes.gohugo.io/">this list.</a> I am using the Ananke theme. I highly recommend this one; it&rsquo;s sleek and has built-in features for comments and a contact form. Don&rsquo;t be tempted to choose a theme just based on looks. Make sure that the documentation is actually accessible to you, or you won&rsquo;t be able to use all the cool features that drew you in. Ananke&rsquo;s documentation is much more thorough than that of the theme I used previously.</p>
+<p>The GitHub repository for your theme should have installation instructions on its homepage. For my theme, I entered the following into the terminal:</p>
+<pre><code>git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+</code></pre>
+<p>After adding the theme, read through its GitHub repository&rsquo;s homepage for any theme-specific tips about how to edit the config.toml file to your liking. Here&rsquo;s what mine looks like:</p>
+<pre><code>baseURL = 'http://skhelmbrecht.github.io/'
+languageCode = 'en-us'
+title = 'Sarah Helmbrecht'
+theme = 'ananke'
+
+SectionPagesMenu = 'main'
+Paginate = 3
+googleAnalytics = ''
+enableRobotsTXT = true
+disqusShortname = &quot;[my_disqus_shortname]&quot;
+
+[sitemap]
+  changefreq = &quot;monthly&quot;
+  priority = 0.5
+  filename = &quot;sitemap.xml&quot;
+
+[params]
+  text_color = &quot;black&quot;
+  author = &quot;Sarah Helmbrecht&quot;
+  description = &quot;An academic portfolio and blog.&quot;
+  background_color_class = &quot;bg-black&quot;
+  recent_posts_number = 3
+  read_more_copy = &quot;Read More&quot;
+</code></pre>
+<h3 id="create-appropriate-directory-structure">Create Appropriate Directory Structure</h3>
+<p>The appearance of your Hugo site will be highly dependent on the directory structure that you use. Each subfolder and markdown file within the &lsquo;&lsquo;content&rsquo;&rsquo; folder represents a tab on your website&rsquo;s navigation bar, unless its name begins with an underscore. My content folder contains an &lsquo;&rsquo;_index.md&rsquo;&rsquo; file that determines the appearance of my site&rsquo;s homepage:</p>
+<pre><code>---
+title: &quot;Sarah Helmbrecht&quot;
+
+description: &quot;Math M.S. @ NYU Courant&quot;
+theme_version: '2.8.2'
+cascade:
+  featured_image: '/images/Banner_Image.jpg'
+---
+Welcome to my academic portfolio.
+</code></pre>
+<p>I would also recommend that any subfolders of the content folder contain their own &lsquo;&lsquo;index.md&rsquo;&rsquo; file. For example, my &lsquo;&lsquo;content/blog&rsquo;&rsquo; folder contains an &lsquo;&lsquo;index.md&rsquo;&rsquo; file with the following content:</p>
+<pre><code>---
+title: &quot;Blog&quot;
+date: 2023-03-02T12:00:00-05:00
+url: /blog
+---
+</code></pre>
+<p>This ensures that the name &lsquo;&lsquo;Blog&rsquo;&rsquo; appears correctly on the website&rsquo;s navigation bar, and that the URL appears the way that I want it to.</p>
+<p>Images that are used within your content should be placed in the &lsquo;&lsquo;static/images&rsquo;&rsquo; folder. You can reference them within your content using only &lsquo;&lsquo;images/&rsquo;&rsquo; as a prefix.</p>
+<p>To see how I set up my directory structure, feel free to check out how I set up my own website&rsquo;s <a href="https://github.com/skhelmbrecht/skhelmbrecht.github.io">GitHub repository.</a></p>
+<h3 id="create-your-first-post">Create your First Post</h3>
+<p>If your goal was to create a blog, then it&rsquo;s time to start publishing content! In the command line, after cd-ing into your repository, enter the following in order to create your first post:</p>
+<pre><code>hugo new blog/first-post.md
+</code></pre>
+<p>This will create a new file in &lsquo;&lsquo;content/blog&rsquo;&rsquo; called &lsquo;&lsquo;first-post.&rsquo;&rsquo; Open the file in a code editor. You can change the title and date in the header of the file. You also need to change &lsquo;&lsquo;draft&rsquo;&rsquo; to &lsquo;&lsquo;false&rsquo;&rsquo; in order to make the post visible on your site. You can also change the URL, and depending on your theme, you may be able to choose an image to be the banner of the webpage.</p>
+<h3 id="view-the-website-locally">View the Website Locally</h3>
+<p>Before you publicly publish your website, each time you edit it, you should make sure it looks good on your local server. To do this, type the following into the terminal:</p>
+<pre><code>hugo server
+</code></pre>
+<p>This will allow you to see what the website currently looks like before posting.</p>
+<h3 id="posting-the-website-to-github">Posting the Website to GitHub</h3>
+<p>First, go to your GitHub repository&rsquo;s settings. Click &lsquo;&lsquo;Pages&rsquo;&rsquo; in the left-hand navigation bar. Under &lsquo;&lsquo;Build and Deployment,&rsquo;&rsquo; change the source to &lsquo;&lsquo;GitHub Actions.&rsquo;&rsquo; This will generate a &lsquo;&lsquo;hugo.yml&rsquo;&rsquo; file that creates a workflow. Basically, this means that each time you push local changes to GitHub, the workflow will automatically run and publish your website publicly.</p>
+<p>Now that you have the workflow set up, if you like how your website looks on the local server, it&rsquo;s time to publish it! If your website is something super important that a lot of people will see, don&rsquo;t push directly to main. But if, like me, you&rsquo;re a grad student who gets very little website traffic, then you can afford to be lazy. Here&rsquo;s what you&rsquo;ll enter into the terminal each time you want to publish the current version of your website:</p>
+<pre><code>git add .
+git commit -m &quot;Description of the changes I just made.&quot;
+git push origin main
+</code></pre>
+<p>Now your website is public!</p>
+<h3 id="connecting-a-custom-domain-name">Connecting a Custom Domain Name</h3>
+<p>Building a website this way is free, but buying a custom domain name is not. I decided to go ahead and buy the domain <a href="sarahhelmbrecht.com">sarahhelmbrecht.com</a> on GoDaddy. I generally followed the instructions <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site">here</a> for an apex domain, but ran into a few hiccups- mostly related to my own impatience. I learned that you can&rsquo;t just buy a domain name and immediately have it configured properly. If you&rsquo;re going to get a custom domain, I recommend that you do it early. There&rsquo;s a chance your whole site could be down for a day while you wait for the configurations to update.</p>
+<p>To connect this custom domain name to my website, I first went to the settings of my GitHub repository and clicked on the &lsquo;&lsquo;Pages&rsquo;&rsquo; tab. Under &lsquo;&lsquo;Custom domain,&rsquo;&rsquo; I typed in <a href="sarahhelmbrecht.com">sarahhelmbrecht.com</a>. The DNS check initially threw an error, but it worked eventually. Next, I went into the DNS configuration on GoDaddy. I added a type &lsquo;&lsquo;A&rsquo;&rsquo; configuration called &lsquo;&rsquo;@&rsquo;&rsquo; with the values 185.199.108.153, 185.199.109.153, 185.199.110.153, and 185.199.111.153. Several hours later, I put the following command into the terminal:</p>
+<pre><code> dig sarahhelmbrecht.com
+</code></pre>
+<p>Sure enough, the &lsquo;&lsquo;A&rsquo;&rsquo; records were visible. Next, I put the following into the terminal:</p>
+<pre><code>git pull
+</code></pre>
+<p>This command pulls the updates from GitHub into the local Git repository.</p>
+<p>24 hours later, GitHub allowed me to enable HTTPS encryption. Without this, all visitors to your website will be warned that the site is not secure.</p>
+<p>One of the benefits to using a custom domain name is that it makes it much easier to set up Google Search Console, a free service that makes your site show up in Google searches and helps you measure search traffic. It&rsquo;s integrated with GoDaddy, so setting it up was a breeze. I Googled &lsquo;&lsquo;site:sarahhelmbrecht.com&rsquo;&rsquo; and clicked the link that popped up, then typed in my website name again. Google did the rest for me. Finally, I just had to submit a sitemap so that Google would start indexing my website sooner.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>Creating a website using Hugo and hosting it on GitHub pages is a simpler task than it may seem. All you need is a working knowledge of Markdown and GitHub- although everything you should need to know about GitHub for this task is within this tutorial, and there are plenty of online resources for learning Markdown. My hope is that after reading this, you feel confident enough to make your first attempt at a free, highly customizable website. As you become more comfortable with Hugo, you can build increasingly complicated websites. Plus, you get to brag that you did it yourself.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+        <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "skhelmbrecht-github-io" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://192.168.1.4:1313/" >
+    &copy;  SARAH HELMBRECHT 2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+  
+</footer>
+
+  </body>
+</html>

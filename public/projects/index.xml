@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on SARAH HELMBRECHT</title>
+    <link>http://192.168.1.4:1313/projects/</link>
+    <description>Recent content in Projects on SARAH HELMBRECHT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 May 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://192.168.1.4:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cryptocurrency and Blockchain</title>
+      <link>http://192.168.1.4:1313/projects/capstoneproject/</link>
+      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://192.168.1.4:1313/projects/capstoneproject/</guid>
+      <description>Table of Contents Introduction&#xA;Basics of Cryptography&#xA;History of Bitcoin How Bitcoin Works&#xA;History of Ethereum&#xA;How Ethereum Works&#xA;History of Dogecoin&#xA;How Dogecoin Works&#xA;Non-Currency Applications of Blockchain&#xA;References&#xA;Introduction Bitcoin was the first cryptocurrency, launched in 2009 by Satoshi Nakamoto. Nakamoto was the first to formulate the idea of a blockchain. At the time, all online commerce relied on banks to process online payments. These types of transactions require both the payer and payee to trust the third-party bank.</description>
+    </item>
+    <item>
+      <title>Reed-Solomon Decoding</title>
+      <link>http://192.168.1.4:1313/projects/seniorseminarpaper/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://192.168.1.4:1313/projects/seniorseminarpaper/</guid>
+      <description>I am excited to announce that I have completed the culminating assignment of my undergraduate mathematics career: my Senior Seminar paper. It is an expository article about &amp;ldquo;A Decoding Approach to Reed-Solomon Codes from Their Definition&amp;rdquo; by Maria Bras-Amorós. Special thanks to my senior seminar advisor, Dr. Marie Dahleh, and my senior seminar professor, Dr. Tewodros Amdeberhan. Click here to download my paper!</description>
+    </item>
+    <item>
+      <title>The Most Famous Musicians You&#39;ve Never Heard Of</title>
+      <link>http://192.168.1.4:1313/projects/datasciencefinal/</link>
+      <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://192.168.1.4:1313/projects/datasciencefinal/</guid>
+      <description>The Most Famous Musicians You&amp;rsquo;ve Never Heard of By Sarah Helmbrecht and JT McDermott&#xA;I. Introduction With the advent of music streaming services such as Spotify, Apple Music, and others, it has never been easier to discover new music and artists than it is today. Despite the overall trend towards globalization and unprecedented access to historic catalogs, music tastes are still largely stratified by demographics. This inspired our question: who are the most famous artists and bands that we have never heard of?</description>
+    </item>
+  </channel>
+</rss>
