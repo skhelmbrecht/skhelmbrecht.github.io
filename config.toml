@@ -1,6 +1,6 @@
 baseURL = 'http://skhelmbrecht.github.io'
 languageCode = 'en-us'
-title = 'SARAH HELMBRECHT'
+title = 'Sarah Helmbrecht'
 theme = ['ananke', 'hugo-shortcode-gallery']
 resourceDir = "../resources"
 
