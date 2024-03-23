@@ -58,12 +58,25 @@ I. Introduction With the advent of music streaming services such as Spotify, App
 <meta itemprop="description" content="The Most Famous Musicians You&rsquo;ve Never Heard of By Sarah Helmbrecht and JT McDermott
 I. Introduction With the advent of music streaming services such as Spotify, Apple Music, and others, it has never been easier to discover new music and artists than it is today. Despite the overall trend towards globalization and unprecedented access to historic catalogs, music tastes are still largely stratified by demographics. This inspired our question: who are the most famous artists and bands that we have never heard of?"><meta itemprop="datePublished" content="2022-12-04T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2022-12-04T00:00:00+00:00" />
-<meta itemprop="wordCount" content="4232">
+<meta itemprop="wordCount" content="4234">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="The Most Famous Musicians You&#39;ve Never Heard Of"/>
 <meta name="twitter:description" content="The Most Famous Musicians You&rsquo;ve Never Heard of By Sarah Helmbrecht and JT McDermott
 I. Introduction With the advent of music streaming services such as Spotify, Apple Music, and others, it has never been easier to discover new music and artists than it is today. Despite the overall trend towards globalization and unprecedented access to historic catalogs, music tastes are still largely stratified by demographics. This inspired our question: who are the most famous artists and bands that we have never heard of?"/>
 
 	
+
+<head>
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0B2EJ5TTJT">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0B2EJ5TTJT');
+</script>
+</head>
 
   </head>
 
@@ -237,9 +250,12 @@ I. Introduction With the advent of music streaming services such as Spotify, App
 <p>#II. Our Data
 The rise of the internet and ubiquity of streaming services has created vast amounts of data about music habits. For our analysis, we focused on data that relates demographic factors to listening patterns. Our data comes from three main sources:</p>
 <ul>
-<li><a href="https://kworb.net/spotify/">Spotify</a> (via Kworb) - data of top 200 streamed artistis in countries around the world</li>
-<li><a href="https://today.yougov.com/ratings/entertainment/popularity/all-time-music-artists/millennials">YouGov</a> - polling of Millenials regarding their familiarity with 200 popular artists</li>
-<li><a href="http://www.acclaimedmusic.net/">Acclaimed Music</a> - Collection of top 1000 artists of all time and decade-by-decade data of their releases</li>
+<li><a href="https://kworb.net/spotify/" target="_blank" rel="nofollow noopener noreferrer">Spotify</a>
+ (via Kworb) - data of top 200 streamed artistis in countries around the world</li>
+<li><a href="https://today.yougov.com/ratings/entertainment/popularity/all-time-music-artists/millennials" target="_blank" rel="nofollow noopener noreferrer">YouGov</a>
+ - polling of Millenials regarding their familiarity with 200 popular artists</li>
+<li><a href="http://www.acclaimedmusic.net/" target="_blank" rel="nofollow noopener noreferrer">Acclaimed Music</a>
+ - Collection of top 1000 artists of all time and decade-by-decade data of their releases</li>
 </ul>
 <p>The importation of this data was done primarily with webscraping. We explain in more detail the unique challenges each data set presented below.</p>
 <h1 id="iii-etl--eda">III. ETL &amp; EDA</h1>
@@ -262,7 +278,8 @@ The rise of the internet and ubiquity of streaming services has created vast amo
 </span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> re
 </span></span></code></pre></div><h3 id="yougov-music-artists-poll">YouGov Music Artists Poll</h3>
 <p>The following section will use a national poll to identify what percentage of American millenials have heard of certain musical artists.</p>
-<p>The dataset, sourced from <a href="https://today.yougov.com/ratings/entertainment/fame/contemporary-music-artists/millennials">YouGov</a>, ranks artists by the percentage of people polled (born from 1949 to 1999) who have heard of them, as of 2022. This website is particularly difficult to scrape because it has a &ldquo;Load More&rdquo; button and does not store the data in tabular format. We typed the data into an Excel spreadsheet instead of scraping it.</p>
+<p>The dataset, sourced from <a href="https://today.yougov.com/ratings/entertainment/fame/contemporary-music-artists/millennials" target="_blank" rel="nofollow noopener noreferrer">YouGov</a>
+, ranks artists by the percentage of people polled (born from 1949 to 1999) who have heard of them, as of 2022. This website is particularly difficult to scrape because it has a &ldquo;Load More&rdquo; button and does not store the data in tabular format. We typed the data into an Excel spreadsheet instead of scraping it.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">!</span>pwd
 </span></span></code></pre></div><pre><code>/content/drive/MyDrive/cmps3160
 </code></pre>
@@ -280,7 +297,8 @@ The rise of the internet and ubiquity of streaming services has created vast amo
 </code></pre>
 <p><!-- raw HTML omitted --></p>
 <!-- raw HTML omitted -->
-<p>&lt;svg xmlns=&ldquo;<a href="http://www.w3.org/2000/svg%22">http://www.w3.org/2000/svg&quot;</a> height=&ldquo;24px&quot;viewBox=&ldquo;0 0 24 24&rdquo;
+<p>&lt;svg xmlns=&ldquo;<a href="http://www.w3.org/2000/svg%22" target="_blank" rel="nofollow noopener noreferrer">http://www.w3.org/2000/svg"</a>
+ height=&ldquo;24px&quot;viewBox=&ldquo;0 0 24 24&rdquo;
 width=&ldquo;24px&rdquo;&gt;
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted --><!-- raw HTML omitted -->
@@ -290,7 +308,8 @@ width=&ldquo;24px&rdquo;&gt;
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <h3 id="international-music">International Music</h3>
-<p>The following analysis considers data from Spotify of daily streaming trends, sourced from kworb.net, which has the global daily rank of songs as well as the country-by-country breakdown.The data can be viewed <a href="https://kworb.net/spotify/">here</a>.</p>
+<p>The following analysis considers data from Spotify of daily streaming trends, sourced from kworb.net, which has the global daily rank of songs as well as the country-by-country breakdown.The data can be viewed <a href="https://kworb.net/spotify/" target="_blank" rel="nofollow noopener noreferrer">here</a>
+.</p>
 <h4 id="importing-our-data">Importing our data</h4>
 <p>Let&rsquo;s first take a look at our international Spotify data from Kworb. Accessing and using this data is a bit tricky because each different country has a different table with its own national data on its own page. The following cell uses a for-loop along with some string comprehension in order to read each table from their respective URL. Each URL is identical except a two-letter country identifier, so using a regular expression and slicing we can iterate over each, reformatting it to be tidy, and adding each table to one large table we can use for analysis.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#Scrape Spotify Weekly Streams Data from each country</span>
@@ -360,7 +379,8 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 </code></pre>
 <p><!-- raw HTML omitted --></p>
 <!-- raw HTML omitted -->
-<p>&lt;svg xmlns=&ldquo;<a href="http://www.w3.org/2000/svg%22">http://www.w3.org/2000/svg&quot;</a> height=&ldquo;24px&quot;viewBox=&ldquo;0 0 24 24&rdquo;
+<p>&lt;svg xmlns=&ldquo;<a href="http://www.w3.org/2000/svg%22" target="_blank" rel="nofollow noopener noreferrer">http://www.w3.org/2000/svg"</a>
+ height=&ldquo;24px&quot;viewBox=&ldquo;0 0 24 24&rdquo;
 width=&ldquo;24px&rdquo;&gt;
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted --><!-- raw HTML omitted -->
@@ -421,7 +441,8 @@ Name: Streams, dtype: float64
 </code></pre>
 <p><!-- raw HTML omitted --></p>
 <!-- raw HTML omitted -->
-<p>&lt;svg xmlns=&ldquo;<a href="http://www.w3.org/2000/svg%22">http://www.w3.org/2000/svg&quot;</a> height=&ldquo;24px&quot;viewBox=&ldquo;0 0 24 24&rdquo;
+<p>&lt;svg xmlns=&ldquo;<a href="http://www.w3.org/2000/svg%22" target="_blank" rel="nofollow noopener noreferrer">http://www.w3.org/2000/svg"</a>
+ height=&ldquo;24px&quot;viewBox=&ldquo;0 0 24 24&rdquo;
 width=&ldquo;24px&rdquo;&gt;
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted --><!-- raw HTML omitted -->
@@ -483,7 +504,8 @@ Name: Artist, Length: 2854, dtype: int64
 </code></pre>
 <p><!-- raw HTML omitted --></p>
 <!-- raw HTML omitted -->
-<p>&lt;svg xmlns=&ldquo;<a href="http://www.w3.org/2000/svg%22">http://www.w3.org/2000/svg&quot;</a> height=&ldquo;24px&quot;viewBox=&ldquo;0 0 24 24&rdquo;
+<p>&lt;svg xmlns=&ldquo;<a href="http://www.w3.org/2000/svg%22" target="_blank" rel="nofollow noopener noreferrer">http://www.w3.org/2000/svg"</a>
+ height=&ldquo;24px&quot;viewBox=&ldquo;0 0 24 24&rdquo;
 width=&ldquo;24px&rdquo;&gt;
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted --><!-- raw HTML omitted -->
@@ -560,7 +582,8 @@ width=&ldquo;24px&rdquo;&gt;
 </code></pre>
 <p><!-- raw HTML omitted --></p>
 <!-- raw HTML omitted -->
-<p>&lt;svg xmlns=&ldquo;<a href="http://www.w3.org/2000/svg%22">http://www.w3.org/2000/svg&quot;</a> height=&ldquo;24px&quot;viewBox=&ldquo;0 0 24 24&rdquo;
+<p>&lt;svg xmlns=&ldquo;<a href="http://www.w3.org/2000/svg%22" target="_blank" rel="nofollow noopener noreferrer">http://www.w3.org/2000/svg"</a>
+ height=&ldquo;24px&quot;viewBox=&ldquo;0 0 24 24&rdquo;
 width=&ldquo;24px&rdquo;&gt;
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted --><!-- raw HTML omitted -->
@@ -591,7 +614,8 @@ width=&ldquo;24px&rdquo;&gt;
 </code></pre>
 <p><!-- raw HTML omitted --></p>
 <!-- raw HTML omitted -->
-<p>&lt;svg xmlns=&ldquo;<a href="http://www.w3.org/2000/svg%22">http://www.w3.org/2000/svg&quot;</a> height=&ldquo;24px&quot;viewBox=&ldquo;0 0 24 24&rdquo;
+<p>&lt;svg xmlns=&ldquo;<a href="http://www.w3.org/2000/svg%22" target="_blank" rel="nofollow noopener noreferrer">http://www.w3.org/2000/svg"</a>
+ height=&ldquo;24px&quot;viewBox=&ldquo;0 0 24 24&rdquo;
 width=&ldquo;24px&rdquo;&gt;
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted --><!-- raw HTML omitted -->
@@ -618,7 +642,8 @@ width=&ldquo;24px&rdquo;&gt;
 </code></pre>
 <p><!-- raw HTML omitted --></p>
 <!-- raw HTML omitted -->
-<p>&lt;svg xmlns=&ldquo;<a href="http://www.w3.org/2000/svg%22">http://www.w3.org/2000/svg&quot;</a> height=&ldquo;24px&quot;viewBox=&ldquo;0 0 24 24&rdquo;
+<p>&lt;svg xmlns=&ldquo;<a href="http://www.w3.org/2000/svg%22" target="_blank" rel="nofollow noopener noreferrer">http://www.w3.org/2000/svg"</a>
+ height=&ldquo;24px&quot;viewBox=&ldquo;0 0 24 24&rdquo;
 width=&ldquo;24px&rdquo;&gt;
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted --><!-- raw HTML omitted -->
@@ -658,7 +683,8 @@ width=&ldquo;24px&rdquo;&gt;
 </code></pre>
 <p><!-- raw HTML omitted --></p>
 <!-- raw HTML omitted -->
-<p>&lt;svg xmlns=&ldquo;<a href="http://www.w3.org/2000/svg%22">http://www.w3.org/2000/svg&quot;</a> height=&ldquo;24px&quot;viewBox=&ldquo;0 0 24 24&rdquo;
+<p>&lt;svg xmlns=&ldquo;<a href="http://www.w3.org/2000/svg%22" target="_blank" rel="nofollow noopener noreferrer">http://www.w3.org/2000/svg"</a>
+ height=&ldquo;24px&quot;viewBox=&ldquo;0 0 24 24&rdquo;
 width=&ldquo;24px&rdquo;&gt;
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted --><!-- raw HTML omitted -->
@@ -718,7 +744,8 @@ width=&ldquo;24px&rdquo;&gt;
 </code></pre>
 <p><!-- raw HTML omitted --></p>
 <!-- raw HTML omitted -->
-<p>&lt;svg xmlns=&ldquo;<a href="http://www.w3.org/2000/svg%22">http://www.w3.org/2000/svg&quot;</a> height=&ldquo;24px&quot;viewBox=&ldquo;0 0 24 24&rdquo;
+<p>&lt;svg xmlns=&ldquo;<a href="http://www.w3.org/2000/svg%22" target="_blank" rel="nofollow noopener noreferrer">http://www.w3.org/2000/svg"</a>
+ height=&ldquo;24px&quot;viewBox=&ldquo;0 0 24 24&rdquo;
 width=&ldquo;24px&rdquo;&gt;
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted --><!-- raw HTML omitted -->
@@ -751,7 +778,8 @@ width=&ldquo;24px&rdquo;&gt;
 </code></pre>
 <p><!-- raw HTML omitted --></p>
 <!-- raw HTML omitted -->
-<p>&lt;svg xmlns=&ldquo;<a href="http://www.w3.org/2000/svg%22">http://www.w3.org/2000/svg&quot;</a> height=&ldquo;24px&quot;viewBox=&ldquo;0 0 24 24&rdquo;
+<p>&lt;svg xmlns=&ldquo;<a href="http://www.w3.org/2000/svg%22" target="_blank" rel="nofollow noopener noreferrer">http://www.w3.org/2000/svg"</a>
+ height=&ldquo;24px&quot;viewBox=&ldquo;0 0 24 24&rdquo;
 width=&ldquo;24px&rdquo;&gt;
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted --><!-- raw HTML omitted -->
@@ -843,7 +871,8 @@ Now, let&rsquo;s look at the distribution of song releases for the artists in th
 </code></pre>
 <p><!-- raw HTML omitted --></p>
 <!-- raw HTML omitted -->
-<p>&lt;svg xmlns=&ldquo;<a href="http://www.w3.org/2000/svg%22">http://www.w3.org/2000/svg&quot;</a> height=&ldquo;24px&quot;viewBox=&ldquo;0 0 24 24&rdquo;
+<p>&lt;svg xmlns=&ldquo;<a href="http://www.w3.org/2000/svg%22" target="_blank" rel="nofollow noopener noreferrer">http://www.w3.org/2000/svg"</a>
+ height=&ldquo;24px&quot;viewBox=&ldquo;0 0 24 24&rdquo;
 width=&ldquo;24px&rdquo;&gt;
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted --><!-- raw HTML omitted -->

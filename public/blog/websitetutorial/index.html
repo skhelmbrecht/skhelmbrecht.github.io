@@ -58,12 +58,25 @@ There are countless different programs and websites that promise an easy, stress
 <meta itemprop="description" content="I built the first version of this website several months ago using Hugo and GitHub pages. I recently started from scratch so that I could change the theme and fix some mistakes that I made the first time around. In this article, I will share what I have learned.
 There are countless different programs and websites that promise an easy, stress-free website-building experience. I can&rsquo;t say that this way is the easiest, but it allows you to build a completely free website that is much more customizable than the ready-made sites you can find through common website-building platforms."><meta itemprop="datePublished" content="2023-11-01T18:55:48-04:00" />
 <meta itemprop="dateModified" content="2023-11-01T18:55:48-04:00" />
-<meta itemprop="wordCount" content="1617">
+<meta itemprop="wordCount" content="1619">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="How to Build a Hugo Blog on GitHub Pages"/>
 <meta name="twitter:description" content="I built the first version of this website several months ago using Hugo and GitHub pages. I recently started from scratch so that I could change the theme and fix some mistakes that I made the first time around. In this article, I will share what I have learned.
 There are countless different programs and websites that promise an easy, stress-free website-building experience. I can&rsquo;t say that this way is the easiest, but it allows you to build a completely free website that is much more customizable than the ready-made sites you can find through common website-building platforms."/>
 
 	
+
+<head>
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0B2EJ5TTJT">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0B2EJ5TTJT');
+</script>
+</head>
 
   </head>
 
@@ -219,14 +232,17 @@ There are countless different programs and websites that promise an easy, stress
 <p>There are countless different programs and websites that promise an easy, stress-free website-building experience. I can&rsquo;t say that this way is the easiest, but it allows you to build a completely free website that is much more customizable than the ready-made sites you can find through common website-building platforms. Most of the required coding is in Markdown, which is basic enough that I&rsquo;d assume most people could pick it up quickly.</p>
 <p>I&rsquo;ve had difficulty finding a tutorial that truly encompasses everything that is required in order to build a Hugo website hosted on GitHub pages, so I decided to make a tutorial myself. I will share all of the steps that I took in order to build the website you&rsquo;re looking at right now.</p>
 <h3 id="create-a-repository-on-github">Create a Repository on GitHub</h3>
-<p>We need to create the GitHub repository that will host our website. Go to <a href="https://github.com/">GitHub</a> and either create a free account or log into your existing account. On the left-hand sidebar of the main dashboard, click the green &lsquo;&lsquo;New&rsquo;&rsquo; button next to the words &lsquo;&lsquo;Top Repositories.&rsquo;&rsquo;</p>
-<p>You can only make one primary website associated with your GitHub account (i.e., <a href="https://skhelmbrecht.github.io">skhelmbrecht.github.io</a>). All other websites you make will branch off of that website. If you wish to have your website URL be [your_username].github.io, then name the repository exactly that. If you name your repository something else, such as &lsquo;&lsquo;blog,&rsquo;&rsquo; then the URL of your website will be [your_username].github.io/blog. You don&rsquo;t need to mess with any of the settings quite yet; just create the repository.</p>
+<p>We need to create the GitHub repository that will host our website. Go to <a href="https://github.com/" target="_blank" rel="nofollow noopener noreferrer">GitHub</a>
+ and either create a free account or log into your existing account. On the left-hand sidebar of the main dashboard, click the green &lsquo;&lsquo;New&rsquo;&rsquo; button next to the words &lsquo;&lsquo;Top Repositories.&rsquo;&rsquo;</p>
+<p>You can only make one primary website associated with your GitHub account (i.e., <a href="https://skhelmbrecht.github.io" target="_blank" rel="nofollow noopener noreferrer">skhelmbrecht.github.io</a>
+). All other websites you make will branch off of that website. If you wish to have your website URL be [your_username].github.io, then name the repository exactly that. If you name your repository something else, such as &lsquo;&lsquo;blog,&rsquo;&rsquo; then the URL of your website will be [your_username].github.io/blog. You don&rsquo;t need to mess with any of the settings quite yet; just create the repository.</p>
 <h3 id="get-started-with-hugo">Get Started with Hugo</h3>
 <p>Next, we need to install Hugo. Go to the terminal on your computer. To install Hugo on Mac using Homebrew, you&rsquo;ll type in the following:</p>
 <pre><code>/bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;
 brew install hugo
 </code></pre>
-<p>For other systems, please consult <a href="https://gohugo.io/installation/">Hugo&rsquo;s installation  documentation.</a></p>
+<p>For other systems, please consult <a href="https://gohugo.io/installation/" target="_blank" rel="nofollow noopener noreferrer">Hugo&rsquo;s installation  documentation.</a>
+</p>
 <p>With Hugo installed, we can now create our website! Enter the following into the console to create a new site and change your current directory to the new one:</p>
 <pre><code>hugo new site [repository_name]
 cd [repository_name]
@@ -241,7 +257,8 @@ git remote add origin https://github.com/\[your_username\]/\[repository_name\].g
 git push -u origin main
 </code></pre>
 <h3 id="add-a-hugo-theme">Add a Hugo Theme</h3>
-<p>Now for the fun part! Choose a Hugo theme from <a href="https://themes.gohugo.io/">this list.</a> I am using the Ananke theme. I highly recommend this one; it&rsquo;s sleek and has built-in features for comments and a contact form. Don&rsquo;t be tempted to choose a theme just based on looks. Make sure that the documentation is actually accessible to you, or you won&rsquo;t be able to use all the cool features that drew you in. Ananke&rsquo;s documentation is much more thorough than that of the theme I used previously.</p>
+<p>Now for the fun part! Choose a Hugo theme from <a href="https://themes.gohugo.io/" target="_blank" rel="nofollow noopener noreferrer">this list.</a>
+ I am using the Ananke theme. I highly recommend this one; it&rsquo;s sleek and has built-in features for comments and a contact form. Don&rsquo;t be tempted to choose a theme just based on looks. Make sure that the documentation is actually accessible to you, or you won&rsquo;t be able to use all the cool features that drew you in. Ananke&rsquo;s documentation is much more thorough than that of the theme I used previously.</p>
 <p>The GitHub repository for your theme should have installation instructions on its homepage. For my theme, I entered the following into the terminal:</p>
 <pre><code>git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
 </code></pre>
@@ -291,7 +308,8 @@ url: /blog
 </code></pre>
 <p>This ensures that the name &lsquo;&lsquo;Blog&rsquo;&rsquo; appears correctly on the website&rsquo;s navigation bar, and that the URL appears the way that I want it to.</p>
 <p>Images that are used within your content should be placed in the &lsquo;&lsquo;static/images&rsquo;&rsquo; folder. You can reference them within your content using only &lsquo;&lsquo;images/&rsquo;&rsquo; as a prefix.</p>
-<p>To see how I set up my directory structure, feel free to check out how I set up my own website&rsquo;s <a href="https://github.com/skhelmbrecht/skhelmbrecht.github.io">GitHub repository.</a></p>
+<p>To see how I set up my directory structure, feel free to check out how I set up my own website&rsquo;s <a href="https://github.com/skhelmbrecht/skhelmbrecht.github.io" target="_blank" rel="nofollow noopener noreferrer">GitHub repository.</a>
+</p>
 <h3 id="create-your-first-post">Create your First Post</h3>
 <p>If your goal was to create a blog, then it&rsquo;s time to start publishing content! In the command line, after cd-ing into your repository, enter the following in order to create your first post:</p>
 <pre><code>hugo new blog/first-post.md
@@ -311,8 +329,11 @@ git push origin main
 </code></pre>
 <p>Now your website is public!</p>
 <h3 id="connecting-a-custom-domain-name">Connecting a Custom Domain Name</h3>
-<p>Building a website this way is free, but buying a custom domain name is not. I decided to go ahead and buy the domain <a href="sarahhelmbrecht.com">sarahhelmbrecht.com</a> on GoDaddy. I generally followed the instructions <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site">here</a> for an apex domain, but ran into a few hiccups- mostly related to my own impatience. I learned that you can&rsquo;t just buy a domain name and immediately have it configured properly. If you&rsquo;re going to get a custom domain, I recommend that you do it early. There&rsquo;s a chance your whole site could be down for a day while you wait for the configurations to update.</p>
-<p>To connect this custom domain name to my website, I first went to the settings of my GitHub repository and clicked on the &lsquo;&lsquo;Pages&rsquo;&rsquo; tab. Under &lsquo;&lsquo;Custom domain,&rsquo;&rsquo; I typed in <a href="sarahhelmbrecht.com">sarahhelmbrecht.com</a>. The DNS check initially threw an error, but it worked eventually. Next, I went into the DNS configuration on GoDaddy. I added a type &lsquo;&lsquo;A&rsquo;&rsquo; configuration called &lsquo;&rsquo;@&rsquo;&rsquo; with the values 185.199.108.153, 185.199.109.153, 185.199.110.153, and 185.199.111.153. Several hours later, I put the following command into the terminal:</p>
+<p>Building a website this way is free, but buying a custom domain name is not. I decided to go ahead and buy the domain <a href="sarahhelmbrecht.com">sarahhelmbrecht.com</a>
+ on GoDaddy. I generally followed the instructions <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site" target="_blank" rel="nofollow noopener noreferrer">here</a>
+ for an apex domain, but ran into a few hiccups- mostly related to my own impatience. I learned that you can&rsquo;t just buy a domain name and immediately have it configured properly. If you&rsquo;re going to get a custom domain, I recommend that you do it early. There&rsquo;s a chance your whole site could be down for a day while you wait for the configurations to update.</p>
+<p>To connect this custom domain name to my website, I first went to the settings of my GitHub repository and clicked on the &lsquo;&lsquo;Pages&rsquo;&rsquo; tab. Under &lsquo;&lsquo;Custom domain,&rsquo;&rsquo; I typed in <a href="sarahhelmbrecht.com">sarahhelmbrecht.com</a>
+. The DNS check initially threw an error, but it worked eventually. Next, I went into the DNS configuration on GoDaddy. I added a type &lsquo;&lsquo;A&rsquo;&rsquo; configuration called &lsquo;&rsquo;@&rsquo;&rsquo; with the values 185.199.108.153, 185.199.109.153, 185.199.110.153, and 185.199.111.153. Several hours later, I put the following command into the terminal:</p>
 <pre><code> dig sarahhelmbrecht.com
 </code></pre>
 <p>Sure enough, the &lsquo;&lsquo;A&rsquo;&rsquo; records were visible. Next, I put the following into the terminal:</p>
