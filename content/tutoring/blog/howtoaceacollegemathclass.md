@@ -1,6 +1,8 @@
 ---
 title: "How to Ace a College Math Class (From an ADHD Math Grad Student who Used to Hate Math)"
 date: 2023-11-05T01:47:46-04:00
+type: page
+layout: blog
 author: Sarah Helmbrecht
 featured_image: "images/howtoaceacollegemathclass/collegestudentsstudying.jpeg"
 url: /blog/HowtoAceaCollegeMathClass

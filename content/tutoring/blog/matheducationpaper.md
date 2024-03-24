@@ -1,6 +1,8 @@
 ---
 title: "COVID Trauma and a Critique of Mathematics Education"
 date: 2023-11-02T02:06:10-04:00
+type: page
+layout: blog
 author: Sarah Helmbrecht
 featured_image: "images/matheducationpaper/mathstudent.jpeg"
 url: /blog/COVIDandMathematicsEducation

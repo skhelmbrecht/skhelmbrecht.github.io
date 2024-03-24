@@ -1,6 +1,8 @@
 ---
 title: "The Most Famous Musicians You've Never Heard Of"
 date: 2022-12-04
+type: page
+layout: project
 author: Sarah Helmbrecht and JT McDermott
 featured_image: "images/datasciencefinal/Musical-map.jpg"
 url: /projects/datasciencefinal

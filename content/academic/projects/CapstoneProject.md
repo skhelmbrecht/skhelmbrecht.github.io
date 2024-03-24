@@ -1,6 +1,8 @@
 ---
 title: "Cryptocurrency and Blockchain"
 date: 2023-05-07
+type: page
+layout: project
 author: Sarah Helmbrecht
 featured_image: "images/capstoneproject/cryptocurrency.jpeg"
 url: /projects/capstoneproject

@@ -13,11 +13,11 @@ There are countless different programs and websites that promise an easy, stress
     
     
     
-      <meta name="robots" content="index, follow">
+      <meta name="robots" content="noindex, nofollow">
     
 
     
-<link rel="stylesheet" href="/ananke/css/main.min.64cffae93d86b51cf6742acbad69252235bc73487d656d2144838337fb5c45e2.css" >
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
 
 
 
@@ -40,7 +40,7 @@ There are countless different programs and websites that promise an easy, stress
   
 
     
-    
+
     
       <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -50,7 +50,7 @@ There are countless different programs and websites that promise an easy, stress
     
 
     
-    
+
     <meta property="og:title" content="How to Build a Hugo Blog on GitHub Pages" />
 <meta property="og:description" content="I built the first version of this website several months ago using Hugo and GitHub pages. I recently started from scratch so that I could change the theme and fix some mistakes that I made the first time around. In this article, I will share what I have learned.
 There are countless different programs and websites that promise an easy, stress-free website-building experience. I can&rsquo;t say that this way is the easiest, but it allows you to build a completely free website that is much more customizable than the ready-made sites you can find through common website-building platforms." />
@@ -67,19 +67,6 @@ There are countless different programs and websites that promise an easy, stress
 <meta name="twitter:description" content="I built the first version of this website several months ago using Hugo and GitHub pages. I recently started from scratch so that I could change the theme and fix some mistakes that I made the first time around. In this article, I will share what I have learned.
 There are countless different programs and websites that promise an easy, stress-free website-building experience. I can&rsquo;t say that this way is the easiest, but it allows you to build a completely free website that is much more customizable than the ready-made sites you can find through common website-building platforms."/>
 
-      
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZDFRFHQGY8"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-ZDFRFHQGY8', { 'anonymize_ip': false });
-}
-</script>
-
-    
 	
 
 <head>
@@ -95,9 +82,18 @@ if (!doNotTrack) {
 </script>
 </head>
 
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZDFRFHQGY8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZDFRFHQGY8');
+</script>
   </head>
 
-  <body class="ma0 bg-white production">
+  <body class="ma0 bg-white">
 
     
    
@@ -109,7 +105,7 @@ if (!doNotTrack) {
     .cover {
       text-align: center;  
     }
-    .cover .site-navigation {
+    .cover .tutoring-navigation {
       position: absolute;
       top: 0;
       left: 0;
@@ -131,7 +127,7 @@ if (!doNotTrack) {
     <div class="bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
-    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib" style="text-transform: uppercase;">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
       
         Sarah Helmbrecht
       
@@ -143,20 +139,32 @@ if (!doNotTrack) {
         <ul class="pl0 mr3">
           
           <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/tutoring/" title="Tutoring page">
-              Tutoring
+            <a class="hover-white no-underline white-90" href="/tutoring/" title="Home page">
+              Home
             </a>
           </li>
           
           <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/academic/" title="Academic page">
-              Academic
+            <a class="hover-white no-underline white-90" href="/tutoring/about/" title="About page">
+              About
             </a>
           </li>
           
           <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/raymond/" title="Raymond page">
-              Raymond
+            <a class="hover-white no-underline white-90" href="/tutoring/services/" title="Services page">
+              Services
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/tutoring/blog/" title="Blog page">
+              Blog
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/tutoring/contact/" title="Contact page">
+              Contact
             </a>
           </li>
           

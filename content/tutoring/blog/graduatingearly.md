@@ -1,5 +1,7 @@
 ---
 title: "20 Things I've Learned as an Early Graduate"
+type: page
+layout: blog
 date: 2023-05-15
 author: Sarah Helmbrecht
 featured_image: "images/graduatingearly/tulane.png"

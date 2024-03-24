@@ -1,6 +1,8 @@
 ---
 title: "Reed-Solomon Decoding"
 date: 2023-05-01
+type: page
+layout: project
 author: Sarah Helmbrecht
 featured_image: "images/seniorseminarpaper/naturebackground.jpeg"
 url: /projects/seniorseminarpaper

@@ -1,6 +1,8 @@
 ---
 title: "How to Build a Hugo Blog on GitHub Pages"
 date: 2023-11-01T18:55:48-04:00
+type: page
+layout: blog
 author: Sarah Helmbrecht
 featured_image: "images/websitetutorial/websitebuilding.jpeg"
 url: /blog/websitetutorial
