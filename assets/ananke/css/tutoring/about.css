@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'BrittanySignature';
+  src: url('/font/brittany-signature/BrittanySignature-regular.woff2') format('woff2'),
+       url('/font/brittany-signature/BrittanySignature-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Smartphone Portrait and Landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){
+.desktop-display {display:none;}
+.mobile-display {display:block;}
+}
+
+.container {
+  display: inline;
+}
+
+.profile-photo {
+  float: left;
+  padding-top: 6px;
+  padding-left: 5vw;
+  margin-right: 20px;
+  width: 26vw;
+}
+
+.about-text {
+  font-size: 20px;
+  width: 100vw;
+  padding-right: 5vw;
+  padding-left: 5vw;
+}

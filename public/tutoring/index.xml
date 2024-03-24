@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutoring on Sarah Helmbrecht</title>
+    <link>http://192.168.1.4:1313/tutoring/</link>
+    <description>Recent content in Tutoring on Sarah Helmbrecht</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://192.168.1.4:1313/tutoring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://192.168.1.4:1313/tutoring/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://192.168.1.4:1313/tutoring/about/</guid>
+      <description>I graduated from Anderson High School in Austin, Texas in May 2020 with an International Baccalaureate Certificate and Distinguished Achievement. I scored a 1580 on the SAT (790 math, 790 verbal) in one try with no tutoring or prep courses. I also earned two AP Scholar Awards with Distinction and a National AP Scholar Award for my successes on 12 different AP tests. Next, I attended Tulane University in New Orleans, Louisiana.</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://192.168.1.4:1313/tutoring/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://192.168.1.4:1313/tutoring/contact/</guid>
+      <description> Your Name Email Address An email address is required. Message </description>
+    </item>
+    <item>
+      <title>Services</title>
+      <link>http://192.168.1.4:1313/tutoring/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://192.168.1.4:1313/tutoring/services/</guid>
+      <description>I offer a free 30 minute consultation to discuss your needs and goals, as well as the tutoring process itself.&#xA;I am available to tutor in-person in Manhattan and some areas of Brooklyn, as well as virtually. My rate for one-on-one tutoring is $100/hour. In-person tutoring that requires me to travel more than 30 minutes by transit may incur an additional fee; I am located near NYU’s main campus in the Village.</description>
+    </item>
+  </channel>
+</rss>

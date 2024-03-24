@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'BrittanySignature';
+  src: url('/font/brittany-signature/BrittanySignature-regular.woff2') format('woff2'),
+       url('/font/brittany-signature/BrittanySignature-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.services-text {
+  font-size: 20px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}

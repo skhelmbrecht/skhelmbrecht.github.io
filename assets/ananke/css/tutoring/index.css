@@ -1,0 +1,239 @@
+@font-face {
+  font-family: 'BrittanySignature';
+  src: url('/font/brittany-signature/BrittanySignature-regular.woff2') format('woff2'),
+       url('/font/brittany-signature/BrittanySignature-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Smartphone Portrait and Landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){
+.desktop-display {display:none;}
+.mobile-display {display:block;}
+}
+
+.green-rectangle {
+  background-color: #586D53;
+  color: white;
+  top: -15px;
+  padding-top: 30px; /* Increase the padding to make the green rectangle taller */
+  padding-bottom: 15px; /* Add padding to the bottom for symmetry */
+  position: relative;
+}
+
+.about-me-text {
+  font-family: 'BrittanySignature';
+  font-size: 40px;
+  color: white;
+  text-align: left;
+  margin: 0; /* Remove default margin */
+  display: flex;
+  align-items: center;
+  padding-left: 5vw;
+}
+
+.content {
+  display: flex;
+}
+
+.text {
+  width: 65%; /* 2/3 of the width */
+  font-size: 30px;
+  position: relative;
+  padding-left: 5vw;
+  padding-right: 0vw;
+}
+
+.right-side {
+  width: 35%; /* 1/3 of the width */
+  padding-left: 0;
+  padding-right: 0;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.photo {
+  width: 100%;
+  display: block;
+  position: relative;
+  top: -80px;
+  padding-right: 0px;
+}
+
+.desktop-display .contact {
+  display: flex;
+  color: black;
+  text-align: left;
+  padding: 10px;
+  position: relative; /* Change from absolute to relative */
+  top: -105px; /* Remove the top positioning to place it below the photo */
+  padding-left: 20px;
+}
+
+.mobile-display .contact {
+  color: black;
+  text-align: left;
+  padding: 10px;
+  position: relative; /* Change from absolute to relative */
+  top: -105px; /* Remove the top positioning to place it below the photo */
+  padding-left: 20px;
+}
+
+.city-info {
+  width: 100%;
+  position: relative;
+}
+
+.contact-text {
+  color: #586D53;
+  font-size: 20px;
+}
+
+.nyc {
+  top: -20px;
+  position: relative;
+  font-size: 20px;
+  color: bg-black;
+}
+
+.social-buttons {
+  width: 100%;
+  position: relative;
+}
+
+.clickable-buttons {
+  width: 50%;
+  top: -20px;
+  position: relative;
+  display: flex;
+}
+
+.button {
+  max-width: 50px;
+  float: left;
+  padding-right: 5px;
+}
+
+.about-me-button {
+  text-align: left;
+  padding-left: 0vw; /* Match the padding of the about-me-text */
+  padding-top: 0px; /* Add some space between the text and button */
+}
+
+.learn-more-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  color: #586D53;
+  font-size: 20px;
+  text-decoration: none;
+  border: 3px solid #586D53;
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.learn-more-button:hover {
+  background-color: #586D53;
+  color: white;
+}
+
+.desktop-display .horizontal-line-1 {
+  border: none;
+  height: 3px;
+  background-color: #586D53;
+  width: 90vw;
+  margin-top: -100px;
+}
+
+.mobile-display .horizontal-line-1 {
+  border: none;
+  height: 3px;
+  background-color: #586D53;
+  width: 90vw;
+  margin-top: 20px;
+}
+
+.subjects-tutored-header-text {
+  font-family: 'BrittanySignature';
+  font-size: 40px;
+  color: #586D53;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5vw;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -40px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-size: 20px;
+}
+
+.box {
+  flex: 1;
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin: 20px; /* Add margin to create space between boxes */
+}
+
+.box h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #586D53;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+.horizontal-line-2 {
+  border: none;
+  height: 3px;
+  background-color: #586D53;
+  width: 90vw;
+  margin-top: 10px;
+}
+
+.lets-chat-header-text {
+  font-family: 'BrittanySignature';
+  font-size: 40px;
+  color: #586D53;
+  text-align: center;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.desktop-display .contact-form {
+  padding-left: 30vw;
+  padding-right: 30vw;
+  padding-top: 15px;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+
+.mobile-display .contact-form {
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-top: 15px;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}

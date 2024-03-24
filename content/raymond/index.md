@@ -2,8 +2,6 @@
 title: Raymond
 type: page
 layout: raymond
-menu: main
-weight: 60
 url: /raymond
 custom-css: "css/raymond.css"
 ---

@@ -1,8 +1,0 @@
----
-title: "Projects"
-date: 2023-03-02T12:00:00-05:00
-url: /projects
-menu: main
-weight: 30
-paginate: 3
----

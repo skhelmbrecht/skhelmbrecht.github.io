@@ -1,0 +1,13 @@
+{{ define "header" }}{{ partial "tutoring-header.html" . }}{{ end }}
+{{ define "main" }}
+
+<section class="container">
+  <div class="profile-photo">
+    <img src="/images/about/profilephoto2.jpg" alt="Profile Photo">
+  </div>
+  <div class="about-text">
+    {{ .Content }}
+  </div>
+</section>
+
+{{ end }}

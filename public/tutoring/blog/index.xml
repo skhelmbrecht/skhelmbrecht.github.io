@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Sarah Helmbrecht</title>
+    <link>http://192.168.1.4:1313/tutoring/blog/</link>
+    <description>Recent content in Blog on Sarah Helmbrecht</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Nov 2023 01:47:46 -0400</lastBuildDate>
+    <atom:link href="http://192.168.1.4:1313/tutoring/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Ace a College Math Class (From an ADHD Math Grad Student who Used to Hate Math)</title>
+      <link>http://192.168.1.4:1313/blog/HowtoAceaCollegeMathClass/</link>
+      <pubDate>Sun, 05 Nov 2023 01:47:46 -0400</pubDate>
+      <guid>http://192.168.1.4:1313/blog/HowtoAceaCollegeMathClass/</guid>
+      <description>I sent the following document out to my Calculus I students at the beginning of the Fall 2023 semester. I was not always a great math student- in fact, through high school, it was my worst subject. I figured out a system for succeeding in math courses during my freshman year of college. When I started getting better grades, my attitude towards math changed completely. I eventually fell in love with the discipline: the reading, the poetry of proofs, the feeling of finally cracking a difficult problem.</description>
+    </item>
+    <item>
+      <title>COVID Trauma and a Critique of Mathematics Education</title>
+      <link>http://192.168.1.4:1313/blog/COVIDandMathematicsEducation/</link>
+      <pubDate>Thu, 02 Nov 2023 02:06:10 -0400</pubDate>
+      <guid>http://192.168.1.4:1313/blog/COVIDandMathematicsEducation/</guid>
+      <description>I&amp;rsquo;m in my first semester as a Teaching Assistant for Calculus I at NYU. A student recently pointed out to me that my classes are primarily made up of freshmen, so most of my students took their high school algebra courses on Zoom during the pandemic. This seemingly obvious statement led to a huge revelation for me. Many of my students are learning Calculus content just fine, but they don&amp;rsquo;t know how to factor.</description>
+    </item>
+    <item>
+      <title>How to Build a Hugo Blog on GitHub Pages</title>
+      <link>http://192.168.1.4:1313/blog/websitetutorial/</link>
+      <pubDate>Wed, 01 Nov 2023 18:55:48 -0400</pubDate>
+      <guid>http://192.168.1.4:1313/blog/websitetutorial/</guid>
+      <description>I built the first version of this website several months ago using Hugo and GitHub pages. I recently started from scratch so that I could change the theme and fix some mistakes that I made the first time around. In this article, I will share what I have learned.&#xA;There are countless different programs and websites that promise an easy, stress-free website-building experience. I can&amp;rsquo;t say that this way is the easiest, but it allows you to build a completely free website that is much more customizable than the ready-made sites you can find through common website-building platforms.</description>
+    </item>
+    <item>
+      <title>20 Things I&#39;ve Learned as an Early Graduate</title>
+      <link>http://192.168.1.4:1313/blog/graduatingearly/</link>
+      <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://192.168.1.4:1313/blog/graduatingearly/</guid>
+      <description>This week, I’m graduating from Tulane University with a Bachelor of Science in Mathematics and Computer Science. I completed my Bachelor’s in only three years. I’d like to share some of the things that I’ve learned throughout this experience:&#xA;Life WILL get in the way. Put yourself first. Take a mental health day when you need it. Each time I fall apart a little, I worry that it’s going to derail my progress.</description>
+    </item>
+  </channel>
+</rss>

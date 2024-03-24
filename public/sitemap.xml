@@ -2,93 +2,103 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tutoring/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/teaching/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/projects/</loc>
-    <lastmod>2023-03-02T12:00:00-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2023-03-02T12:00:00-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/resume/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/raymond/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/contact/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://192.168.1.4:1313/</loc>
     <lastmod>2023-11-05T01:47:46-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/blog/HowtoAceaCollegeMathClass/</loc>
+    <loc>http://192.168.1.4:1313/blog/HowtoAceaCollegeMathClass/</loc>
     <lastmod>2023-11-05T01:47:46-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/blog/COVIDandMathematicsEducation/</loc>
+    <loc>http://192.168.1.4:1313/tutoring/</loc>
+    <lastmod>2023-11-05T01:47:46-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://192.168.1.4:1313/blog/COVIDandMathematicsEducation/</loc>
     <lastmod>2023-11-02T02:06:10-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/blog/websitetutorial/</loc>
+    <loc>http://192.168.1.4:1313/blog/websitetutorial/</loc>
     <lastmod>2023-11-01T18:55:48-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/blog/graduatingearly/</loc>
+    <loc>http://192.168.1.4:1313/blog/graduatingearly/</loc>
     <lastmod>2023-05-15T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/projects/capstoneproject/</loc>
+    <loc>http://192.168.1.4:1313/academic/</loc>
     <lastmod>2023-05-07T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/projects/seniorseminarpaper/</loc>
+    <loc>http://192.168.1.4:1313/projects/capstoneproject/</loc>
+    <lastmod>2023-05-07T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://192.168.1.4:1313/projects/seniorseminarpaper/</loc>
     <lastmod>2023-05-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/projects/datasciencefinal/</loc>
+    <loc>http://192.168.1.4:1313/tutoring/blog/</loc>
+    <lastmod>2023-03-02T12:00:00-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://192.168.1.4:1313/academic/projects/</loc>
+    <lastmod>2023-03-02T12:00:00-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://192.168.1.4:1313/projects/datasciencefinal/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/teaching/calculus1resourcesfall2023/</loc>
+    <loc>http://192.168.1.4:1313/tutoring/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://192.168.1.4:1313/academic/teaching/calculus1resourcesfall2023/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/teaching/lhopitalflowchart/</loc>
+    <loc>http://192.168.1.4:1313/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/teaching/linearalgebraresourcesspring2024/</loc>
+    <loc>http://192.168.1.4:1313/tutoring/contact/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://192.168.1.4:1313/academic/teaching/linearalgebraresourcesspring2024/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://192.168.1.4:1313/raymond/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://192.168.1.4:1313/academic/resume/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://192.168.1.4:1313/tutoring/services/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://192.168.1.4:1313/tags/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://192.168.1.4:1313/academic/teaching/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
