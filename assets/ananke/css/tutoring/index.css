@@ -167,7 +167,7 @@ and (max-device-width : 480px){
   padding-left: 5vw;
 }
 
-.boxes {
+.desktop-display .boxes {
   display: flex;
   justify-content: space-between;
   margin-top: -40px;
