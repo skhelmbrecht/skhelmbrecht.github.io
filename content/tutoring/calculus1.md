@@ -37,3 +37,10 @@ custom_css: "css/tutoring/resources-page.css"
 {{< youtube "cIKHT1fYa2w" >}}
 {{< youtube "pItAmse1rok" >}}
 {{< youtube "65FLdKT4lkQ" >}}
+
+## L'Hôpital's Rule
+
+{{< youtube "dmLVspGdDfw" >}}
+{{< youtube "bU7i374cWdM" >}}
+{{< youtube "k0ip6l5YRT4" >}}
+{{< youtube "ZIw8N7PACr0" >}}
