@@ -31,3 +31,8 @@ custom_css: "css/tutoring/resources-page.css"
 {{< youtube "N6I14I993b8" >}}
 {{< youtube "UPyM5san_SY" >}}
 {{< youtube "miMlmx0KiNk" >}}
+
+## Inverse Functions
+
+{{< youtube "cIKHT1fYa2w" >}}
+{{< youtube "pItAmse1rok" >}}
