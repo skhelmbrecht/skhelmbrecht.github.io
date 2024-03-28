@@ -66,6 +66,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/tutoring/calculus1/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/academic/teaching/calculus1resourcesfall2023/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

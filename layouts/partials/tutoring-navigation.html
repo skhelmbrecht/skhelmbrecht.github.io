@@ -16,6 +16,15 @@
             <a class="hover-white no-underline white-90" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
               {{ .Name }}
             </a>
+            {{ if .Children }}
+            <ul class="dropdown">
+              {{ range .Children }}
+              <li>
+                <a href="{{ .URL }}" title="{{ i18n "pageTitle" . }}" class="inherit-parent">{{ .Name }}</a>
+              </li>
+              {{ end }}
+            </ul>
+            {{ end }}
           </li>
           {{ end }}
         </ul>

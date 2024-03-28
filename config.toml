@@ -41,13 +41,24 @@ enableEmoji = true
       pageRef = '/tutoring/services'
       weight = 30
   [[menus.tutoring]]
+      identifier = 'resources'
+      name = 'Resources'
+      pageRef = '/tutoring/resources'
+      weight = 40
+  [[menus.tutoring]]
+      parent = 'resources'
+      identifier = 'calculus1'
+      name = 'Calculus 1'
+      pageRef = '/tutoring/calculus1'
+      weight = 10
+  [[menus.tutoring]]
       name = 'Blog'
       pageRef = '/blog'
-      weight = 40
+      weight = 50
   [[menus.tutoring]]
       name = 'Contact'
       pageRef = '/tutoring/contact'
-      weight = 50
+      weight = 60
 
   [[menus.academic]]
       name = 'Home'
@@ -74,7 +85,7 @@ enableEmoji = true
   read_more_copy = "Read More"
   body_classes = "bg-white"
   post_content_classes = "bg-white"
-  custom_css = ["tutoring/index.css", "academic/teaching.css", "academic/resources-page.css", "academic/resume.css", "raymond.css", "tutoring/contact.css", "tutoring/about.css", "tutoring/services.css", "academic/index.css"]
+  custom_css = ["tutoring/index.css", "academic/teaching.css", "academic/resources-page.css", "tutoring/resources-page.css", "academic/resume.css", "raymond.css", "tutoring/contact.css", "tutoring/about.css", "tutoring/services.css", "academic/index.css"]
 
   [params.meta]
     favicon = true

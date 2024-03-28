@@ -64,3 +64,23 @@ footer {
     padding-right: 2px; /* Adjust the padding as needed */
   }
 }
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: rgba(88, 109, 83, 0.7); /* #586D53 with 70% opacity */
+  padding: 10px;
+  color: white;
+}
+
+.dropdown a {
+  color: white;
+  text-decoration: none;
+}
+
+li:hover .dropdown {
+  display: block;
+}
+
+
+/* Add any additional styling as needed */
