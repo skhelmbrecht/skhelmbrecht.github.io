@@ -8,44 +8,44 @@ custom_css: "css/tutoring/resources-page.css"
 
 ## Precalculus Review
 
-{{< youtube "nglIIl0_gm4" >}}
-{{< youtube "HfcbAkwGIrQ" >}}
-{{< youtube "wCKHzLRWH44" >}}
-{{< youtube "Rb_xTQMl3yM" >}}
-{{< youtube "Utifs3Hz2Lc" >}}
-{{< youtube "OCZDkMoA2jg" >}}
+{{< youtube "cr8ydBClyrc" >}}
+{{< youtube "6HAhnsWrJqA" >}}
+{{< youtube "w_3Y-gxUc7I" >}}
+{{< youtube "A9NbAEjEriI" >}}
+{{< youtube "ebC3PNtWtzY" >}}
+{{< youtube "7z0_XLqxhMc" >}}
 
 ## Limits
 
-{{< youtube "HRo6wvSr53U" >}}
-{{< youtube "snljMgJRnJI" >}}
-{{< youtube "5-h0_tcQUqE" >}}
-{{< youtube "sPiYwkRoOWM" >}}
-{{< youtube "xhPYPIyn0lo" >}}
-{{< youtube "VD7i-TeLP6I" >}}
+{{< youtube "aF7Ws8HF7I0" >}}
+{{< youtube "5itt_OxSHrE" >}}
+{{< youtube "yghyOoz4oRU" >}}
+{{< youtube "qbPOdigtmsc" >}}
+{{< youtube "jzA0tw_7H2A" >}}
+{{< youtube "UltOH04ibCk" >}}
 
 ## Derivatives
 
-{{< youtube "CIH3NZ5_pds" >}}
-{{< youtube "ix-WN8Fj09Q" >}}
-{{< youtube "N6I14I993b8" >}}
-{{< youtube "UPyM5san_SY" >}}
-{{< youtube "miMlmx0KiNk" >}}
+{{< youtube "Y2OKsyv96Dk" >}}
+{{< youtube "3JTKNdB2vBA" >}}
+{{< youtube "VziG5OKA2GQ" >}}
+{{< youtube "BNE1aW5nK4w" >}}
+{{< youtube "L4kvB89YqxA" >}}
 
 ## Inverse Functions
 
-{{< youtube "cIKHT1fYa2w" >}}
-{{< youtube "pItAmse1rok" >}}
-{{< youtube "65FLdKT4lkQ" >}}
+{{< youtube "d4eshgUxAs0" >}}
+{{< youtube "yw3EYCc0uUE" >}}
+{{< youtube "eS8qs_0HwLU" >}}
 
 ## L'Hôpital's Rule
 
-{{< youtube "dmLVspGdDfw" >}}
-{{< youtube "bU7i374cWdM" >}}
-{{< youtube "k0ip6l5YRT4" >}}
-{{< youtube "ZIw8N7PACr0" >}}
+{{< youtube "tDi9_cL9LSY" >}}
+{{< youtube "Tn-FWcDBKXo" >}}
+{{< youtube "CyiW0yKdNSg" >}}
+{{< youtube "5jyfqfnmlRg" >}}
 
 ## Applications of Differentiation
 
-{{< youtube "gYy-ZcLqWbE" >}}
-{{< youtube "upJP2ZjIQzE" >}}
+{{< youtube "Z0TSAnLPtc4" >}}
+{{< youtube "h87EaEc0Paw" >}}
