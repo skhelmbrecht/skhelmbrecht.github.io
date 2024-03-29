@@ -44,3 +44,7 @@ custom_css: "css/tutoring/resources-page.css"
 {{< youtube "bU7i374cWdM" >}}
 {{< youtube "k0ip6l5YRT4" >}}
 {{< youtube "ZIw8N7PACr0" >}}
+
+## Applications of Differentiation
+
+{{< youtube "gYy-ZcLqWbE" >}}
