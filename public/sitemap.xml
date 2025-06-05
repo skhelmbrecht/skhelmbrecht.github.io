@@ -12,11 +12,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tutoring/</loc>
-    <lastmod>2023-11-05T01:47:46-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/blog/COVIDandMathematicsEducation/</loc>
     <lastmod>2023-11-02T02:06:10-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -32,11 +27,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/academic/</loc>
-    <lastmod>2023-05-07T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/projects/capstoneproject/</loc>
     <lastmod>2023-05-07T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -47,12 +37,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tutoring/blog/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2023-03-02T12:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/academic/projects/</loc>
+    <loc>http://localhost:1313/projects/</loc>
     <lastmod>2023-03-02T12:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -62,15 +52,15 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tutoring/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tutoring/calculus1/</loc>
+    <loc>http://localhost:1313/media/calculus1videos/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/academic/teaching/calculus1resourcesfall2023/</loc>
+    <loc>http://localhost:1313/media/calculus1resourcesfall2023/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -78,23 +68,15 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tutoring/contact/</loc>
+    <loc>http://localhost:1313/media/linearalgebraresourcesspring2024/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/academic/teaching/linearalgebraresourcesspring2024/</loc>
+    <loc>http://localhost:1313/media/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/raymond/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/academic/resume/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tutoring/services/</loc>
+    <loc>http://localhost:1313/resume/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -102,7 +84,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/academic/teaching/</loc>
+    <loc>http://localhost:1313/teaching/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

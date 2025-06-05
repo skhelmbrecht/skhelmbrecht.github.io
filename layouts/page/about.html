@@ -1,0 +1,33 @@
+{{ define "header" }}
+   {{/* We can override any block in the baseof file be defining it in the template */}}
+  {{ partial "academic-header.html" . }}
+{{ end }}
+
+{{ define "main" }}
+
+<style media="all">
+.mobile-display{display:none}
+.desktop-display{display:block}
+@media (max-width:800px){
+.desktop-display {display:none}
+.mobile-display {display:block}
+}
+</style>
+
+<div class="desktop-display">
+  <section class="intro">
+    <div class="text">
+      {{ .Content }}
+    </div>
+  </section>
+</div>
+
+<div class="mobile-display">
+  <section class="intro">
+    <div class="text">
+      {{ .Content }}
+    </div>
+  </section>
+</div>
+
+{{ end }}

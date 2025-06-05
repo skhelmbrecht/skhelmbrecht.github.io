@@ -1,40 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Academic on Sarah Helmbrecht</title>
+    <title>Academics on Sarah Helmbrecht</title>
     <link>http://localhost:1313/academic/</link>
-    <description>Recent content in Academic on Sarah Helmbrecht</description>
+    <description>Recent content in Academics on Sarah Helmbrecht</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/academic/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Calculus I Resources</title>
-      <link>http://localhost:1313/academic/teaching/calculus1resourcesfall2023/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/academic/teaching/calculus1resourcesfall2023/</guid>
-      <description>Office Hours Dr. Shizhu&amp;rsquo;s Classes (Sections 4 and 5)&#xA;Tuesdays, 12-1pm, Zoom (link on Brightspace) Thursdays, 2:30-3:30pm, Warren Weaver 524 Dr. Espinosa&amp;rsquo;s Classes (Sections 9 and 10)&#xA;Tuesdays, 3:45-4:45pm, Warren Weaver 228 Thursdays, 3:45-4:45pm, Warren Weaver 228 Resources I&amp;rsquo;ve Created How to Ace a College Math Class L&amp;rsquo;Hopital&amp;rsquo;s Rule Flowchart Cengage Chapter 1 Notes: Functions and Limits Cengage Chapter 2 Notes: Derivatives Cengage Chapter 3 Notes: Inverse Functions Cengage Chapter 4 Notes: Applications of Differentiation Cengage Chapter 5 Notes: Integrals Additional Math Resources Algebra/trig review: Paul&amp;rsquo;s Online Math Notes Calculus companion book: The Calculus Lifesaver General math help: Khan Academy Graphing functions: Desmos Checking derivatives: Derivative Calculator Checking integrals: Integral Calculator Mental Health Resources Moses Center for Student Accessibility Wellness Exchange (call for a Crisis Response Counselor) Miscellaneous RateMyProfessors Pictures of Raymond </description>
-    </item>
-    <item>
-      <title>Linear Algebra Resources</title>
-      <link>http://localhost:1313/academic/teaching/linearalgebraresourcesspring2024/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/academic/teaching/linearalgebraresourcesspring2024/</guid>
-      <description>Office Hours Thursdays, 11am-1pm, Warren Weaver 228 Fridays, 10:30am-11:30am, Warren Weaver 228 Fridays, 3pm-4pm, Zoom Outlines Chapter 1: Vectors and Matrices Chapter 2: Solving Linear Equations Chapter 3: The Four Fundamental Subspaces These outlines are based on Dr. Ralph Chikhany&amp;rsquo;s lecture slides, Strang, and Euclidean Linear Algebra by Connor Ahlbach.&#xA;Recitation Solutions Recitation 1: Sections 1.1-1.3 Recitation 2: Sections 2.1-2.4 Recitation 3: Sections 2.5-2.7 Recitation 4: Sections 3.1-3.2 Recitation 5: Sections 3.</description>
-    </item>
-    <item>
-      <title>Resume</title>
-      <link>http://localhost:1313/academic/resume/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/academic/resume/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Teaching</title>
-      <link>http://localhost:1313/academic/teaching/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/academic/teaching/</guid>
-      <description>From RateMyProfessors Sarah Helmbrecht is a fantastic instructor and clearly cares about her students. She puts extra work into her classes so her students will not only learn but succeed. She goes over steps thoroughly to make sure you understand any math concept. She is attentive to her students and is flexible about her office hours if students need extra help.&#xA;Sarah is one of the best TAs I have ever had.</description>
-    </item>
   </channel>
 </rss>

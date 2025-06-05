@@ -58,67 +58,46 @@
       <description>The Most Famous Musicians You&amp;rsquo;ve Never Heard of By Sarah Helmbrecht and JT McDermott&#xA;I. Introduction With the advent of music streaming services such as Spotify, Apple Music, and others, it has never been easier to discover new music and artists than it is today. Despite the overall trend towards globalization and unprecedented access to historic catalogs, music tastes are still largely stratified by demographics. This inspired our question: who are the most famous artists and bands that we have never heard of?</description>
     </item>
     <item>
-      <title>About</title>
-      <link>http://localhost:1313/tutoring/about/</link>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutoring/about/</guid>
-      <description>I graduated from Anderson High School in Austin, Texas in May 2020 with an International Baccalaureate Certificate and Distinguished Achievement. I scored a 1580 on the SAT (790 math, 790 verbal) in one try with no tutoring or prep courses. I also earned two AP Scholar Awards with Distinction and a National AP Scholar Award for my successes on 12 different AP tests. Next, I attended Tulane University in New Orleans, Louisiana.</description>
+      <guid>http://localhost:1313/about/</guid>
+      <description>I&amp;rsquo;m a mathematician passionate about machine learning. I recently earned my Master of Science in Mathematics from the New York University Courant Institute with a research focus on neural network generalization from a theoretical/mathematical perspective (May 2025). I hold a Bachelor of Science in Mathematics and Computer Science from Tulane University, which I completed in just three years (May 2023).&#xA;My academic background has equipped me with a strong foundation in problem-solving, abstraction, and analytical thinking.</description>
     </item>
     <item>
       <title>Calculus 1</title>
-      <link>http://localhost:1313/tutoring/calculus1/</link>
+      <link>http://localhost:1313/media/calculus1videos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutoring/calculus1/</guid>
+      <guid>http://localhost:1313/media/calculus1videos/</guid>
       <description>Precalculus Review Limits Derivatives Inverse Functions L&amp;rsquo;Hôpital&amp;rsquo;s Rule Applications of Differentiation </description>
     </item>
     <item>
       <title>Calculus I Resources</title>
-      <link>http://localhost:1313/academic/teaching/calculus1resourcesfall2023/</link>
+      <link>http://localhost:1313/media/calculus1resourcesfall2023/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/academic/teaching/calculus1resourcesfall2023/</guid>
-      <description>Office Hours Dr. Shizhu&amp;rsquo;s Classes (Sections 4 and 5)&#xA;Tuesdays, 12-1pm, Zoom (link on Brightspace) Thursdays, 2:30-3:30pm, Warren Weaver 524 Dr. Espinosa&amp;rsquo;s Classes (Sections 9 and 10)&#xA;Tuesdays, 3:45-4:45pm, Warren Weaver 228 Thursdays, 3:45-4:45pm, Warren Weaver 228 Resources I&amp;rsquo;ve Created How to Ace a College Math Class L&amp;rsquo;Hopital&amp;rsquo;s Rule Flowchart Cengage Chapter 1 Notes: Functions and Limits Cengage Chapter 2 Notes: Derivatives Cengage Chapter 3 Notes: Inverse Functions Cengage Chapter 4 Notes: Applications of Differentiation Cengage Chapter 5 Notes: Integrals Additional Math Resources Algebra/trig review: Paul&amp;rsquo;s Online Math Notes Calculus companion book: The Calculus Lifesaver General math help: Khan Academy Graphing functions: Desmos Checking derivatives: Derivative Calculator Checking integrals: Integral Calculator Mental Health Resources Moses Center for Student Accessibility Wellness Exchange (call for a Crisis Response Counselor) Miscellaneous RateMyProfessors Pictures of Raymond </description>
-    </item>
-    <item>
-      <title>Contact</title>
-      <link>http://localhost:1313/tutoring/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutoring/contact/</guid>
-      <description> Your Name Email Address An email address is required. Message </description>
+      <guid>http://localhost:1313/media/calculus1resourcesfall2023/</guid>
+      <description>Office Hours Dr. Shizhu&amp;rsquo;s Classes (Sections 4 and 5)&#xA;Tuesdays, 12-1pm, Zoom (link on Brightspace) Thursdays, 2:30-3:30pm, Warren Weaver 524 Dr. Espinosa&amp;rsquo;s Classes (Sections 9 and 10)&#xA;Tuesdays, 3:45-4:45pm, Warren Weaver 228 Thursdays, 3:45-4:45pm, Warren Weaver 228 Resources I&amp;rsquo;ve Created How to Ace a College Math Class L&amp;rsquo;Hopital&amp;rsquo;s Rule Flowchart Cengage Chapter 1 Notes: Functions and Limits Cengage Chapter 2 Notes: Derivatives Cengage Chapter 3 Notes: Inverse Functions Cengage Chapter 4 Notes: Applications of Differentiation Cengage Chapter 5 Notes: Integrals Additional Math Resources Algebra/trig review: Paul&amp;rsquo;s Online Math Notes Calculus companion book: The Calculus Lifesaver General math help: Khan Academy Graphing functions: Desmos Checking derivatives: Derivative Calculator Checking integrals: Integral Calculator Mental Health Resources Moses Center for Student Accessibility Wellness Exchange (call for a Crisis Response Counselor) </description>
     </item>
     <item>
       <title>Linear Algebra Resources</title>
-      <link>http://localhost:1313/academic/teaching/linearalgebraresourcesspring2024/</link>
+      <link>http://localhost:1313/media/linearalgebraresourcesspring2024/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/academic/teaching/linearalgebraresourcesspring2024/</guid>
+      <guid>http://localhost:1313/media/linearalgebraresourcesspring2024/</guid>
       <description>Office Hours Thursdays, 11am-1pm, Warren Weaver 228 Fridays, 10:30am-11:30am, Warren Weaver 228 Fridays, 3pm-4pm, Zoom Outlines Chapter 1: Vectors and Matrices Chapter 2: Solving Linear Equations Chapter 3: The Four Fundamental Subspaces These outlines are based on Dr. Ralph Chikhany&amp;rsquo;s lecture slides, Strang, and Euclidean Linear Algebra by Connor Ahlbach.&#xA;Recitation Solutions Recitation 1: Sections 1.1-1.3 Recitation 2: Sections 2.1-2.4 Recitation 3: Sections 2.5-2.7 Recitation 4: Sections 3.1-3.2 Recitation 5: Sections 3.</description>
     </item>
     <item>
-      <title>Raymond</title>
-      <link>http://localhost:1313/raymond/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/raymond/</guid>
-      <description> </description>
-    </item>
-    <item>
       <title>Resume</title>
-      <link>http://localhost:1313/academic/resume/</link>
+      <link>http://localhost:1313/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/academic/resume/</guid>
+      <guid>http://localhost:1313/resume/</guid>
       <description></description>
     </item>
     <item>
-      <title>Services</title>
-      <link>http://localhost:1313/tutoring/services/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutoring/services/</guid>
-      <description>I offer a free 30 minute virtual consultation to discuss your needs and goals, as well as the tutoring process itself.&#xA;I am available to tutor in-person in Austin, as well as virtually. Both in-person and virtual sessions have a minimum length of 1 hour. For virtual sessions, I ask that students be prepared to either screen share while they write on a tablet or set up a camera above their paper so that I can see their work; this is necessary for making virtual sessions interactive.</description>
-    </item>
-    <item>
       <title>Teaching</title>
-      <link>http://localhost:1313/academic/teaching/</link>
+      <link>http://localhost:1313/teaching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/academic/teaching/</guid>
-      <description>From RateMyProfessors Sarah Helmbrecht is a fantastic instructor and clearly cares about her students. She puts extra work into her classes so her students will not only learn but succeed. She goes over steps thoroughly to make sure you understand any math concept. She is attentive to her students and is flexible about her office hours if students need extra help.&#xA;Sarah is one of the best TAs I have ever had.</description>
+      <guid>http://localhost:1313/teaching/</guid>
+      <description>New York University MATH-UA 140: Linear Algebra - Spring 2024, sections 12 and 13 (Resources Page) MATH-UA 121: Calculus 1 - Fall 2023, sections 4, 5, 9, and 10 (Resources Page) Media Calculus 1 Videos Calculus 1 Resources Linear Algebra Resources Student Testimonials From RateMyProfessors Sarah Helmbrecht is a fantastic instructor and clearly cares about her students. She puts extra work into her classes so her students will not only learn but succeed.</description>
     </item>
   </channel>
 </rss>

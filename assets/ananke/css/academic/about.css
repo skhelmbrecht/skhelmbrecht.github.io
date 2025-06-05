@@ -1,0 +1,44 @@
+/* Smartphone Portrait and Landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){
+.desktop-display {display:none;}
+.mobile-display {display:block;}
+}
+
+.desktop-display .intro {
+  width: 100%;
+  font-size: 25px;
+  position: relative;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  margin: auto;
+}
+
+.mobile-display .intro {
+  width: 100%;
+  font-size: 20px;
+  position: relative;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  margin: auto;
+}
+
+.desktop-display .rays-gallery {
+  width: 80%;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  margin: auto;
+}
+
+.mobile-display .rays-gallery {
+  width: 100%;
+  display: block;
+  height: auto;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+.mobile-display .rays-images {
+  display: block;
+}

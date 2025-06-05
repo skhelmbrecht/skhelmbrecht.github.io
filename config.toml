@@ -15,67 +15,26 @@ enableEmoji = true
   filename = "sitemap.xml"
 
 [menus]
-  [[menus.main]]
-      name = 'Tutoring'
-      pageRef = '/tutoring'
-      weight = 10
-  [[menus.main]]
-      name = 'Academic'
-      pageRef = '/academic'
-      weight = 20
-  [[menus.main]]
-      name = 'Raymond'
-      pageRef = '/raymond'
-      weight = 30
-
-  [[menus.tutoring]]
-      name = 'Home'
-      pageRef = '/tutoring'
-      weight = 10
-  [[menus.tutoring]]
-      name = 'About'
-      pageRef = '/tutoring/about'
-      weight = 20
-  [[menus.tutoring]]
-      name = 'Services'
-      pageRef = '/tutoring/services'
-      weight = 30
-  [[menus.tutoring]]
-      identifier = 'resources'
-      name = 'Resources'
-      pageRef = '/tutoring/resources'
-      weight = 40
-  [[menus.tutoring]]
-      parent = 'resources'
-      identifier = 'calculus1'
-      name = 'Calculus 1'
-      pageRef = '/tutoring/calculus1'
-      weight = 10
-  [[menus.tutoring]]
-      name = 'Blog'
-      pageRef = '/blog'
-      weight = 50
-  [[menus.tutoring]]
-      name = 'Contact'
-      pageRef = '/tutoring/contact'
-      weight = 60
-
-  [[menus.academic]]
-      name = 'Home'
-      pageRef = '/academic'
-      weight = 10
-  [[menus.academic]]
-      name = 'Teaching'
-      pageRef = '/academic/teaching'
-      weight = 20
-  [[menus.academic]]
-      name = 'Projects'
-      pageRef = '/projects'
-      weight = 30
-  [[menus.academic]]
-      name = 'Resume'
-      pageRef = '/academic/resume'
-      weight = 40
+    [[menus.main]]
+        name = 'About'
+        pageRef = '/about'
+        weight = 5
+    [[menus.main]]
+        name = 'Resume'
+        pageRef = '/resume'
+        weight = 10
+    [[menus.main]]
+        name = 'Projects'
+        pageRef = '/projects'
+        weight = 20
+    [[menus.main]]
+        name = 'Teaching'
+        pageRef = '/teaching'
+        weight = 30
+    [[menus.main]]
+        name = 'Blog'
+        pageRef = '/blog'
+        weight = 50
 
 [params]
   text_color = "black"
@@ -85,7 +44,7 @@ enableEmoji = true
   read_more_copy = "Read More"
   body_classes = "bg-white"
   post_content_classes = "bg-white"
-  custom_css = ["tutoring/index.css", "academic/teaching.css", "academic/resources-page.css", "tutoring/resources-page.css", "academic/resume.css", "raymond.css", "tutoring/contact.css", "tutoring/about.css", "tutoring/services.css", "academic/index.css"]
+  custom_css = ["academic/teaching.css", "academic/resources-page.css", "academic/resume.css", "academic/about.css"]
 
   [params.meta]
     favicon = true
