@@ -6,6 +6,8 @@ date: 2023-05-15
 author: Sarah Helmbrecht
 featured_image: "images/graduatingearly/tulane.png"
 url: /blog/graduatingearly
+aliases:
+- "/graduatingearly/"
 draft: false
 ---
 

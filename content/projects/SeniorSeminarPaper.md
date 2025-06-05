@@ -6,6 +6,8 @@ layout: project
 author: Sarah Helmbrecht
 featured_image: "images/seniorseminarpaper/naturebackground.jpeg"
 url: /projects/seniorseminarpaper
+aliases:
+- "/seniorseminarpaper/"
 draft: false
 ---
 

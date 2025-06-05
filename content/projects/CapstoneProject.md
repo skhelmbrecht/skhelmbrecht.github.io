@@ -6,6 +6,8 @@ layout: project
 author: Sarah Helmbrecht
 featured_image: "images/capstoneproject/cryptocurrency.jpeg"
 url: /projects/capstoneproject
+aliases:
+- "/capstoneproject/"
 draft: false
 math: true
 KaTeX: true
