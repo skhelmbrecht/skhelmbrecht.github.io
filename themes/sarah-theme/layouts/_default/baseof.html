@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
+    <link rel="icon" href="{{ "favicon/favicon.ico" | relURL }}" sizes="any">
+    <link rel="icon" href="{{ "favicon/favicon-32.png" | relURL }}" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="{{ "favicon/favicon-192.png" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}">
+    {{ partial "head_custom.html" . }}
+  </head>
+  <body>
+    {{ partial "nav.html" . }}
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{ partial "footer.html" . }}
+    {{ partial "foot_custom.html" . }}
+    <script>
+    (function() {
+      var toggle = document.querySelector('.menu-toggle');
+      if (toggle) {
+        toggle.addEventListener('click', function() {
+          this.classList.toggle('open');
+          document.querySelector('.site-nav').classList.toggle('open');
+        });
+      }
+    })();
+    </script>
+  </body>
+</html>

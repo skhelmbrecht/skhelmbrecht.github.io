@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Visualization on Sarah Helmbrecht</title>
+    <link>http://localhost:1313/tags/data-visualization/</link>
+    <description>Recent content in Data Visualization on Sarah Helmbrecht</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/data-visualization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interactive COVID-19 Dashboard</title>
+      <link>http://localhost:1313/work/data-viz-dashboard/</link>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/work/data-viz-dashboard/</guid>
+      <description>&lt;h2 id=&#34;project&#34;&gt;Project&lt;/h2&gt;&#xA;&lt;p&gt;Built an interactive, map-based dashboard that visualized COVID-19 vaccination rates, case counts, and demographic breakdowns at the county level across all 50 states. The dashboard updated daily from CDC and state health department APIs.&lt;/p&gt;&#xA;&lt;h2 id=&#34;technical-details&#34;&gt;Technical Details&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Frontend built with D3.js and vanilla JavaScript&lt;/li&gt;&#xA;&lt;li&gt;Choropleth maps with drill-down from state to county level&lt;/li&gt;&#xA;&lt;li&gt;Time-series charts with adjustable date ranges&lt;/li&gt;&#xA;&lt;li&gt;Data pipeline in Python pulling from multiple public APIs&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;impact&#34;&gt;Impact&lt;/h2&gt;&#xA;&lt;p&gt;The dashboard was featured in the university&amp;rsquo;s data science showcase and used by the campus health office to communicate vaccination trends to students and staff.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

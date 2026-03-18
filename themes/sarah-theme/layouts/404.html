@@ -1,5 +1,7 @@
-{{ partial "header.html" . }}
-
-404 NOT FOUND
-
-{{ partial "footer.html" . }}
+{{ define "main" }}
+<div class="content" style="text-align: center; padding: 4rem 2rem;">
+  <h1>404</h1>
+  <p>Page not found.</p>
+  <a href="{{ "/" | relURL }}">Go home</a>
+</div>
+{{ end }}

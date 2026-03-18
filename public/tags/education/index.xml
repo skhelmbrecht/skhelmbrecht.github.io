@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Education on Sarah Helmbrecht</title>
+    <link>http://localhost:1313/tags/education/</link>
+    <description>Recent content in Education on Sarah Helmbrecht</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/education/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Calculus Practice App</title>
+      <link>http://localhost:1313/work/teaching-app/</link>
+      <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/work/teaching-app/</guid>
+      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;&#xA;&lt;p&gt;While teaching Calculus I at NYU, I noticed students needed more practice problems with worked solutions than the textbook provided. I built a simple web app that generates unlimited practice problems for each topic.&lt;/p&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Randomized problem generation for limits, derivatives, and integrals&lt;/li&gt;&#xA;&lt;li&gt;Step-by-step solutions rendered with KaTeX&lt;/li&gt;&#xA;&lt;li&gt;Topic selection and difficulty levels&lt;/li&gt;&#xA;&lt;li&gt;Progress tracking with local storage&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;stack&#34;&gt;Stack&lt;/h2&gt;&#xA;&lt;p&gt;React frontend with a lightweight problem-generation engine. Problems are defined as templates with randomized coefficients, ensuring students always get fresh practice material.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

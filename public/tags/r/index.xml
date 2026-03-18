@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Sarah Helmbrecht</title>
+    <link>http://localhost:1313/tags/r/</link>
+    <description>Recent content in R on Sarah Helmbrecht</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Capstone: Housing Price Analysis</title>
+      <link>http://localhost:1313/work/capstone-analysis/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/work/capstone-analysis/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;For my senior capstone, I investigated the primary drivers of residential housing prices across six Northeastern states using a dataset of 50,000+ home sales from 2019–2024. The analysis combined traditional hedonic pricing models with modern regularization techniques.&lt;/p&gt;&#xA;&lt;h2 id=&#34;methodology&#34;&gt;Methodology&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Collected and cleaned data from multiple MLS sources&lt;/li&gt;&#xA;&lt;li&gt;Applied LASSO and Ridge regression to identify the most predictive features&lt;/li&gt;&#xA;&lt;li&gt;Built interactive visualizations using ggplot2 and Shiny&lt;/li&gt;&#xA;&lt;li&gt;Validated findings against Zillow&amp;rsquo;s Zestimate model&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;findings&#34;&gt;Findings&lt;/h2&gt;&#xA;&lt;p&gt;School district quality and walkability score emerged as the two strongest predictors after controlling for square footage and location, explaining an additional 12% of variance beyond physical property characteristics alone.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
