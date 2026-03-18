@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Finance on Sarah Helmbrecht</title>
+    <link>http://localhost:1313/tags/finance/</link>
+    <description>Recent content in Finance on Sarah Helmbrecht</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/finance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Monte Carlo Methods for Option Pricing</title>
+      <link>http://localhost:1313/work/monte-carlo/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/work/monte-carlo/</guid>
+      <description>&lt;h2 id=&#34;project&#34;&gt;Project&lt;/h2&gt;&#xA;&lt;p&gt;Implemented several Monte Carlo simulation techniques for pricing path-dependent options (Asian, barrier, and lookback options) and compared variance reduction strategies.&lt;/p&gt;&#xA;&lt;h2 id=&#34;methods-compared&#34;&gt;Methods Compared&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Naive Monte Carlo&lt;/li&gt;&#xA;&lt;li&gt;Antithetic variates&lt;/li&gt;&#xA;&lt;li&gt;Control variates (using Black-Scholes as control)&lt;/li&gt;&#xA;&lt;li&gt;Importance sampling&lt;/li&gt;&#xA;&lt;li&gt;Stratified sampling&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;key-results&#34;&gt;Key Results&lt;/h2&gt;&#xA;&lt;p&gt;Control variates using the geometric Asian option as a control reduced variance by 95% compared to naive simulation for arithmetic Asian option pricing. Antithetic variates provided consistent 30-50% variance reduction across all option types with minimal implementation overhead.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sentiment Analysis of Financial News</title>
+      <link>http://localhost:1313/work/nlp-sentiment/</link>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/work/nlp-sentiment/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

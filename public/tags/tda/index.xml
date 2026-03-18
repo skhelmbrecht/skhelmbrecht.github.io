@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TDA on Sarah Helmbrecht</title>
+    <link>http://localhost:1313/tags/tda/</link>
+    <description>Recent content in TDA on Sarah Helmbrecht</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tda/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Topological Data Analysis Seminar Paper</title>
+      <link>http://localhost:1313/work/topology-seminar/</link>
+      <pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/work/topology-seminar/</guid>
+      <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;&#xA;&lt;p&gt;This paper, written for the graduate topology seminar, surveys the use of persistent homology in topological data analysis (TDA). It focuses on how TDA techniques can extract meaningful topological features from noisy, high-dimensional point cloud data.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Background on simplicial complexes and homology&lt;/li&gt;&#xA;&lt;li&gt;Construction of Vietoris-Rips and Čech complexes&lt;/li&gt;&#xA;&lt;li&gt;Persistence diagrams and barcodes&lt;/li&gt;&#xA;&lt;li&gt;Stability theorems and noise robustness&lt;/li&gt;&#xA;&lt;li&gt;Application: classifying 3D shapes from the ModelNet dataset&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;&#xA;&lt;p&gt;Persistent homology provides a principled, coordinate-free approach to understanding the &amp;ldquo;shape&amp;rdquo; of data. While computational costs remain a barrier for very large datasets, recent algorithmic advances make TDA increasingly practical for real-world applications.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

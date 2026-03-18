@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Monte Carlo Methods for Option Pricing | Sarah Helmbrecht</title>
+    <link rel="icon" href="/favicon/favicon.ico" sizes="any">
+    <link rel="icon" href="/favicon/favicon-32.png" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="/favicon/favicon-192.png">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    
+  </head>
+  <body>
+    <header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="site-title">Sarah Helmbrecht</a>
+    <button class="menu-toggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="site-nav">
+      <ul>
+        
+        <li><a href="/about/">About</a></li>
+        
+        <li><a href="/work/">Work</a></li>
+        
+        <li><a href="/resume/">Resume</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+    <main>
+      
+<article class="content">
+  <div class="article-header">
+    <h1>Monte Carlo Methods for Option Pricing</h1>
+    <p class="subtitle">Implementing and comparing variance reduction techniques for pricing exotic options.</p>
+    <time>November 18, 2025</time>
+    
+    <div class="tile-tags">
+      <span class="tag">Python</span><span class="tag">Finance</span><span class="tag">Simulation</span>
+    </div>
+    
+  </div>
+  <h2 id="project">Project</h2>
+<p>Implemented several Monte Carlo simulation techniques for pricing path-dependent options (Asian, barrier, and lookback options) and compared variance reduction strategies.</p>
+<h2 id="methods-compared">Methods Compared</h2>
+<ul>
+<li>Naive Monte Carlo</li>
+<li>Antithetic variates</li>
+<li>Control variates (using Black-Scholes as control)</li>
+<li>Importance sampling</li>
+<li>Stratified sampling</li>
+</ul>
+<h2 id="key-results">Key Results</h2>
+<p>Control variates using the geometric Asian option as a control reduced variance by 95% compared to naive simulation for arithmetic Asian option pricing. Antithetic variates provided consistent 30-50% variance reduction across all option types with minimal implementation overhead.</p>
+<h2 id="tools">Tools</h2>
+<p>Python with NumPy for simulation, Matplotlib for convergence plots, and a custom options pricing library built during the project.</p>
+
+</article>
+
+    </main>
+    <footer class="site-footer">
+  
+  © Sarah Helmbrecht 2026
+  
+</footer>
+
+    
+    <script>
+    (function() {
+      var toggle = document.querySelector('.menu-toggle');
+      if (toggle) {
+        toggle.addEventListener('click', function() {
+          this.classList.toggle('open');
+          document.querySelector('.site-nav').classList.toggle('open');
+        });
+      }
+    })();
+    </script>
+  </body>
+</html>

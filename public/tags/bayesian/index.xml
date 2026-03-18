@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bayesian on Sarah Helmbrecht</title>
+    <link>http://localhost:1313/tags/bayesian/</link>
+    <description>Recent content in Bayesian on Sarah Helmbrecht</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/bayesian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bayesian Networks for Medical Diagnosis</title>
+      <link>http://localhost:1313/work/bayesian-networks/</link>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/work/bayesian-networks/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;For the graduate probabilistic models course, I implemented a Bayesian network to model the relationships between symptoms, risk factors, and diseases in a simplified medical diagnosis setting.&lt;/p&gt;&#xA;&lt;h2 id=&#34;approach&#34;&gt;Approach&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Constructed a directed acyclic graph encoding conditional dependencies&lt;/li&gt;&#xA;&lt;li&gt;Implemented exact inference using variable elimination&lt;/li&gt;&#xA;&lt;li&gt;Compared against approximate inference via Gibbs sampling&lt;/li&gt;&#xA;&lt;li&gt;Evaluated diagnostic accuracy on a synthetic patient dataset&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;&#xA;&lt;p&gt;The Bayesian network achieved 89% diagnostic accuracy on the test set, with particularly strong performance on cases involving multiple co-occurring conditions where simpler classifiers struggled.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

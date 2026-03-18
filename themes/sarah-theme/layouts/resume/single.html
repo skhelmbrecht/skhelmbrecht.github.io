@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="content resume-page">
+  {{ with .Params.resumeFile }}
+  <div class="resume-download">
+    <a href="{{ . | relURL }}" download>Download PDF</a>
+  </div>
+  {{ end }}
+  {{ with .Params.resumeImage }}
+  <div class="resume-image">
+    <img src="{{ . | relURL }}" alt="Resume">
+  </div>
+  {{ end }}
+  {{ .Content }}
+</div>
+{{ end }}

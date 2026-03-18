@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Sarah Helmbrecht</title>
+    <link>http://localhost:1313/tags/python/</link>
+    <description>Recent content in Python on Sarah Helmbrecht</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Predictive Modeling for Urban Transit</title>
+      <link>http://localhost:1313/work/sample-project/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/work/sample-project/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This project developed a predictive model for NYC subway ridership using historical turnstile data, weather patterns, and event schedules. The goal was to help the MTA optimize staffing and train frequency during peak and off-peak hours.&lt;/p&gt;&#xA;&lt;h2 id=&#34;approach&#34;&gt;Approach&lt;/h2&gt;&#xA;&lt;p&gt;We collected three years of turnstile data from the MTA&amp;rsquo;s open data portal and merged it with NOAA weather records and a calendar of major city events. After extensive feature engineering, we trained and compared several models including XGBoost, LSTM networks, and a traditional ARIMA baseline.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Monte Carlo Methods for Option Pricing</title>
+      <link>http://localhost:1313/work/monte-carlo/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/work/monte-carlo/</guid>
+      <description>&lt;h2 id=&#34;project&#34;&gt;Project&lt;/h2&gt;&#xA;&lt;p&gt;Implemented several Monte Carlo simulation techniques for pricing path-dependent options (Asian, barrier, and lookback options) and compared variance reduction strategies.&lt;/p&gt;&#xA;&lt;h2 id=&#34;methods-compared&#34;&gt;Methods Compared&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Naive Monte Carlo&lt;/li&gt;&#xA;&lt;li&gt;Antithetic variates&lt;/li&gt;&#xA;&lt;li&gt;Control variates (using Black-Scholes as control)&lt;/li&gt;&#xA;&lt;li&gt;Importance sampling&lt;/li&gt;&#xA;&lt;li&gt;Stratified sampling&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;key-results&#34;&gt;Key Results&lt;/h2&gt;&#xA;&lt;p&gt;Control variates using the geometric Asian option as a control reduced variance by 95% compared to naive simulation for arithmetic Asian option pricing. Antithetic variates provided consistent 30-50% variance reduction across all option types with minimal implementation overhead.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sentiment Analysis of Financial News</title>
+      <link>http://localhost:1313/work/nlp-sentiment/</link>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/work/nlp-sentiment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Academic Job Market Scraper</title>
+      <link>http://localhost:1313/work/web-scraper/</link>
+      <pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/work/web-scraper/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bayesian Networks for Medical Diagnosis</title>
+      <link>http://localhost:1313/work/bayesian-networks/</link>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/work/bayesian-networks/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;For the graduate probabilistic models course, I implemented a Bayesian network to model the relationships between symptoms, risk factors, and diseases in a simplified medical diagnosis setting.&lt;/p&gt;&#xA;&lt;h2 id=&#34;approach&#34;&gt;Approach&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Constructed a directed acyclic graph encoding conditional dependencies&lt;/li&gt;&#xA;&lt;li&gt;Implemented exact inference using variable elimination&lt;/li&gt;&#xA;&lt;li&gt;Compared against approximate inference via Gibbs sampling&lt;/li&gt;&#xA;&lt;li&gt;Evaluated diagnostic accuracy on a synthetic patient dataset&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;&#xA;&lt;p&gt;The Bayesian network achieved 89% diagnostic accuracy on the test set, with particularly strong performance on cases involving multiple co-occurring conditions where simpler classifiers struggled.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

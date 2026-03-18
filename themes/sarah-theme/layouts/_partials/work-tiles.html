@@ -1,0 +1,13 @@
+<div class="tiles-grid">
+  {{ range . }}
+  <a href="{{ with .Params.externalUrl }}{{ . }}{{ else }}{{ .RelPermalink }}{{ end }}" class="tile"{{ with .Params.externalUrl }} target="_blank" rel="noopener"{{ end }}>
+    <h3 class="tile-title">{{ .Title }}</h3>
+    {{ with .Params.subtitle }}<p class="tile-subtitle">{{ . }}</p>{{ end }}
+    {{ with .Params.tags }}
+    <div class="tile-tags">
+      {{ range . }}<span class="tag">{{ . }}</span>{{ end }}
+    </div>
+    {{ end }}
+  </a>
+  {{ end }}
+</div>

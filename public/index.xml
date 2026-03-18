@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sarah Helmbrecht</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Sarah Helmbrecht</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m a machine learning engineer with a background in mathematics, focused on understanding and improving the behavior of modern ML systems.&lt;/p&gt;&#xA;&lt;p&gt;My work sits at the intersection of:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;model evaluation and failure analysis&lt;/li&gt;&#xA;&lt;li&gt;optimization and training dynamics&lt;/li&gt;&#xA;&lt;li&gt;large-scale compute and data pipelines&lt;/li&gt;&#xA;&lt;li&gt;leading teams and aligning contributions toward high-quality outputs&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Recently, I&amp;rsquo;ve been designing and solving difficult machine learning and scientific computing problems that target known limitations in modern LLMs. This includes analyzing failure modes, developing structured supervision strategies, and iterating on tasks to push model capabilities.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Resume</title>
+      <link>http://localhost:1313/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resume/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

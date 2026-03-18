@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Work on Sarah Helmbrecht</title>
+    <link>http://localhost:1313/work/</link>
+    <description>Recent content in Work on Sarah Helmbrecht</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/work/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Predictive Modeling for Urban Transit</title>
+      <link>http://localhost:1313/work/sample-project/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/work/sample-project/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This project developed a predictive model for NYC subway ridership using historical turnstile data, weather patterns, and event schedules. The goal was to help the MTA optimize staffing and train frequency during peak and off-peak hours.&lt;/p&gt;&#xA;&lt;h2 id=&#34;approach&#34;&gt;Approach&lt;/h2&gt;&#xA;&lt;p&gt;We collected three years of turnstile data from the MTA&amp;rsquo;s open data portal and merged it with NOAA weather records and a calendar of major city events. After extensive feature engineering, we trained and compared several models including XGBoost, LSTM networks, and a traditional ARIMA baseline.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Capstone: Housing Price Analysis</title>
+      <link>http://localhost:1313/work/capstone-analysis/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/work/capstone-analysis/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;For my senior capstone, I investigated the primary drivers of residential housing prices across six Northeastern states using a dataset of 50,000+ home sales from 2019–2024. The analysis combined traditional hedonic pricing models with modern regularization techniques.&lt;/p&gt;&#xA;&lt;h2 id=&#34;methodology&#34;&gt;Methodology&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Collected and cleaned data from multiple MLS sources&lt;/li&gt;&#xA;&lt;li&gt;Applied LASSO and Ridge regression to identify the most predictive features&lt;/li&gt;&#xA;&lt;li&gt;Built interactive visualizations using ggplot2 and Shiny&lt;/li&gt;&#xA;&lt;li&gt;Validated findings against Zillow&amp;rsquo;s Zestimate model&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;findings&#34;&gt;Findings&lt;/h2&gt;&#xA;&lt;p&gt;School district quality and walkability score emerged as the two strongest predictors after controlling for square footage and location, explaining an additional 12% of variance beyond physical property characteristics alone.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Interactive COVID-19 Dashboard</title>
+      <link>http://localhost:1313/work/data-viz-dashboard/</link>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/work/data-viz-dashboard/</guid>
+      <description>&lt;h2 id=&#34;project&#34;&gt;Project&lt;/h2&gt;&#xA;&lt;p&gt;Built an interactive, map-based dashboard that visualized COVID-19 vaccination rates, case counts, and demographic breakdowns at the county level across all 50 states. The dashboard updated daily from CDC and state health department APIs.&lt;/p&gt;&#xA;&lt;h2 id=&#34;technical-details&#34;&gt;Technical Details&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Frontend built with D3.js and vanilla JavaScript&lt;/li&gt;&#xA;&lt;li&gt;Choropleth maps with drill-down from state to county level&lt;/li&gt;&#xA;&lt;li&gt;Time-series charts with adjustable date ranges&lt;/li&gt;&#xA;&lt;li&gt;Data pipeline in Python pulling from multiple public APIs&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;impact&#34;&gt;Impact&lt;/h2&gt;&#xA;&lt;p&gt;The dashboard was featured in the university&amp;rsquo;s data science showcase and used by the campus health office to communicate vaccination trends to students and staff.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Personal Website Theme</title>
+      <link>http://localhost:1313/work/hugo-theme/</link>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/work/hugo-theme/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Monte Carlo Methods for Option Pricing</title>
+      <link>http://localhost:1313/work/monte-carlo/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/work/monte-carlo/</guid>
+      <description>&lt;h2 id=&#34;project&#34;&gt;Project&lt;/h2&gt;&#xA;&lt;p&gt;Implemented several Monte Carlo simulation techniques for pricing path-dependent options (Asian, barrier, and lookback options) and compared variance reduction strategies.&lt;/p&gt;&#xA;&lt;h2 id=&#34;methods-compared&#34;&gt;Methods Compared&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Naive Monte Carlo&lt;/li&gt;&#xA;&lt;li&gt;Antithetic variates&lt;/li&gt;&#xA;&lt;li&gt;Control variates (using Black-Scholes as control)&lt;/li&gt;&#xA;&lt;li&gt;Importance sampling&lt;/li&gt;&#xA;&lt;li&gt;Stratified sampling&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;key-results&#34;&gt;Key Results&lt;/h2&gt;&#xA;&lt;p&gt;Control variates using the geometric Asian option as a control reduced variance by 95% compared to naive simulation for arithmetic Asian option pricing. Antithetic variates provided consistent 30-50% variance reduction across all option types with minimal implementation overhead.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sentiment Analysis of Financial News</title>
+      <link>http://localhost:1313/work/nlp-sentiment/</link>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/work/nlp-sentiment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Calculus Practice App</title>
+      <link>http://localhost:1313/work/teaching-app/</link>
+      <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/work/teaching-app/</guid>
+      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;&#xA;&lt;p&gt;While teaching Calculus I at NYU, I noticed students needed more practice problems with worked solutions than the textbook provided. I built a simple web app that generates unlimited practice problems for each topic.&lt;/p&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Randomized problem generation for limits, derivatives, and integrals&lt;/li&gt;&#xA;&lt;li&gt;Step-by-step solutions rendered with KaTeX&lt;/li&gt;&#xA;&lt;li&gt;Topic selection and difficulty levels&lt;/li&gt;&#xA;&lt;li&gt;Progress tracking with local storage&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;stack&#34;&gt;Stack&lt;/h2&gt;&#xA;&lt;p&gt;React frontend with a lightweight problem-generation engine. Problems are defined as templates with randomized coefficients, ensuring students always get fresh practice material.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Algebra Course Notes</title>
+      <link>http://localhost:1313/work/linear-algebra-notes/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/work/linear-algebra-notes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Academic Job Market Scraper</title>
+      <link>http://localhost:1313/work/web-scraper/</link>
+      <pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/work/web-scraper/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Topological Data Analysis Seminar Paper</title>
+      <link>http://localhost:1313/work/topology-seminar/</link>
+      <pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/work/topology-seminar/</guid>
+      <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;&#xA;&lt;p&gt;This paper, written for the graduate topology seminar, surveys the use of persistent homology in topological data analysis (TDA). It focuses on how TDA techniques can extract meaningful topological features from noisy, high-dimensional point cloud data.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Background on simplicial complexes and homology&lt;/li&gt;&#xA;&lt;li&gt;Construction of Vietoris-Rips and Čech complexes&lt;/li&gt;&#xA;&lt;li&gt;Persistence diagrams and barcodes&lt;/li&gt;&#xA;&lt;li&gt;Stability theorems and noise robustness&lt;/li&gt;&#xA;&lt;li&gt;Application: classifying 3D shapes from the ModelNet dataset&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;&#xA;&lt;p&gt;Persistent homology provides a principled, coordinate-free approach to understanding the &amp;ldquo;shape&amp;rdquo; of data. While computational costs remain a barrier for very large datasets, recent algorithmic advances make TDA increasingly practical for real-world applications.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bayesian Networks for Medical Diagnosis</title>
+      <link>http://localhost:1313/work/bayesian-networks/</link>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/work/bayesian-networks/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;For the graduate probabilistic models course, I implemented a Bayesian network to model the relationships between symptoms, risk factors, and diseases in a simplified medical diagnosis setting.&lt;/p&gt;&#xA;&lt;h2 id=&#34;approach&#34;&gt;Approach&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Constructed a directed acyclic graph encoding conditional dependencies&lt;/li&gt;&#xA;&lt;li&gt;Implemented exact inference using variable elimination&lt;/li&gt;&#xA;&lt;li&gt;Compared against approximate inference via Gibbs sampling&lt;/li&gt;&#xA;&lt;li&gt;Evaluated diagnostic accuracy on a synthetic patient dataset&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;&#xA;&lt;p&gt;The Bayesian network achieved 89% diagnostic accuracy on the test set, with particularly strong performance on cases involving multiple co-occurring conditions where simpler classifiers struggled.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Graph Coloring Heuristics</title>
+      <link>http://localhost:1313/work/graph-theory/</link>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/work/graph-theory/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
